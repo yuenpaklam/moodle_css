@@ -1,0 +1,1759 @@
+#page-grade-grading-manage .actions .input-group-lg>.input-group-btn>.form-control-static.action,
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>.form-control-static.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-lg>.input-group-btn>input.form-control-static,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-sm>.input-group-btn>input.form-control-static,
+#rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>.form-control-static.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>.form-control-static.addcriterion {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-sm>.input-group-btn>input,
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>.addcriterion {
+  font-size: .858rem;
+  line-height: 1.5;
+  padding: .429rem .858rem;
+  border-radius: .143rem;
+}
+
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>select.action:not([size]):not([multiple]),
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>select.addcriterion:not([size]):not([multiple]) {
+  height: -webkit-calc(2.288rem + 2px);
+  height: calc(2.288rem + 2px);
+}
+
+#page-grade-grading-manage .actions .input-group-lg>.input-group-btn>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-lg>.input-group-btn>input,
+#rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>.addcriterion {
+  font-size: 1.286rem;
+  line-height: 1.333333;
+  padding: .715rem 1.286rem;
+  border-radius: .286rem;
+}
+
+#page-grade-grading-manage .actions .input-group-lg>.input-group-btn>select.action:not([size]):not([multiple]),
+#rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>select.addcriterion:not([size]):not([multiple]) {
+  height: -webkit-calc(3.287667rem + 2px);
+  height: calc(3.287667rem + 2px);
+  height: 3.287667rem;
+}
+
+#page-grade-grading-manage .actions .action {
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+#rubric-rubric.gradingform_rubric .addcriterion {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.571429;
+  display: inline-block;
+  padding: .429rem 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: .215rem;
+}
+
+#page-grade-grading-manage .actions .action:focus,
+#page-grade-grading-manage .actions .action:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover,
+#rubric-rubric.gradingform_rubric .addcriterion:focus,
+#rubric-rubric.gradingform_rubric .addcriterion:hover {
+  text-decoration: none;
+}
+
+#page-grade-grading-manage .actions .action:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus,
+#rubric-rubric.gradingform_rubric .addcriterion:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(98, 168, 234, .25);
+  box-shadow: 0 0 0 2px rgba(98, 168, 234, .25);
+}
+
+#page-grade-grading-manage .actions .focus.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.focus,
+#rubric-rubric.gradingform_rubric .focus.addcriterion {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(98, 168, 234, .25);
+  box-shadow: 0 0 0 2px rgba(98, 168, 234, .25);
+}
+
+#page-grade-grading-manage .actions .action:disabled,
+#page-grade-grading-manage .actions .disabled.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.disabled,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:disabled,
+#rubric-rubric.gradingform_rubric .addcriterion:disabled,
+#rubric-rubric.gradingform_rubric .disabled.addcriterion {
+  opacity: .65;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#page-grade-grading-manage .actions .action:active,
+#page-grade-grading-manage .actions .active.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active,
+#rubric-rubric.gradingform_rubric .active.addcriterion,
+#rubric-rubric.gradingform_rubric .addcriterion:active {
+  background-image: none;
+  -webkit-box-shadow: 0 0 0 2px rgba(98, 168, 234, .25), inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: 0 0 0 2px rgba(98, 168, 234, .25), inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+#page-grade-grading-manage .actions a.disabled.action,
+#page-grade-grading-manage .actions fieldset[disabled] a.action,
+#rubric-rubric.gradingform_rubric a.disabled.addcriterion,
+#rubric-rubric.gradingform_rubric fieldset[disabled] a.addcriterion,
+fieldset[disabled] #page-grade-grading-manage .actions a.action,
+fieldset[disabled] #rubric-rubric.gradingform_rubric a.addcriterion {
+  pointer-events: none;
+}
+
+#page-grade-grading-manage .actions .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.addcriterion {
+  font-size: 1.286rem;
+  line-height: 1.333333;
+  padding: .715rem 1.286rem;
+  border-radius: .286rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.addcriterion {
+  font-size: .858rem;
+  line-height: 1.5;
+  padding: .429rem .858rem;
+  border-radius: .143rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action,
+#page-grade-grading-manage .actions .btn-group>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion {
+  position: relative;
+  margin-bottom: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action:hover,
+#page-grade-grading-manage .actions .btn-group>.action:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:hover,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:hover,
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:hover {
+  z-index: 2;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action:active,
+#page-grade-grading-manage .actions .btn-group-vertical>.action:focus,
+#page-grade-grading-manage .actions .btn-group-vertical>.active.action,
+#page-grade-grading-manage .actions .btn-group>.action:active,
+#page-grade-grading-manage .actions .btn-group>.action:focus,
+#page-grade-grading-manage .actions .btn-group>.active.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input.active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input.active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:focus,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.active.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:active,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:focus,
+#rubric-rubric.gradingform_rubric .btn-group>.active.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:active,
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:focus {
+  z-index: 2;
+}
+
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .btn-group .addcriterion+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+.action,
+#page-grade-grading-manage .actions .btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+#page-grade-grading-manage .actions .btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.action,
+#page-grade-grading-manage .actions .btn-group #rubric-rubric.gradingform_rubric .action+.addcriterion,
+#page-grade-grading-manage .actions .btn-group #rubric-rubric.gradingform_rubric .addcriterion+.action,
+#page-grade-grading-manage .actions .btn-group .action+.action,
+#page-grade-grading-manage .actions .btn-group .action+.btn,
+#page-grade-grading-manage .actions .btn-group .action+.btn-group,
+#page-grade-grading-manage .actions .btn-group .action+.qnbutton,
+#page-grade-grading-manage .actions .btn-group .btn+.action,
+#page-grade-grading-manage .actions .btn-group .btn-group+.action,
+#page-grade-grading-manage .actions .btn-group .qnbutton+.action,
+#page-grade-grading-manage .actions .btn-group .section-modchooser-link .action+a,
+#page-grade-grading-manage .actions .btn-group .section-modchooser-link a+.action,
+#page-grade-grading-manage .actions .btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+#page-grade-grading-manage .actions .btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.action,
+#page-grade-grading-manage .actions .btn-group-vertical #rubric-rubric.gradingform_rubric .action+.addcriterion,
+#page-grade-grading-manage .actions .btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+.action,
+#page-grade-grading-manage .actions .btn-group-vertical .action+.action,
+#page-grade-grading-manage .actions .btn-group-vertical .action+.btn,
+#page-grade-grading-manage .actions .btn-group-vertical .action+.btn-group,
+#page-grade-grading-manage .actions .btn-group-vertical .action+.qnbutton,
+#page-grade-grading-manage .actions .btn-group-vertical .btn+.action,
+#page-grade-grading-manage .actions .btn-group-vertical .btn-group+.action,
+#page-grade-grading-manage .actions .btn-group-vertical .qnbutton+.action,
+#page-grade-grading-manage .actions .btn-group-vertical .section-modchooser-link .action+a,
+#page-grade-grading-manage .actions .btn-group-vertical .section-modchooser-link a+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .btn-group a+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .btn-group-vertical a+.action,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .btn-group .action+.addcriterion,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .btn-group-vertical .action+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .btn-group .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .btn-group-vertical .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group #page-grade-grading-manage .actions .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group #page-grade-grading-manage .actions input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .btn-group+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .section-modchooser-link a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group .section-modchooser-link input+a,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+.btn-group,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical #page-grade-grading-manage .actions .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical #page-grade-grading-manage .actions input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .btn-group+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .section-modchooser-link a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical .section-modchooser-link input+a,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+.btn-group,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .btn-group a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .btn-group-vertical a+input,
+#rubric-rubric.gradingform_rubric .btn-group #page-grade-grading-manage .actions .action+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group #page-grade-grading-manage .actions .addcriterion+.action,
+#rubric-rubric.gradingform_rubric .btn-group #rubric-criteria .criterion .addlevel .addcriterion+input,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion+.btn-group,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group .btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group .btn-group+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group .qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group .section-modchooser-link .addcriterion+a,
+#rubric-rubric.gradingform_rubric .btn-group .section-modchooser-link a+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical #page-grade-grading-manage .actions .action+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical #page-grade-grading-manage .actions .addcriterion+.action,
+#rubric-rubric.gradingform_rubric .btn-group-vertical #rubric-criteria .criterion .addlevel .addcriterion+input,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+.btn-group,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .btn-group+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .section-modchooser-link .addcriterion+a,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .section-modchooser-link a+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .btn-group a+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .btn-group-vertical a+.addcriterion,
+.btn-group #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+.btn-group #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .action+.addcriterion,
+.btn-group #page-grade-grading-manage .actions .action+.action,
+.btn-group #page-grade-grading-manage .actions .action+.btn,
+.btn-group #page-grade-grading-manage .actions .action+.btn-group,
+.btn-group #page-grade-grading-manage .actions .action+.qnbutton,
+.btn-group #page-grade-grading-manage .actions .btn+.action,
+.btn-group #page-grade-grading-manage .actions .btn-group+.action,
+.btn-group #page-grade-grading-manage .actions .qnbutton+.action,
+.btn-group #page-grade-grading-manage .actions .section-modchooser-link .action+a,
+.btn-group #rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .addcriterion+.action,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions input+.action,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .addcriterion+input,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn+input,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group+input,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .qnbutton+input,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link input+a,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.addcriterion,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn-group,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.qnbutton,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+input,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion+.addcriterion,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion+.btn,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion+.btn-group,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion+.qnbutton,
+.btn-group #rubric-rubric.gradingform_rubric .btn+.addcriterion,
+.btn-group #rubric-rubric.gradingform_rubric .btn-group+.addcriterion,
+.btn-group #rubric-rubric.gradingform_rubric .qnbutton+.addcriterion,
+.btn-group #rubric-rubric.gradingform_rubric .section-modchooser-link .addcriterion+a,
+.btn-group .section-modchooser-link #page-grade-grading-manage .actions a+.action,
+.btn-group .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.btn-group .section-modchooser-link #rubric-rubric.gradingform_rubric a+.addcriterion,
+.btn-group-vertical #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+.btn-group-vertical #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .action+.addcriterion,
+.btn-group-vertical #page-grade-grading-manage .actions .action+.action,
+.btn-group-vertical #page-grade-grading-manage .actions .action+.btn,
+.btn-group-vertical #page-grade-grading-manage .actions .action+.btn-group,
+.btn-group-vertical #page-grade-grading-manage .actions .action+.qnbutton,
+.btn-group-vertical #page-grade-grading-manage .actions .btn+.action,
+.btn-group-vertical #page-grade-grading-manage .actions .btn-group+.action,
+.btn-group-vertical #page-grade-grading-manage .actions .qnbutton+.action,
+.btn-group-vertical #page-grade-grading-manage .actions .section-modchooser-link .action+a,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .addcriterion+.action,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions input+.action,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .addcriterion+input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn+input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group+input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .qnbutton+input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link input+a,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.addcriterion,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn-group,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.qnbutton,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+.addcriterion,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+.btn,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+.btn-group,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+.qnbutton,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .btn+.addcriterion,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .btn-group+.addcriterion,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .qnbutton+.addcriterion,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .section-modchooser-link .addcriterion+a,
+.btn-group-vertical .section-modchooser-link #page-grade-grading-manage .actions a+.action,
+.btn-group-vertical .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.btn-group-vertical .section-modchooser-link #rubric-rubric.gradingform_rubric a+.addcriterion,
+.section-modchooser-link #page-grade-grading-manage .actions .btn-group .action+a,
+.section-modchooser-link #page-grade-grading-manage .actions .btn-group-vertical .action+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .btn-group .addcriterion+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion+a,
+.section-modchooser-link .btn-group #page-grade-grading-manage .actions .action+a,
+.section-modchooser-link .btn-group #page-grade-grading-manage .actions a+.action,
+.section-modchooser-link .btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.section-modchooser-link .btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+a,
+.section-modchooser-link .btn-group #rubric-rubric.gradingform_rubric .addcriterion+a,
+.section-modchooser-link .btn-group #rubric-rubric.gradingform_rubric a+.addcriterion,
+.section-modchooser-link .btn-group-vertical #page-grade-grading-manage .actions .action+a,
+.section-modchooser-link .btn-group-vertical #page-grade-grading-manage .actions a+.action,
+.section-modchooser-link .btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.section-modchooser-link .btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+a,
+.section-modchooser-link .btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion+a,
+.section-modchooser-link .btn-group-vertical #rubric-rubric.gradingform_rubric a+.addcriterion {
+  margin-left: -1px;
+}
+
+#page-grade-grading-manage .actions .btn-group>.action:not(:first-child):not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:not(:first-child):not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.action:first-child,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:first-child,
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:first-child {
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.action:first-child:not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:first-child:not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.action:last-child:not(:first-child),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>input:last-child:not(:first-child),
+#rubric-rubric.gradingform_rubric .btn-group>.addcriterion:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.btn-group:not(:first-child):not(:last-child)>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>.btn-group:not(:first-child):not(:last-child)>input,
+#rubric-rubric.gradingform_rubric .btn-group>.btn-group:not(:first-child):not(:last-child)>.addcriterion {
+  border-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.btn-group:first-child:not(:last-child)>.action:last-child,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>.btn-group:first-child:not(:last-child)>input:last-child,
+#rubric-rubric.gradingform_rubric .btn-group>.btn-group:first-child:not(:last-child)>.addcriterion:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group>.btn-group:last-child:not(:first-child)>.action:first-child,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group>.btn-group:last-child:not(:first-child)>input:first-child,
+#rubric-rubric.gradingform_rubric .btn-group>.btn-group:last-child:not(:first-child)>.addcriterion:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.dropdown-toggle-split,
+#rubric-rubric.gradingform_rubric .addcriterion+.dropdown-toggle-split {
+  padding-right: .75rem;
+  padding-left: .75rem;
+}
+
+#page-grade-grading-manage .actions .action+.dropdown-toggle-split::after,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.dropdown-toggle-split::after,
+#rubric-rubric.gradingform_rubric .addcriterion+.dropdown-toggle-split::after {
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.action+.dropdown-toggle-split,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input+.dropdown-toggle-split,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.addcriterion+.dropdown-toggle-split {
+  padding-right: .6435rem;
+  padding-left: .6435rem;
+}
+
+#page-grade-grading-manage .actions .action+.dropdown-toggle-split,
+#page-grade-grading-manage .actions .btn-group-lg>.action+.dropdown-toggle-split,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input+.dropdown-toggle-split,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.addcriterion+.dropdown-toggle-split {
+  padding-right: .9645rem;
+  padding-left: .9645rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical input,
+#rubric-rubric.gradingform_rubric .btn-group-vertical .addcriterion,
+.btn-group-vertical #page-grade-grading-manage .actions .action,
+.btn-group-vertical #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.btn-group-vertical #rubric-rubric.gradingform_rubric .addcriterion {
+  width: 100%;
+}
+
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.action+input,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .btn-group-vertical>.action+.addcriterion,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+.action,
+#page-grade-grading-manage .actions .btn-group-vertical>.action+.action,
+#page-grade-grading-manage .actions .btn-group-vertical>.action+.btn,
+#page-grade-grading-manage .actions .btn-group-vertical>.action+.btn-group,
+#page-grade-grading-manage .actions .btn-group-vertical>.action+.qnbutton,
+#page-grade-grading-manage .actions .btn-group-vertical>.btn+.action,
+#page-grade-grading-manage .actions .btn-group-vertical>.btn-group+.action,
+#page-grade-grading-manage .actions .btn-group-vertical>.qnbutton+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .btn-group-vertical>.action+a,
+#page-grade-grading-manage .actions .section-modchooser-link .btn-group-vertical>a+.action,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .btn-group-vertical>.action+.addcriterion,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .btn-group-vertical>.addcriterion+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .btn-group-vertical>.action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .btn-group-vertical>input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.btn-group+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+.btn-group,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .btn-group-vertical>a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .btn-group-vertical>input+a,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+.btn-group,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.btn-group+.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .btn-group-vertical>.addcriterion+a,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .btn-group-vertical>a+.addcriterion,
+.section-modchooser-link #page-grade-grading-manage .actions .btn-group-vertical>.action+a,
+.section-modchooser-link #page-grade-grading-manage .actions .btn-group-vertical>a+.action,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>a+input,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .btn-group-vertical>a+.addcriterion {
+  margin-top: -1px;
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action:not(:first-child):not(:last-child),
+#page-grade-grading-manage .actions .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:not(:first-child):not(:last-child),
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:not(:first-child):not(:last-child),
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.addcriterion {
+  border-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action:first-child:not(:last-child),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:first-child:not(:last-child),
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:first-child:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.action:last-child:not(:first-child),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>input:last-child:not(:first-child),
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.addcriterion:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.btn-group:first-child:not(:last-child)>.action:last-child,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.btn-group:first-child:not(:last-child)>input:last-child,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.btn-group:first-child:not(:last-child)>.addcriterion:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-vertical>.btn-group:last-child:not(:first-child)>.action:first-child,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-vertical>.btn-group:last-child:not(:first-child)>input:first-child,
+#rubric-rubric.gradingform_rubric .btn-group-vertical>.btn-group:last-child:not(:first-child)>.addcriterion:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#page-grade-grading-manage .actions [data-toggle=buttons]>.action input[type=checkbox],
+#page-grade-grading-manage .actions [data-toggle=buttons]>.action input[type=radio],
+#page-grade-grading-manage .actions [data-toggle=buttons]>.btn-group>.action input[type=checkbox],
+#page-grade-grading-manage .actions [data-toggle=buttons]>.btn-group>.action input[type=radio],
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel [data-toggle=buttons]>.btn-group>input input[type=checkbox],
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel [data-toggle=buttons]>.btn-group>input input[type=radio],
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel [data-toggle=buttons]>input input[type=checkbox],
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel [data-toggle=buttons]>input input[type=radio],
+#rubric-rubric.gradingform_rubric [data-toggle=buttons]>.addcriterion input[type=checkbox],
+#rubric-rubric.gradingform_rubric [data-toggle=buttons]>.addcriterion input[type=radio],
+#rubric-rubric.gradingform_rubric [data-toggle=buttons]>.btn-group>.addcriterion input[type=checkbox],
+#rubric-rubric.gradingform_rubric [data-toggle=buttons]>.btn-group>.addcriterion input[type=radio] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>.input-group-addon.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-sm>.input-group-btn>input.input-group-addon,
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>.input-group-addon.addcriterion {
+  font-size: .858rem;
+  padding: .429rem .858rem;
+  border-radius: .143rem;
+}
+
+#page-grade-grading-manage .actions .input-group-lg>.input-group-btn>.input-group-addon.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-lg>.input-group-btn>input.input-group-addon,
+#rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>.input-group-addon.addcriterion {
+  font-size: 1.286rem;
+  padding: .715rem 1.286rem;
+  border-radius: .286rem;
+}
+
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action:not(:last-child):not(.dropdown-toggle),
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.btn-group:not(:last-child)>.action,
+#page-grade-grading-manage .actions .input-group-btn:not(:last-child)>.action,
+#page-grade-grading-manage .actions .input-group-btn:not(:last-child)>.btn-group>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>.btn-group:not(:last-child)>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input:not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:last-child)>.btn-group>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:last-child)>input,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion:not(:last-child):not(.dropdown-toggle),
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.btn-group:not(:last-child)>.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:last-child)>.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:last-child)>.btn-group>.addcriterion {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action,
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.btn-group>.action,
+#page-grade-grading-manage .actions .input-group-btn:not(:last-child)>.action:not(:first-child),
+#page-grade-grading-manage .actions .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>.btn-group>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:last-child)>input:not(:first-child),
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.btn-group>.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:last-child)>.addcriterion:not(:first-child),
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.addcriterion {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-grade-grading-manage .actions .input-group-btn>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion {
+  position: relative;
+}
+
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>.action+input,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .input-group-btn>.action+.addcriterion,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion+.action,
+#page-grade-grading-manage .actions .input-group-btn>.action+.action,
+#page-grade-grading-manage .actions .input-group-btn>.action+.btn,
+#page-grade-grading-manage .actions .input-group-btn>.action+.qnbutton,
+#page-grade-grading-manage .actions .input-group-btn>.btn+.action,
+#page-grade-grading-manage .actions .input-group-btn>.qnbutton+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .input-group-btn>.action+a,
+#page-grade-grading-manage .actions .section-modchooser-link .input-group-btn>a+.action,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .input-group-btn>.action+.addcriterion,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .input-group-btn>.addcriterion+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .input-group-btn>.action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .input-group-btn>input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>.addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>.btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>.qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .input-group-btn>a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .input-group-btn>input+a,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .input-group-btn>.btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .input-group-btn>.qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .input-group-btn>.addcriterion+a,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .input-group-btn>a+.addcriterion,
+.section-modchooser-link #page-grade-grading-manage .actions .input-group-btn>.action+a,
+.section-modchooser-link #page-grade-grading-manage .actions .input-group-btn>a+.action,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>a+input,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .input-group-btn>a+.addcriterion {
+  margin-left: -1px;
+}
+
+#page-grade-grading-manage .actions .input-group-btn>.action:active,
+#page-grade-grading-manage .actions .input-group-btn>.action:focus,
+#page-grade-grading-manage .actions .input-group-btn>.action:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input:active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn>input:hover,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion:active,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion:focus,
+#rubric-rubric.gradingform_rubric .input-group-btn>.addcriterion:hover {
+  z-index: 3;
+}
+
+#page-grade-grading-manage .actions .input-group-btn:not(:last-child)>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:last-child)>input,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:last-child)>.addcriterion {
+  margin-right: -1px;
+}
+
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion {
+  z-index: 2;
+  margin-left: -1px;
+}
+
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action:active,
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action:focus,
+#page-grade-grading-manage .actions .input-group-btn:not(:first-child)>.action:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input:active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn:not(:first-child)>input:hover,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion:active,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion:focus,
+#rubric-rubric.gradingform_rubric .input-group-btn:not(:first-child)>.addcriterion:hover {
+  z-index: 3;
+}
+
+#page-grade-grading-manage .actions .action .badge,
+#page-grade-grading-manage .actions .action .label,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input .badge,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input .label,
+#rubric-rubric.gradingform_rubric .addcriterion .badge,
+#rubric-rubric.gradingform_rubric .addcriterion .label {
+  position: relative;
+  top: -1px;
+}
+
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-sm>.input-group-btn>input,
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>.addcriterion {
+  height: 2.288rem;
+}
+
+#page-grade-grading-manage .actions .input-group-lg>.input-group-btn>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-lg>.input-group-btn>input,
+#rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>.addcriterion {
+  height: 3.287667rem;
+}
+
+#page-grade-grading-manage .actions .input-group-sm>.input-group-btn>select.action:not([size]):not([multiple]),
+#rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>select.addcriterion:not([size]):not([multiple]) {
+  height: 2.288rem;
+}
+
+@media (min-width:768px) {
+  #page-grade-grading-manage .actions .form-horizontal .input-group-lg>.input-group-btn>.action,
+  #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .form-horizontal .input-group-lg>.input-group-btn>input,
+  #rubric-rubric.gradingform_rubric .form-horizontal .input-group-lg>.input-group-btn>.addcriterion,
+  .form-horizontal #page-grade-grading-manage .actions .input-group-lg>.input-group-btn>.action,
+  .form-horizontal #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-lg>.input-group-btn>input,
+  .form-horizontal #rubric-rubric.gradingform_rubric .input-group-lg>.input-group-btn>.addcriterion {
+    font-size: 18px;
+    padding-top: 11px;
+  }
+
+  #page-grade-grading-manage .actions .form-horizontal .input-group-sm>.input-group-btn>.action,
+  #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .form-horizontal .input-group-sm>.input-group-btn>input,
+  #rubric-rubric.gradingform_rubric .form-horizontal .input-group-sm>.input-group-btn>.addcriterion,
+  .form-horizontal #page-grade-grading-manage .actions .input-group-sm>.input-group-btn>.action,
+  .form-horizontal #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-sm>.input-group-btn>input,
+  .form-horizontal #rubric-rubric.gradingform_rubric .input-group-sm>.input-group-btn>.addcriterion {
+    font-size: 12px;
+    padding-top: 7px;
+  }
+}
+
+#page-grade-grading-manage .actions .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+#rubric-rubric.gradingform_rubric .addcriterion {
+  cursor: pointer;
+  -webkit-transition: border .2s linear, color .2s linear, width .2s linear, background-color .2s linear;
+  -o-transition: border .2s linear, color .2s linear, width .2s linear, background-color .2s linear;
+  transition: border .2s linear, color .2s linear, width .2s linear, background-color .2s linear;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#page-grade-grading-manage .actions .action:active:focus,
+#page-grade-grading-manage .actions .action:focus,
+#page-grade-grading-manage .actions .active.action:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active:focus,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:focus,
+#rubric-rubric.gradingform_rubric .active.addcriterion:focus,
+#rubric-rubric.gradingform_rubric .addcriterion:active:focus,
+#rubric-rubric.gradingform_rubric .addcriterion:focus {
+  outline: 0;
+}
+
+#page-grade-grading-manage .actions .action:active,
+#page-grade-grading-manage .actions .active.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active,
+#rubric-rubric.gradingform_rubric .active.addcriterion,
+#rubric-rubric.gradingform_rubric .addcriterion:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#page-grade-grading-manage .actions .action .icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input .icon,
+#rubric-rubric.gradingform_rubric .addcriterion .icon {
+  line-height: inherit;
+  width: 1em;
+  margin: -1px 3px 0;
+  text-align: center;
+}
+
+#page-grade-grading-manage .actions a.action:not(.btn-link),
+#page-grade-grading-manage .actions a.action:not(.btn-link).active,
+#page-grade-grading-manage .actions a.action:not(.btn-link):active,
+#rubric-rubric.gradingform_rubric a.addcriterion:not(.btn-link),
+#rubric-rubric.gradingform_rubric a.addcriterion:not(.btn-link).active,
+#rubric-rubric.gradingform_rubric a.addcriterion:not(.btn-link):active {
+  text-decoration: none;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.addcriterion {
+  font-size: .858rem;
+  line-height: 1.5;
+  padding: .072rem .358rem;
+  border-radius: .143rem;
+}
+
+#page-grade-grading-manage .actions .icon.action {
+  line-height: 1em;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon,
+#rubric-rubric.gradingform_rubric .icon.addcriterion {
+  line-height: 1em;
+  padding: .715rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.action.qnbutton,
+#page-grade-grading-manage .actions .btn-group-xs>.btn-icon.action,
+#page-grade-grading-manage .actions .btn-group-xs>.icon.action,
+#page-grade-grading-manage .actions .icon.btn-xs.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.btn-xs,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.addcriterion.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-icon.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.icon.addcriterion,
+#rubric-rubric.gradingform_rubric .icon.btn-xs.addcriterion {
+  font-size: .858rem;
+  padding: .286rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.action.qnbutton,
+#page-grade-grading-manage .actions .btn-group-sm>.btn-icon.action,
+#page-grade-grading-manage .actions .btn-group-sm>.icon.action,
+#page-grade-grading-manage .actions .icon.action.qnbutton,
+#page-grade-grading-manage .actions .icon.btn-sm.action,
+#page-grade-grading-manage .actions .section-modchooser-link a.icon.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.btn-sm,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.addcriterion.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-icon.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.icon.addcriterion,
+#rubric-rubric.gradingform_rubric .icon.addcriterion.qnbutton,
+#rubric-rubric.gradingform_rubric .icon.btn-sm.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link a.icon.addcriterion,
+.section-modchooser-link #page-grade-grading-manage .actions a.icon.action,
+.section-modchooser-link #rubric-rubric.gradingform_rubric a.icon.addcriterion {
+  font-size: 1rem;
+  padding: .572rem;
+}
+
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.action,
+#page-grade-grading-manage .actions .btn-icon.action,
+#page-grade-grading-manage .actions .icon.action,
+#page-grade-grading-manage .actions .qnbutton.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions input.icon.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.btn-lg,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.addcriterion.qnbutton,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-icon.addcriterion,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.icon.addcriterion,
+#rubric-rubric.gradingform_rubric .icon.btn-lg.addcriterion {
+  font-size: 1.429rem;
+  padding: .858rem;
+}
+
+#page-grade-grading-manage .actions .icon.disabled.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon.disabled,
+#rubric-rubric.gradingform_rubric .icon.disabled.addcriterion {
+  color: #a3afb7;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-floating.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-floating,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-floating.addcriterion {
+  font-size: .929rem;
+  width: 2.143rem;
+  height: 2.143rem;
+  padding: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-floating.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-floating,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-floating.addcriterion {
+  font-size: 1.072rem;
+  width: 2.858rem;
+  height: 2.858rem;
+  padding: 0;
+}
+
+#page-grade-grading-manage .actions .btn-floating.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-floating,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-floating.addcriterion {
+  font-size: 2.143rem;
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-animate-side.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-animate-side,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-animate-side.addcriterion {
+  padding: .215rem 1rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-animate-side.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-animate-side span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-animate-side.addcriterion span>.icon {
+  left: 5px;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-animate-side.action:hover span,
+#page-grade-grading-manage .actions .btn-group-xs>.btn-animate-side.action:hover span,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-animate-side:hover span,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-animate-side:hover span,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-animate-side.addcriterion:hover span,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-animate-side.addcriterion:hover span {
+  -webkit-transform: translate(8px, 0);
+  -ms-transform: translate(8px, 0);
+  -o-transform: translate(8px, 0);
+  transform: translate(8px, 0);
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-animate-side.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-animate-side,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-animate-side.addcriterion {
+  padding: .429rem 1.572rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-animate-side.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-animate-side span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-animate-side.addcriterion span>.icon {
+  left: 3px;
+}
+
+#page-grade-grading-manage .actions .btn-animate-side.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-animate-side,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-animate-side.addcriterion {
+  padding: .715rem 2.358rem;
+}
+
+#page-grade-grading-manage .actions .btn-animate-side.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-animate-side span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-animate-side.addcriterion span>.icon {
+  left: -6px;
+}
+
+#page-grade-grading-manage .actions .btn-animate-side.action:hover span,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-animate-side:hover span,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-animate-side.addcriterion:hover span {
+  -webkit-transform: translate(14px, 0);
+  -ms-transform: translate(14px, 0);
+  -o-transform: translate(14px, 0);
+  transform: translate(14px, 0);
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-animate-vertical.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-animate-vertical span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-animate-vertical.addcriterion span>.icon {
+  font-size: 1.286rem;
+  top: -5px;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-animate-vertical.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-animate-vertical span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-animate-vertical.addcriterion span>.icon {
+  font-size: 1.5rem;
+  top: -3px;
+}
+
+#page-grade-grading-manage .actions .btn-animate-vertical.action span>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-animate-vertical span>.icon,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-animate-vertical.addcriterion span>.icon {
+  font-size: 2.643rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-tagged.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-tagged,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-tagged.addcriterion {
+  padding-right: .358rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.btn-tagged.action .btn-tag,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.btn-tagged .btn-tag,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.btn-tagged.addcriterion .btn-tag {
+  margin-right: .143rem;
+  padding: .072rem .286rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-tagged.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-tagged,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-tagged.addcriterion {
+  padding-right: .858rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.btn-tagged.action .btn-tag,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.btn-tagged .btn-tag,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.btn-tagged.addcriterion .btn-tag {
+  margin-right: .643rem;
+  padding: .429rem;
+}
+
+#page-grade-grading-manage .actions .btn-tagged.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-tagged,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-tagged.addcriterion {
+  padding-right: 1rem;
+}
+
+#page-grade-grading-manage .actions .btn-tagged.action .btn-tag,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-lg>input.btn-tagged .btn-tag,
+#rubric-rubric.gradingform_rubric .btn-group-lg>.btn-tagged.addcriterion .btn-tag {
+  margin-right: .785rem;
+  padding: .715rem 1rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.dropdown-toggle.action:after,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.dropdown-toggle:after,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.dropdown-toggle.addcriterion:after {
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group .action~.dropdown-toggle,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input~.dropdown-toggle,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion~.dropdown-toggle,
+.btn-group #page-grade-grading-manage .actions .action~.dropdown-toggle,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input~.dropdown-toggle,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion~.dropdown-toggle {
+  margin-left: -1px;
+  padding-right: .8em;
+  padding-left: .8em;
+}
+
+#page-grade-grading-manage .actions .btn-group .action~.dropdown-toggle:after,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group input~.dropdown-toggle:after,
+#rubric-rubric.gradingform_rubric .btn-group .addcriterion~.dropdown-toggle:after,
+.btn-group #page-grade-grading-manage .actions .action~.dropdown-toggle:after,
+.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input~.dropdown-toggle:after,
+.btn-group #rubric-rubric.gradingform_rubric .addcriterion~.dropdown-toggle:after {
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-justified>.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-justified>input,
+#rubric-rubric.gradingform_rubric .btn-group-justified>.addcriterion {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+
+#page-grade-grading-manage .actions .btn-group-justified>.btn-group .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-justified>.btn-group input,
+#rubric-rubric.gradingform_rubric .btn-group-justified>.btn-group .addcriterion,
+.btn-group-justified>.btn-group #page-grade-grading-manage .actions .action,
+.btn-group-justified>.btn-group #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.btn-group-justified>.btn-group #rubric-rubric.gradingform_rubric .addcriterion {
+  width: 100%;
+}
+
+#page-grade-grading-manage .actions .input-group-btn .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn input,
+#rubric-rubric.gradingform_rubric .input-group-btn .addcriterion,
+.input-group-btn #page-grade-grading-manage .actions .action,
+.input-group-btn #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.input-group-btn #rubric-rubric.gradingform_rubric .addcriterion {
+  padding: 6px 10px;
+}
+
+#page-grade-grading-manage .actions .input-group-btn .action>.icon,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn input>.icon,
+#rubric-rubric.gradingform_rubric .input-group-btn .addcriterion>.icon,
+.input-group-btn #page-grade-grading-manage .actions .action>.icon,
+.input-group-btn #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input>.icon,
+.input-group-btn #rubric-rubric.gradingform_rubric .addcriterion>.icon {
+  line-height: inherit;
+  vertical-align: bottom;
+}
+
+#page-grade-grading-manage .actions .input-group-btn .action~.dropdown-toggle:after,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .input-group-btn input~.dropdown-toggle:after,
+#rubric-rubric.gradingform_rubric .input-group-btn .addcriterion~.dropdown-toggle:after,
+.input-group-btn #page-grade-grading-manage .actions .action~.dropdown-toggle:after,
+.input-group-btn #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input~.dropdown-toggle:after,
+.input-group-btn #rubric-rubric.gradingform_rubric .addcriterion~.dropdown-toggle:after {
+  margin-left: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-sm>.navbar-btn.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-sm>input.navbar-btn,
+#rubric-rubric.gradingform_rubric .btn-group-sm>.navbar-btn.addcriterion {
+  margin-top: 1.2135rem;
+  margin-bottom: 1.2135rem;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.navbar-btn.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input.navbar-btn,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.navbar-btn.addcriterion {
+  margin-top: 1.5715rem;
+  margin-bottom: 1.5715rem;
+}
+
+#page-grade-grading-manage .actions .action .badge-pill,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input .badge-pill,
+#rubric-rubric.gradingform_rubric .addcriterion .badge-pill {
+  top: 0;
+}
+
+#page-grade-grading-manage .actions .btn-group-xs>.action .badge-pill,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn-group-xs>input .badge-pill,
+#rubric-rubric.gradingform_rubric .btn-group-xs>.addcriterion .badge-pill {
+  top: 0;
+  padding: 1px 5px;
+}
+
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .modal-footer .addcriterion+.action,
+#page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+.action,
+#page-grade-grading-manage .actions .modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+#page-grade-grading-manage .actions .modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.action,
+#page-grade-grading-manage .actions .modal-footer #rubric-rubric.gradingform_rubric .action+.addcriterion,
+#page-grade-grading-manage .actions .modal-footer #rubric-rubric.gradingform_rubric .addcriterion+.action,
+#page-grade-grading-manage .actions .modal-footer .action+.action,
+#page-grade-grading-manage .actions .modal-footer .action+.btn,
+#page-grade-grading-manage .actions .modal-footer .action+.qnbutton,
+#page-grade-grading-manage .actions .modal-footer .btn+.action,
+#page-grade-grading-manage .actions .modal-footer .qnbutton+.action,
+#page-grade-grading-manage .actions .modal-footer .section-modchooser-link .action+a,
+#page-grade-grading-manage .actions .modal-footer .section-modchooser-link a+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .action+.addcriterion,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .addcriterion+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+.btn,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+.qnbutton,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .qnbutton+.action,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link .action+a,
+#page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link a+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .modal-footer a+.action,
+#page-grade-grading-manage .actions .section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft a+.action,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .modal-footer .action+.addcriterion,
+#rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .modal-footer .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer #page-grade-grading-manage .actions .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer #page-grade-grading-manage .actions input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer .addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer .btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer .qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer .section-modchooser-link a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer .section-modchooser-link input+a,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions input+.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .qnbutton+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link input+a,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+.addcriterion,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+.btn,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+.qnbutton,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .modal-footer a+input,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft a+input,
+#rubric-rubric.gradingform_rubric .modal-footer #page-grade-grading-manage .actions .action+.addcriterion,
+#rubric-rubric.gradingform_rubric .modal-footer #page-grade-grading-manage .actions .addcriterion+.action,
+#rubric-rubric.gradingform_rubric .modal-footer #rubric-criteria .criterion .addlevel .addcriterion+input,
+#rubric-rubric.gradingform_rubric .modal-footer .addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .modal-footer .addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .modal-footer .addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .modal-footer .btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .modal-footer .qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .modal-footer .section-modchooser-link .addcriterion+a,
+#rubric-rubric.gradingform_rubric .modal-footer .section-modchooser-link a+.addcriterion,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+.addcriterion,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .addcriterion+.action,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-criteria .criterion .addlevel .addcriterion+input,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+.addcriterion,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+.btn,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+.qnbutton,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn+.addcriterion,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .qnbutton+.addcriterion,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link .addcriterion+a,
+#rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link a+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .modal-footer a+.addcriterion,
+#rubric-rubric.gradingform_rubric .section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft a+.addcriterion,
+.modal-footer #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+.modal-footer #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .action+.addcriterion,
+.modal-footer #page-grade-grading-manage .actions .action+.action,
+.modal-footer #page-grade-grading-manage .actions .action+.btn,
+.modal-footer #page-grade-grading-manage .actions .action+.qnbutton,
+.modal-footer #page-grade-grading-manage .actions .btn+.action,
+.modal-footer #page-grade-grading-manage .actions .qnbutton+.action,
+.modal-footer #page-grade-grading-manage .actions .section-modchooser-link .action+a,
+.modal-footer #rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .addcriterion+.action,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions input+.action,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .addcriterion+input,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn+input,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .qnbutton+input,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link input+a,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.addcriterion,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.qnbutton,
+.modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+input,
+.modal-footer #rubric-rubric.gradingform_rubric .addcriterion+.addcriterion,
+.modal-footer #rubric-rubric.gradingform_rubric .addcriterion+.btn,
+.modal-footer #rubric-rubric.gradingform_rubric .addcriterion+.qnbutton,
+.modal-footer #rubric-rubric.gradingform_rubric .btn+.addcriterion,
+.modal-footer #rubric-rubric.gradingform_rubric .qnbutton+.addcriterion,
+.modal-footer #rubric-rubric.gradingform_rubric .section-modchooser-link .addcriterion+a,
+.modal-footer .section-modchooser-link #page-grade-grading-manage .actions a+.action,
+.modal-footer .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.modal-footer .section-modchooser-link #rubric-rubric.gradingform_rubric a+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .action+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions #rubric-rubric.gradingform_rubric .action+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+.btn,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+.qnbutton,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .btn+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .qnbutton+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .section-modchooser-link .action+a,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #page-grade-grading-manage .actions .addcriterion+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel #page-grade-grading-manage .actions input+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .addcriterion+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .btn+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .qnbutton+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .section-modchooser-link input+a,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.btn,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+.qnbutton,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .addcriterion+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .addcriterion+.btn,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .addcriterion+.qnbutton,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .btn+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .qnbutton+.addcriterion,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .section-modchooser-link .addcriterion+a,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link #page-grade-grading-manage .actions a+.action,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .section-modchooser-link #rubric-rubric.gradingform_rubric a+.addcriterion,
+.section-modchooser-link #page-grade-grading-manage .actions .modal-footer .action+a,
+.section-modchooser-link #page-grade-grading-manage .actions .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .action+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .modal-footer input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft input+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .modal-footer .addcriterion+a,
+.section-modchooser-link #rubric-rubric.gradingform_rubric .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .addcriterion+a,
+.section-modchooser-link .modal-footer #page-grade-grading-manage .actions .action+a,
+.section-modchooser-link .modal-footer #page-grade-grading-manage .actions a+.action,
+.section-modchooser-link .modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.section-modchooser-link .modal-footer #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+a,
+.section-modchooser-link .modal-footer #rubric-rubric.gradingform_rubric .addcriterion+a,
+.section-modchooser-link .modal-footer #rubric-rubric.gradingform_rubric a+.addcriterion,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions .action+a,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #page-grade-grading-manage .actions a+.action,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel a+input,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input+a,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric .addcriterion+a,
+.section-modchooser-link .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft #rubric-rubric.gradingform_rubric a+.addcriterion {
+  margin-left: 5px;
+}
+
+#page-grade-grading-manage .actions .site-action .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .site-action input,
+#rubric-rubric.gradingform_rubric .site-action .addcriterion,
+.site-action #page-grade-grading-manage .actions .action,
+.site-action #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.site-action #rubric-rubric.gradingform_rubric .addcriterion {
+  -webkit-box-shadow: 0 10px 10px 0 rgba(60, 60, 60, .1);
+  box-shadow: 0 10px 10px 0 rgba(60, 60, 60, .1);
+}
+
+#page-grade-grading-manage .actions .site-action-buttons .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .site-action-buttons input,
+#rubric-rubric.gradingform_rubric .site-action-buttons .addcriterion,
+.site-action-buttons #page-grade-grading-manage .actions .action,
+.site-action-buttons #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.site-action-buttons #rubric-rubric.gradingform_rubric .addcriterion {
+  display: block;
+  margin: 0 auto 10px;
+  -webkit-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+#page-grade-grading-manage .actions .panel-toolbar .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .panel-toolbar input,
+#rubric-rubric.gradingform_rubric .panel-toolbar .addcriterion,
+.panel-toolbar #page-grade-grading-manage .actions .action,
+.panel-toolbar #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.panel-toolbar #rubric-rubric.gradingform_rubric .addcriterion {
+  padding: 5px 10px;
+  color: #a3afb7;
+}
+
+#page-grade-grading-manage .actions .panel-toolbar .icon.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .panel-toolbar input.icon,
+#rubric-rubric.gradingform_rubric .panel-toolbar .icon.addcriterion,
+.panel-toolbar #page-grade-grading-manage .actions .icon.action,
+.panel-toolbar #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.icon,
+.panel-toolbar #rubric-rubric.gradingform_rubric .icon.addcriterion {
+  width: 1em;
+  text-align: center;
+}
+
+#page-grade-grading-manage .actions .panel-toolbar .action:active,
+#page-grade-grading-manage .actions .panel-toolbar .action:hover,
+#page-grade-grading-manage .actions .panel-toolbar .active.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .panel-toolbar input.active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .panel-toolbar input:active,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .panel-toolbar input:hover,
+#rubric-rubric.gradingform_rubric .panel-toolbar .active.addcriterion,
+#rubric-rubric.gradingform_rubric .panel-toolbar .addcriterion:active,
+#rubric-rubric.gradingform_rubric .panel-toolbar .addcriterion:hover,
+.panel-toolbar #page-grade-grading-manage .actions .action:active,
+.panel-toolbar #page-grade-grading-manage .actions .action:hover,
+.panel-toolbar #page-grade-grading-manage .actions .active.action,
+.panel-toolbar #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.active,
+.panel-toolbar #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:active,
+.panel-toolbar #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:hover,
+.panel-toolbar #rubric-rubric.gradingform_rubric .active.addcriterion,
+.panel-toolbar #rubric-rubric.gradingform_rubric .addcriterion:active,
+.panel-toolbar #rubric-rubric.gradingform_rubric .addcriterion:hover {
+  color: #526069;
+}
+
+#page-grade-grading-manage .actions .slidePanel-actions .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .slidePanel-actions input,
+#rubric-rubric.gradingform_rubric .slidePanel-actions .addcriterion,
+.slidePanel-actions #page-grade-grading-manage .actions .action,
+.slidePanel-actions #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.slidePanel-actions #rubric-rubric.gradingform_rubric .addcriterion {
+  line-height: 33px;
+}
+
+#page-grade-grading-manage .actions .header .action.btn-default,
+#page-grade-grading-manage .actions .header .btn-secondary.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .header input.btn-default,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .header input.btn-secondary,
+#rubric-rubric.gradingform_rubric .header .addcriterion.btn-default,
+#rubric-rubric.gradingform_rubric .header .btn-secondary.addcriterion,
+.header #page-grade-grading-manage .actions .action.btn-default,
+.header #page-grade-grading-manage .actions .btn-secondary.action,
+.header #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default,
+.header #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary,
+.header #rubric-rubric.gradingform_rubric .addcriterion.btn-default,
+.header #rubric-rubric.gradingform_rubric .btn-secondary.addcriterion {
+  color: #76838f;
+  border-color: #e4eaec;
+  background-color: #e4eaec;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-box-shadow: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: none;
+}
+
+#page-grade-grading-manage .actions .path-course-view li.activity form.togglecompletion .action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .path-course-view li.activity form.togglecompletion input,
+#rubric-rubric.gradingform_rubric .path-course-view li.activity form.togglecompletion .addcriterion,
+.path-course-view li.activity form.togglecompletion #page-grade-grading-manage .actions .action,
+.path-course-view li.activity form.togglecompletion #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+.path-course-view li.activity form.togglecompletion #rubric-rubric.gradingform_rubric .addcriterion {
+  padding: 0;
+}
+
+#page-grade-grading-manage .actions .messaging-area-container .btn-link.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .messaging-area-container input.btn-link,
+#rubric-rubric.gradingform_rubric .messaging-area-container .btn-link.addcriterion,
+.messaging-area-container #page-grade-grading-manage .actions .btn-link.action,
+.messaging-area-container #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-link,
+.messaging-area-container #rubric-rubric.gradingform_rubric .btn-link.addcriterion {
+  color: #4f94cd;
+}
+
+#page-grade-grading-manage .actions .messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.action,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .messaging-area-container .messaging-area .messages-area .response .delete-confirmation input.btn-link.confirm,
+#rubric-rubric.gradingform_rubric .messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.addcriterion,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #page-grade-grading-manage .actions .btn-link.confirm.action,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-link.confirm,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #rubric-rubric.gradingform_rubric .btn-link.confirm.addcriterion {
+  height: 30px;
+  border: 1px solid #4f94cd;
+}
+
+#page-grade-grading-manage .actions .messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.action:hover,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .messaging-area-container .messaging-area .messages-area .response .delete-confirmation input.btn-link.confirm:hover,
+#rubric-rubric.gradingform_rubric .messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.addcriterion:hover,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #page-grade-grading-manage .actions .btn-link.confirm.action:hover,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-link.confirm:hover,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation #rubric-rubric.gradingform_rubric .btn-link.confirm.addcriterion:hover {
+  color: #fff;
+  background-color: #4f94cd;
+  text-shadow: none;
+}
+
+#page-grade-edit-outcome-course .courseoutcomes td {
+  text-align: center;
+}
+
+#page-grade-edit-outcome-course .courseoutcomes {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.path-grade-report-grader h1 {
+  text-align: inherit;
+}
+
+.path-grade-edit-tree .setup-grades h4 {
+  margin: 0;
+}
+
+#page-grade-grading-manage .actions .path-admin-mod-lti .action .loader img,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .path-admin-mod-lti input .loader img,
+#rubric-rubric.gradingform_rubric .path-admin-mod-lti .addcriterion .loader img,
+.path-admin-mod-lti #page-grade-grading-manage .actions .action .loader img,
+.path-admin-mod-lti #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input .loader img,
+.path-admin-mod-lti #rubric-rubric.gradingform_rubric .addcriterion .loader img {
+  height: auto;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .score input {
+  margin-bottom: 0;
+}
+
+#page-grade-grading-manage #activemethodselector label {
+  display: inline-block;
+}
+
+.path-grade-report #maincontent+.urlselect {
+  position: absolute;
+  left: 40vw;
+}
+
+.path-grade-report-grader #region-main {
+  width: auto;
+  min-width: 100%;
+}
+
+.path-grade-report-grader #region-main .floater.avg.floating {
+  margin-bottom: 15px;
+}
+
+.path-grade-report-grader [data-region=blocks-column] {
+  clear: both;
+  width: 100%;
+}
+
+#page-grade-grading-manage #activemethodselector .helptooltip {
+  margin-right: .5em;
+}
+
+#page-grade-grading-manage .actions {
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#page-grade-grading-manage .actions .action {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 150px;
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #aaa;
+}
+
+#page-grade-grading-manage .actions .action .action-text {
+  font-size: 14px;
+  position: relative;
+  top: .4em;
+  white-space: normal;
+}
+
+#page-grade-grading-form-rubric-edit .gradingform_rubric_editform .status {
+  font-size: 70%;
+}
+
+.gradingform_rubric.editor .addcriterion input,
+.gradingform_rubric.editor .addlevel input {
+  background: #fff no-repeat top left;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria {
+  margin-bottom: 1em;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .description {
+  padding: 6px;
+  vertical-align: top;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .description textarea {
+  height: 115px;
+  margin-bottom: 0;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .definition textarea {
+  width: 80%;
+  margin-bottom: 0;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .score {
+  position: relative;
+  float: left;
+  margin-right: 28px;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .level {
+  padding: 6px;
+  vertical-align: top;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .level .delete {
+  position: relative;
+  float: right;
+  clear: both;
+  width: 32px;
+  height: 32px;
+  margin-top: -32px;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .level .delete input {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .level .delete input:hover {
+  background-color: #ddd;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .scorevalue input {
+  float: none;
+  width: 2em;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .scorevalue input.hiddenelement,
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .scorevalue input.pseudotablink {
+  width: 0;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel {
+  vertical-align: middle;
+}
+
+#rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input {
+  height: 30px;
+  margin-right: 5px;
+  background-position: 0 0;
+}
+
+#rubric-rubric.gradingform_rubric .addcriterion {
+  margin-bottom: 1em;
+  margin-left: 5px;
+  padding: 0;
+}
+
+#rubric-rubric.gradingform_rubric .addcriterion input {
+  line-height: inherit;
+  margin: 0;
+  padding-left: 26px;
+  color: inherit;
+  border: 0;
+  background: url([[pix:t/add]]) no-repeat 7px 8px;
+  text-shadow: inherit;
+}
+
+#rubric-rubric.gradingform_rubric .options {
+  clear: both;
+}
+
+#rubric-rubric.gradingform_rubric .options .option label {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  text-shadow: none;
+}
+
+#rubric-rubric.gradingform_rubric .options .option input {
+  margin-right: 12px;
+  margin-left: 5px;
+}
+
+.path-grade-edit-tree .setup-grades .column-rowspan {
+  width: 24px;
+  min-width: 24px;
+  max-width: 24px;
+  padding: 0;
+}
+
+.path-grade-edit-tree .setup-grades .category td.column-name {
+  padding-left: 0;
+}
+
+.path-grade-edit-tree .setup-grades td.column-name {
+  padding-left: 24px;
+}
+
+.path-grade-edit-tree .setup-grades .category .column-range,
+.path-grade-edit-tree .setup-grades .category input[type=text],
+.path-grade-edit-tree .setup-grades .categoryitem,
+.path-grade-edit-tree .setup-grades .courseitem {
+  font-weight: 700;
+}
+
+.path-grade-edit-tree .setup-grades .emptyrow {
+  display: none;
+}
+
+.path-grade-edit-tree .setup-grades .gradeitemdescription {
+  font-weight: 400;
+  padding-left: 24px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight {
+  white-space: nowrap;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level3 {
+  padding-left: 37px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level4 {
+  padding-left: 66px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level5 {
+  padding-left: 95px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level6 {
+  padding-left: 124px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level7 {
+  padding-left: 153px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level8 {
+  padding-left: 182px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level9 {
+  padding-left: 211px;
+}
+
+.path-grade-edit-tree .setup-grades .column-weight.level10 {
+  padding-left: 240px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level2 {
+  padding-left: 37px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level3 {
+  padding-left: 66px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level4 {
+  padding-left: 95px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level5 {
+  padding-left: 124px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level6 {
+  padding-left: 153px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level7 {
+  padding-left: 182px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level8 {
+  padding-left: 211px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level9 {
+  padding-left: 240px;
+}
+
+.path-grade-edit-tree .setup-grades .column-range.level10 {
+  padding-left: 269px;
+}
+
+.path-grade-edit-tree .setup-grades.generaltable .levelodd {
+  background-color: rgba(243, 247, 249, .3);
+}
+
+.path-grade-edit-tree .setup-grades.generaltable .leveleven,
+.path-grade-report .gradeparent tr .cell {
+  background-color: transparent;
+}
+
+.path-grade-report .gradeparent table {
+  border-radius: .215rem;
+  border-color: #e4eaec;
+}
+
+.path-grade-report .gradeparent .cell {
+  border-color: #e4eaec;
+}
+
+.path-grade-report .gradeparent .avg,
+.path-grade-report .gradeparent .floater .cell,
+.path-grade-report .gradeparent tr:nth-of-type(even) .cell {
+  background-color: #f3f7f9;
+}
+
+.path-grade-report .gradeparent table .clickable {
+  cursor: pointer;
+}
+
+.path-grade-report-user .user-grade {
+  border: 0;
+}
+
+.path-grade-report-user .user-grade.generaltable .levelodd {
+  background-color: rgba(243, 247, 249, .3);
+}
+
+.path-grade-report-user .user-grade.generaltable .leveleven {
+  background-color: transparent;
+}
+
+.path-grade-report-singleview input[name^=finalgrade] {
+  width: 80px;
+}
+
+@media (min-width:768px) {
+  #page-grade-grading-manage .actions .page-header-actions .singlebutton:last-child .action,
+  #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .page-header-actions .singlebutton:last-child input,
+  #rubric-rubric.gradingform_rubric .page-header-actions .singlebutton:last-child .addcriterion,
+  .page-header-actions .singlebutton:last-child #page-grade-grading-manage .actions .action,
+  .page-header-actions .singlebutton:last-child #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input,
+  .page-header-actions .singlebutton:last-child #rubric-rubric.gradingform_rubric .addcriterion {
+    margin-right: 0!important;
+  }
+}
+
+#badge #badge-image .singlebutton #page-grade-grading-manage .actions button.action,
+#badge #badge-image .singlebutton #rubric-rubric.gradingform_rubric button.addcriterion,
+#issued-badge-table .activatebadge #page-grade-grading-manage .actions button.action,
+#issued-badge-table .activatebadge #rubric-rubric.gradingform_rubric button.addcriterion,
+#page-grade-grading-manage .actions #badge #badge-image .singlebutton button.action,
+#page-grade-grading-manage .actions #issued-badge-table .activatebadge button.action,
+#rubric-rubric.gradingform_rubric #badge #badge-image .singlebutton button.addcriterion,
+#rubric-rubric.gradingform_rubric #issued-badge-table .activatebadge button.addcriterion {
+  margin-top: 10px;
+}
+
+#page-badges-index .singlebutton #page-grade-grading-manage .actions button.action,
+#page-badges-index .singlebutton #rubric-rubric.gradingform_rubric button.addcriterion,
+#page-grade-grading-manage .actions #page-badges-index .singlebutton button.action,
+#rubric-rubric.gradingform_rubric #page-badges-index .singlebutton button.addcriterion {
+  margin-bottom: 10px;
+}

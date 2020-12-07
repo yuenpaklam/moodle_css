@@ -1,0 +1,871 @@
+.que .history {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  border-radius: .215rem;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.que .history>.list-group:first-child .list-group-item:first-child {
+  border-top-left-radius: .215rem;
+  border-top-right-radius: .215rem;
+}
+
+.que .history>.list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: .215rem;
+  border-bottom-left-radius: .215rem;
+}
+
+@media (min-width:480px) {
+  .card-deck .que .history,
+  .que .card-deck .history {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-right: .715rem;
+    margin-left: .715rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .card-group .que .history,
+  .que .card-group .history {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+  }
+
+  .card-group .que .card+.history,
+  .card-group .que .groupinfobox+.history,
+  .card-group .que .history+.card,
+  .card-group .que .history+.groupinfobox,
+  .card-group .que .history+.history,
+  .card-group .que .history+.well,
+  .card-group .que .userprofile .profile_tree .history+section,
+  .card-group .que .well+.history,
+  .card-group .userprofile .profile_tree .que section+.history,
+  .que .card-group .card+.history,
+  .que .card-group .groupinfobox+.history,
+  .que .card-group .history+.card,
+  .que .card-group .history+.groupinfobox,
+  .que .card-group .history+.history,
+  .que .card-group .history+.well,
+  .que .card-group .userprofile .profile_tree .history+section,
+  .que .card-group .userprofile .profile_tree section+.history,
+  .que .card-group .well+.history,
+  .que .userprofile .profile_tree .card-group section+.history,
+  .userprofile .profile_tree .card-group .que .history+section,
+  .userprofile .profile_tree .card-group .que section+.history,
+  .userprofile .profile_tree .que .card-group .history+section {
+    margin-left: 0;
+    border-left: 0;
+  }
+
+  .card-group .que .history:first-child,
+  .que .card-group .history:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .card-group .que .history:first-child .card-img-top,
+  .que .card-group .history:first-child .card-img-top {
+    border-top-right-radius: 0;
+  }
+
+  .card-group .que .history:first-child .card-img-bottom,
+  .que .card-group .history:first-child .card-img-bottom {
+    border-bottom-right-radius: 0;
+  }
+
+  .card-group .que .history:last-child,
+  .que .card-group .history:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .card-group .que .history:last-child .card-img-top,
+  .que .card-group .history:last-child .card-img-top {
+    border-top-left-radius: 0;
+  }
+
+  .card-group .que .history:last-child .card-img-bottom,
+  .que .card-group .history:last-child .card-img-bottom {
+    border-bottom-left-radius: 0;
+  }
+
+  .card-group .que .history:not(:first-child):not(:last-child),
+  .card-group .que .history:not(:first-child):not(:last-child) .card-img-bottom,
+  .card-group .que .history:not(:first-child):not(:last-child) .card-img-top,
+  .que .card-group .history:not(:first-child):not(:last-child),
+  .que .card-group .history:not(:first-child):not(:last-child) .card-img-bottom,
+  .que .card-group .history:not(:first-child):not(:last-child) .card-img-top {
+    border-radius: 0;
+  }
+
+  .card-columns .que .history,
+  .que .card-columns .history {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.que .comment,
+.que .outcome {
+  margin-bottom: 1.143rem;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: .215rem;
+}
+
+.que .comment,
+.que .outcome {
+  color: #f2a654;
+  border-color: #fff3e6;
+  background-color: rgba(255, 243, 230, .8);
+}
+
+.moodle-dialogue-base .que .comment .closebutton,
+.moodle-dialogue-base .que .outcome .closebutton,
+.que .comment .close,
+.que .comment .moodle-dialogue-base .closebutton,
+.que .outcome .close,
+.que .outcome .moodle-dialogue-base .closebutton {
+  color: #f2a654;
+}
+
+.moodle-dialogue-base .que .comment .closebutton:focus,
+.moodle-dialogue-base .que .comment .closebutton:hover,
+.moodle-dialogue-base .que .outcome .closebutton:focus,
+.moodle-dialogue-base .que .outcome .closebutton:hover,
+.que .comment .close:focus,
+.que .comment .close:hover,
+.que .comment .moodle-dialogue-base .closebutton:focus,
+.que .comment .moodle-dialogue-base .closebutton:hover,
+.que .outcome .close:focus,
+.que .outcome .close:hover,
+.que .outcome .moodle-dialogue-base .closebutton:focus,
+.que .outcome .moodle-dialogue-base .closebutton:hover {
+  color: #f2a654;
+}
+
+.que .validationerror {
+  color: #f96868!important;
+}
+
+.que a.validationerror:focus,
+.que a.validationerror:hover {
+  color: #f73737!important;
+}
+
+.que .comment,
+.que .outcome {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.que .comment ul,
+.que .outcome ul {
+  padding-left: 13px;
+}
+
+.que .comment ul li,
+.que .outcome ul li {
+  padding-left: 7px;
+}
+
+.que .panel>.comment,
+.que .panel>.outcome {
+  margin: 0;
+}
+
+.que .comment h4,
+.que .outcome h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.que .comment>:last-child,
+.que .outcome>:last-child {
+  margin-bottom: 0;
+}
+
+.page-alert .alert-wrap .que .comment,
+.page-alert .alert-wrap .que .outcome,
+.que .page-alert .alert-wrap .comment,
+.que .page-alert .alert-wrap .outcome {
+  margin: 0;
+  text-align: left;
+  border-radius: 0;
+}
+
+.que .comment .alert-link,
+.que .outcome .alert-link {
+  color: #ec9940;
+}
+
+.que .alert-alt.comment,
+.que .alert-alt.outcome {
+  border-color: #f2a654;
+}
+
+.que .alert-alt.comment .alert-link,
+.que .alert-alt.comment a,
+.que .alert-alt.outcome .alert-link,
+.que .alert-alt.outcome a {
+  color: #f2a654;
+}
+
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.comment .closebutton,
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.outcome .closebutton,
+.que .dark.alert-dismissible.alert-alt.comment .close,
+.que .dark.alert-dismissible.alert-alt.comment .moodle-dialogue-base .closebutton,
+.que .dark.alert-dismissible.alert-alt.outcome .close,
+.que .dark.alert-dismissible.alert-alt.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.comment .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.comment .closebutton:hover,
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-dismissible.alert-alt.outcome .closebutton:hover,
+.que .dark.alert-dismissible.alert-alt.comment .close:focus,
+.que .dark.alert-dismissible.alert-alt.comment .close:hover,
+.que .dark.alert-dismissible.alert-alt.comment .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-dismissible.alert-alt.comment .moodle-dialogue-base .closebutton:hover,
+.que .dark.alert-dismissible.alert-alt.outcome .close:focus,
+.que .dark.alert-dismissible.alert-alt.outcome .close:hover,
+.que .dark.alert-dismissible.alert-alt.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-dismissible.alert-alt.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.comment .alert-link,
+.que .dark.outcome .alert-link {
+  font-weight: 700;
+  color: #fff!important;
+}
+
+.que .dark.comment .alert-left-border,
+.que .dark.outcome .alert-left-border {
+  border: 0;
+  border-left: 3px solid transparent;
+}
+
+.que .dark.alert-primary.comment,
+.que .dark.alert-primary.outcome {
+  color: #fff;
+  border-color: #62a8ea;
+  background-color: #62a8ea;
+}
+
+.moodle-dialogue-base .que .dark.alert-primary.comment .closebutton,
+.moodle-dialogue-base .que .dark.alert-primary.outcome .closebutton,
+.que .dark.alert-primary.comment .close,
+.que .dark.alert-primary.comment .moodle-dialogue-base .closebutton,
+.que .dark.alert-primary.outcome .close,
+.que .dark.alert-primary.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.alert-primary.comment .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-primary.comment .closebutton:hover,
+.moodle-dialogue-base .que .dark.alert-primary.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-primary.outcome .closebutton:hover,
+.que .dark.alert-primary.comment .close:focus,
+.que .dark.alert-primary.comment .close:hover,
+.que .dark.alert-primary.comment .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-primary.comment .moodle-dialogue-base .closebutton:hover,
+.que .dark.alert-primary.outcome .close:focus,
+.que .dark.alert-primary.outcome .close:hover,
+.que .dark.alert-primary.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-primary.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.alert-primary.alert-alt.comment,
+.que .dark.alert-primary.alert-alt.outcome {
+  border-color: #2771b4;
+}
+
+.que .dark.alert-success.outcome {
+  color: #fff;
+  border-color: #46be8a;
+  background-color: #46be8a;
+}
+
+.moodle-dialogue-base .que .dark.alert-success.outcome .closebutton,
+.que .dark.alert-primary.alert-alt.comment .alert-link,
+.que .dark.alert-primary.alert-alt.comment a,
+.que .dark.alert-primary.alert-alt.outcome .alert-link,
+.que .dark.alert-primary.alert-alt.outcome a,
+.que .dark.alert-success.outcome .close,
+.que .dark.alert-success.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.alert-success.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-success.outcome .closebutton:hover,
+.que .dark.alert-success.outcome .close:focus,
+.que .dark.alert-success.outcome .close:hover,
+.que .dark.alert-success.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-success.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.alert-success.alert-alt.outcome {
+  border-color: #247151;
+}
+
+.que .dark.alert-info.comment,
+.que .dark.alert-info.outcome {
+  color: #fff;
+  border-color: #57c7d4;
+  background-color: #57c7d4;
+}
+
+.moodle-dialogue-base .que .dark.alert-info.comment .closebutton,
+.moodle-dialogue-base .que .dark.alert-info.outcome .closebutton,
+.que .dark.alert-info.comment .close,
+.que .dark.alert-info.comment .moodle-dialogue-base .closebutton,
+.que .dark.alert-info.outcome .close,
+.que .dark.alert-info.outcome .moodle-dialogue-base .closebutton,
+.que .dark.alert-success.alert-alt.outcome .alert-link,
+.que .dark.alert-success.alert-alt.outcome a {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.alert-info.comment .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-info.comment .closebutton:hover,
+.moodle-dialogue-base .que .dark.alert-info.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-info.outcome .closebutton:hover,
+.que .dark.alert-info.comment .close:focus,
+.que .dark.alert-info.comment .close:hover,
+.que .dark.alert-info.comment .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-info.comment .moodle-dialogue-base .closebutton:hover,
+.que .dark.alert-info.outcome .close:focus,
+.que .dark.alert-info.outcome .close:hover,
+.que .dark.alert-info.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-info.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.alert-info.alert-alt.comment,
+.que .dark.alert-info.alert-alt.outcome {
+  border-color: #2e8893;
+}
+
+.que .dark.alert-info.alert-alt.comment .alert-link,
+.que .dark.alert-info.alert-alt.comment a,
+.que .dark.alert-info.alert-alt.outcome .alert-link,
+.que .dark.alert-info.alert-alt.outcome a {
+  color: #fff;
+}
+
+.que .dark.comment,
+.que .dark.outcome {
+  color: #fff;
+  border-color: #f2a654;
+  background-color: #f2a654;
+}
+
+.moodle-dialogue-base .que .dark.comment .closebutton,
+.moodle-dialogue-base .que .dark.outcome .closebutton,
+.que .dark.comment .close,
+.que .dark.comment .moodle-dialogue-base .closebutton,
+.que .dark.outcome .close,
+.que .dark.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.comment .closebutton:focus,
+.moodle-dialogue-base .que .dark.comment .closebutton:hover,
+.moodle-dialogue-base .que .dark.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.outcome .closebutton:hover,
+.que .dark.comment .close:focus,
+.que .dark.comment .close:hover,
+.que .dark.comment .moodle-dialogue-base .closebutton:focus,
+.que .dark.comment .moodle-dialogue-base .closebutton:hover,
+.que .dark.outcome .close:focus,
+.que .dark.outcome .close:hover,
+.que .dark.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.alert-alt.comment,
+.que .dark.alert-alt.outcome {
+  border-color: #cb7314;
+}
+
+.que .dark.alert-danger.comment,
+.que .dark.alert-danger.outcome {
+  color: #fff;
+  border-color: #f96868;
+  background-color: #f96868;
+}
+
+.moodle-dialogue-base .que .dark.alert-danger.comment .closebutton,
+.moodle-dialogue-base .que .dark.alert-danger.outcome .closebutton,
+.que .dark.alert-alt.comment .alert-link,
+.que .dark.alert-alt.comment a,
+.que .dark.alert-alt.outcome .alert-link,
+.que .dark.alert-alt.outcome a,
+.que .dark.alert-danger.comment .close,
+.que .dark.alert-danger.comment .moodle-dialogue-base .closebutton,
+.que .dark.alert-danger.outcome .close,
+.que .dark.alert-danger.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+.moodle-dialogue-base .que .dark.alert-danger.comment .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-danger.comment .closebutton:hover,
+.moodle-dialogue-base .que .dark.alert-danger.outcome .closebutton:focus,
+.moodle-dialogue-base .que .dark.alert-danger.outcome .closebutton:hover,
+.que .dark.alert-danger.comment .close:focus,
+.que .dark.alert-danger.comment .close:hover,
+.que .dark.alert-danger.comment .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-danger.comment .moodle-dialogue-base .closebutton:hover,
+.que .dark.alert-danger.outcome .close:focus,
+.que .dark.alert-danger.outcome .close:hover,
+.que .dark.alert-danger.outcome .moodle-dialogue-base .closebutton:focus,
+.que .dark.alert-danger.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+.que .dark.alert-danger.alert-alt.comment,
+.que .dark.alert-danger.alert-alt.outcome {
+  border-color: #d91d1f;
+}
+
+.que .dark.alert-danger.alert-alt.comment .alert-link,
+.que .dark.alert-danger.alert-alt.comment a,
+.que .dark.alert-danger.alert-alt.outcome .alert-link,
+.que .dark.alert-danger.alert-alt.outcome a {
+  color: #fff;
+}
+
+.que .history {
+  margin-bottom: 2.143rem;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.que .history .cover {
+  width: 100%;
+  padding: 0;
+  border-bottom: none;
+}
+
+.que [class*=blocks-]>li>.history {
+  margin-bottom: 0;
+}
+
+.card-columns .que .history,
+.que .card-columns .history {
+  margin-bottom: 2.143rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.que .history>.list-group:not(:first-child)>.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.que .history>.list-group:not(:last-child)>.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.que .history .card-block+.card-block,
+.que .history .card-block+.well,
+.que .history .userprofile .profile_tree .card-block+section,
+.que .history .userprofile .profile_tree .well+section,
+.que .history .userprofile .profile_tree section+.card-block,
+.que .history .userprofile .profile_tree section+.well,
+.que .history .userprofile .profile_tree section+section,
+.que .history .well+.card-block,
+.que .history .well+.well,
+.userprofile .profile_tree .que .history .card-block+section,
+.userprofile .profile_tree .que .history .well+section,
+.userprofile .profile_tree .que .history section+.card-block,
+.userprofile .profile_tree .que .history section+.well,
+.userprofile .profile_tree .que .history section+section {
+  padding-top: 0;
+}
+
+.que .panel-heading+.comment,
+.que .panel-heading+.outcome {
+  border-radius: 0;
+}
+
+.que .panel>.comment,
+.que .panel>.outcome {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media (max-width:479px) {
+  .que .panel>.comment,
+  .que .panel>.outcome {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.page-profile .que .history .avatar,
+.que .page-profile .history .avatar {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.page-gallery-grid .que .history,
+.que .page-gallery-grid .history {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.page-gallery-grid .que .history,
+.que .page-gallery-grid .history {
+  height: 100%;
+  border-radius: 0;
+}
+
+.que #region-main>.history {
+  overflow-x: auto;
+  overflow-y: visible;
+  min-height: 45rem;
+}
+
+#page-message-edit .que #region-main>.history,
+#page-message-notificationpreferences .que #region-main>.history,
+.que #page-message-edit #region-main>.history,
+.que #page-message-notificationpreferences #region-main>.history {
+  overflow-x: visible;
+}
+
+@media (min-width:760px) {
+  .listview .que div.history,
+  .que .listview div.history {
+    flex-direction: row!important;
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: row!important;
+    -ms-flex-direction: row!important;
+  }
+
+  .listview .que div.history>a,
+  .que .listview div.history>a {
+    width: 30%!important;
+  }
+
+  .listview .que div.history div.card-block,
+  .listview .que div.history div.well,
+  .que .listview div.history div.card-block,
+  .que .listview div.history div.well {
+    width: 70%!important;
+  }
+}
+
+.questionbank h2,
+.questioncategories h3 {
+  margin-top: 0;
+}
+
+#combinedfeedbackhdr div.fhtmleditor {
+  padding: 0;
+}
+
+.que .info .editquestion img,
+.que .info .questionflag img,
+.que .info .questionflag input {
+  vertical-align: bottom;
+}
+
+#qtypechoicecontainer {
+  display: none;
+  font-size: 12px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  border-radius: 10px;
+  background: #f2f2f2;
+  -webkit-box-shadow: 5px 5px 20px 0 #666;
+  box-shadow: 5px 5px 20px 0 #666;
+}
+
+#qtypechoicecontainer_c.yui-panel-container.shadow .underlay {
+  background: 0 0;
+}
+
+#qtypechoicecontainer.yui-panel .hd {
+  letter-spacing: 1px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+  background-image: -webkit-linear-gradient(top, #fff 0%, #ccc 100%);
+  background-image: -o-linear-gradient(top, #fff 0%, #ccc 100%);
+  background-image: linear-gradient(to bottom, #fff 0%, #ccc 100%);
+  background-repeat: repeat-x;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#qtypechoicecontainer #chooseqtype {
+  width: 40em;
+}
+
+#categoryquestions,
+#categoryquestions label,
+.questionbank .singleselect {
+  margin: 0;
+}
+
+#categoryquestions td,
+#categoryquestions th {
+  padding: 0 .2em;
+}
+
+#categoryquestions th {
+  font-weight: 400;
+  text-align: left;
+}
+
+#categoryquestions .checkbox {
+  padding-left: 5px;
+}
+
+#categoryquestions .checkbox input[type=checkbox] {
+  display: block;
+  float: none;
+  margin-left: 0;
+}
+
+#categoryquestions .qtype>img.icon {
+  display: block;
+}
+
+#categoryquestions .iconcol {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 3px;
+}
+
+#categoryquestions .iconcol .icon {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+
+#combinedfeedbackhdr div.fcheckbox {
+  margin-bottom: 1em;
+}
+
+#multitriesheader div.fitem_feditor {
+  margin-top: 1em;
+}
+
+#multitriesheader div.fitem_fgroup {
+  margin-bottom: 1em;
+}
+
+#multitriesheader div.fitem_fgroup fieldset.felement label {
+  margin-right: .3em;
+  margin-left: .3em;
+}
+
+body.path-question-type .fitem_fgroup .accesshide {
+  font: inherit;
+  position: static;
+  padding-right: .3em;
+}
+
+body.path-question-type .form-group .sr-only {
+  position: static;
+  overflow: visible;
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.que {
+  clear: left;
+  margin: 0 auto 1.8em;
+  text-align: left;
+}
+
+.que .content,
+.que .info {
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.que .info {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 13em;
+  margin-bottom: 1.8em;
+  background: #f1f4f5;
+}
+
+.que h3.no {
+  font-size: .9rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.que span.qno {
+  font-size: 1.5em;
+}
+
+.que .info>div,
+.que h3.no {
+  padding: 10px 0;
+}
+
+.que .info .questionflag.editable {
+  cursor: pointer;
+}
+
+.que .content {
+  margin-left: 14em;
+  border: 1px solid #f1f4f5;
+}
+
+.que .ablock {
+  margin: .7em 0 .3em;
+}
+
+.que .im-controls {
+  margin-top: .5em;
+  text-align: left;
+}
+
+.que .feedback,
+.que .generalfeedback,
+.que .im-feedback,
+.que .rightanswer,
+.que .specificfeedback,
+.que p {
+  margin: 0 0 .5em;
+}
+
+.que .qtext {
+  margin-bottom: 1.5em;
+  color: #757575!important;
+}
+
+.que .comment,
+.que .commentlink,
+.que .grading,
+.que .history {
+  margin-top: .5em;
+}
+
+.que .history h3 {
+  font-size: 1em;
+  margin: 0 0 .2em;
+}
+
+.que .history table {
+  width: 100%;
+  margin: 0;
+}
+
+.que .history .current,
+.que span.qno {
+  font-weight: 700;
+}
+
+.que .questioncorrectnessicon {
+  vertical-align: text-bottom;
+}
+
+.que input.questionflagimage {
+  padding-right: 3px;
+}
+
+.mform .que.comment .fitemtitle {
+  width: 20%;
+}
+
+#page-question-preview #techinfo {
+  margin: 1em 0;
+}
+
+.que.shortanswer .answer {
+  padding: 0;
+}
+
+.questionbankwindow .module {
+  width: auto;
+}
+
+.que label {
+  display: inline;
+}
+
+body.path-question-type .mform fieldset.hidden {
+  margin: .7em 0 0;
+  padding: 0;
+}
+
+.que.ddwtos {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media (max-width:767px) {
+  .que .info {
+    float: none;
+    width: auto;
+  }
+
+  .que .content {
+    margin: 0;
+  }
+}
+
+#manualgradingform .que {
+  overflow: auto;
+}
+
+#questionbank+.container {
+  width: auto;
+}
+
+#categoryquestions .questiontext td,
+#categoryquestions .questiontext th {
+  padding: .1rem .6rem;
+}
+
+.questiontext table {
+  margin: auto;
+}

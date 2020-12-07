@@ -1,0 +1,127 @@
+.path-calendar .maincalendar .calendarmonth ul {
+  margin: 0;
+}
+
+.path-calendar .maincalendar .header .buttons {
+  float: right;
+}
+
+.path-calendar .calendartable {
+  width: 100%;
+}
+
+.path-calendar .calendartable td,
+.path-calendar .calendartable th {
+  width: 14%;
+  text-align: center;
+  vertical-align: top;
+  border: 0;
+}
+
+.path-calendar .calendar-controls .current,
+.path-calendar .calendar-controls .next,
+.path-calendar .calendar-controls .previous {
+  float: left;
+}
+
+.path-calendar .calendar-controls .previous {
+  text-align: left;
+}
+
+.path-calendar .calendar-controls .current {
+  text-align: center;
+}
+
+.path-calendar .calendar-controls .next {
+  text-align: right;
+}
+
+.path-calendar .filters table {
+  width: 100%;
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+
+.path-calendar .maincalendar {
+  padding: 0;
+  vertical-align: top;
+}
+
+.path-calendar .maincalendar .bottom {
+  padding: 5px 0 0;
+  text-align: center;
+}
+
+.path-calendar .maincalendar .heightcontainer {
+  position: relative;
+  height: 100%;
+}
+
+.path-calendar .maincalendar .calendarmonth {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.path-calendar .maincalendar .calendarmonth ul li {
+  margin-top: 4px;
+  list-style-type: none;
+}
+
+.path-calendar .maincalendar .calendarmonth td {
+  height: 8em;
+}
+
+.path-calendar .maincalendar .controls {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.path-calendar .maincalendar li.calendar_event_course,
+.path-calendar .maincalendar li.calendar_event_global,
+.path-calendar .maincalendar li.calendar_event_group,
+.path-calendar .maincalendar li.calendar_event_user {
+  border-radius: 10px;
+}
+
+.path-calendar .maincalendar li.calendar_event_course a,
+.path-calendar .maincalendar li.calendar_event_global a,
+.path-calendar .maincalendar li.calendar_event_group a,
+.path-calendar .maincalendar li.calendar_event_user a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.path-calendar .maincalendar div.calendar_event_course,
+.path-calendar .maincalendar div.calendar_event_global,
+.path-calendar .maincalendar div.calendar_event_group,
+.path-calendar .maincalendar div.calendar_event_user {
+  background: 0 0;
+}
+
+.path-calendar .maincalendar .calendartable ul {
+  padding-left: 0;
+}
+
+.path-calendar .maincalendar .calendartable li,
+.path-calendar .maincalendar .calendartable td {
+  padding: 0 5px;
+}
+
+.path-calendar .maincalendar .header {
+  overflow: hidden;
+}
+
+.path-calendar .maincalendar .event .card-header img {
+  vertical-align: baseline;
+}
+
+#page-calendar-export .indent {
+  padding-left: 20px;
+}
+
+@media (max-width:767px) {
+  .path-calendar .maincalendar .calendarmonth td {
+    height: auto!important;
+    padding: 5px;
+  }
+}

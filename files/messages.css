@@ -1,0 +1,1004 @@
+.messaging-area-container .messaging-area .messages-area .messages .message .content .text p {
+  margin: 0;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea .searchfilterarea .searchfilter {
+  float: left;
+}
+
+.messaging-area-container * {
+  outline: 0;
+}
+
+.messaging-area-container .status .online-text {
+  display: none;
+  color: #7d7;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .actions .separator a.danger,
+.messaging-area-container .status .offline-text {
+  color: #ff6961;
+}
+
+.messaging-area-container .status.online .online-text {
+  display: block;
+}
+
+.messaging-area-container .status.online .offline-text {
+  display: none;
+}
+
+.messaging-area-container .btn-link.qnbutton,
+.messaging-area-container .btn.btn-link,
+.messaging-area-container a {
+  color: #4f94cd;
+}
+
+.messaging-area-container .messaging-area {
+  clear: both;
+  border: 1px solid #e4eaec;
+}
+
+.messaging-area-container .messaging-area img {
+  max-width: 100%;
+}
+
+.messaging-area-container .messaging-area .contacts-area {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 280px;
+  height: 600px;
+  border-right: 1px solid #e4eaec;
+}
+
+@media (max-height:670px) {
+  .messaging-area-container .messaging-area .contacts-area {
+    height: 500px;
+  }
+}
+
+.messaging-area-container .messaging-area .contacts-area.searchfilter .searchtextarea {
+  height: 80px;
+}
+
+.messaging-area-container .messaging-area .contacts-area.searchfilter .searcharea {
+  height: 470px;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea .form-control {
+  height: 50px;
+  padding: 7px 30px;
+  border-width: 0 0 1px;
+  border-color: rgba(0, 0, 0, .06);
+  border-radius: 0;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea.searching {
+  -webkit-transition: background-color linear .2s;
+  -o-transition: background-color linear .2s;
+  transition: background-color linear .2s;
+  background-color: #f5f5f5;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea.searching input,
+.messaging-area-container .messaging-area .messages-area .response.messaging .message-box .message-text-container textarea {
+  -webkit-transition: background-color linear .2s;
+  -o-transition: background-color linear .2s;
+  transition: background-color linear .2s;
+  background-color: #fff;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea .searchfilterarea {
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searchtextarea .searchfilterarea .searchfilterdelete {
+  float: left;
+  margin-left: 5px;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searcharea .heading {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searcharea .course,
+.preferences-container .preference-table thead th {
+  text-align: center;
+}
+
+.messaging-area-container .messaging-area .contacts-area .searcharea .course:hover {
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  background-color: #4f94cd;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .nocontacts,
+.messaging-area-container .messaging-area .contacts-area .searcharea .noresults {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts {
+  overflow-y: auto;
+  height: 470px;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-height:670px) {
+  .messaging-area-container .messaging-area .contacts-area .contacts {
+    height: 370px;
+  }
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact {
+  z-index: 0;
+  padding: 15px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.unread {
+  background-color: #f1f1f1;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.unread .picture {
+  border-color: #f1f1f1;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.unread .information {
+  width: 60%;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.unread .unread-count-container {
+  display: inline-block;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact:hover {
+  background-color: #e8f1f8;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.selected {
+  position: relative;
+  background-color: #e8f1f8;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact .lastmessage {
+  overflow: hidden;
+  margin: 0;
+  padding-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  color: #757575;
+}
+
+.messaging-area-container .messaging-area .contacts-area .contacts .contact .unread-count-container {
+  display: none;
+  text-align: center;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs {
+  height: 80px;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab {
+  float: left;
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f3f7f9;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab .content {
+  margin-top: 8%;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab:hover {
+  color: #4f94cd;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab .tabimage {
+  line-height: 30px;
+  height: 30px;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab .tabimage img {
+  height: 20px;
+}
+
+.messaging-area-container .messaging-area .contacts-area .tabs .tab.selected {
+  color: #4f94cd;
+}
+
+.messaging-area-container .messaging-area .messages-area {
+  position: relative;
+  float: right;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: -webkit-calc(100% - 280px);
+  width: calc(100% - 280px);
+  height: 600px;
+  margin: 0;
+}
+
+@media (max-height:670px) {
+  .messaging-area-container .messaging-area .messages-area {
+    height: 500px;
+  }
+}
+
+.messaging-area-container .messaging-area .messages-area .btn-container {
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 15px;
+}
+
+.messaging-area-container .messaging-area .messages-area .btn-container.delete-all,
+.messaging-area-container .messaging-area .messages-area .btn-container.view-toggle {
+  display: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile-header {
+  line-height: 50px;
+  display: none;
+  height: 50px;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile-header .btn-container {
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile-header .btn-container .btn-link {
+  line-height: inherit;
+  padding: 0;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile {
+  font-size: 16px;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 600px;
+  padding: 30px;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-height:670px) {
+  .messaging-area-container .messaging-area .messages-area .profile {
+    height: 500px;
+  }
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .user-container {
+  height: 100px;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .user-container .profile-picture {
+  display: inline-block;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .user-container .name-container {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .user-container .name-container .name {
+  font-weight: 700;
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .user-container .name-container .status {
+  font-size: 14px;
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .information {
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  margin: 20px 0 0;
+  list-style: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .information .name {
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .information .value {
+  display: inline-block;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .actions {
+  padding-top: 80px;
+}
+
+.messaging-area-container .messaging-area .messages-area .profile .actions .separator {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e4eaec;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header {
+  font-weight: 700;
+  line-height: 50px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #e4eaec;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .btn-link {
+  line-height: inherit;
+  padding: 0;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .delete-instructions {
+  display: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .name-container {
+  display: inline-block;
+  padding-top: 9px;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .name-container .name {
+  line-height: 20px;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .name-container .status {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .actions {
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages-header .actions .cancel-messages-delete {
+  display: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 470px;
+  padding: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-height:670px) {
+  .messaging-area-container .messaging-area .messages-area .messages {
+    height: 370px;
+  }
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .blocktime {
+  font-size: 12px;
+  clear: both;
+  margin: 5px 0;
+  text-align: center;
+  color: #a1a1a1;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .message .deletemessagecheckbox {
+  display: none;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .message .content .text {
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .message .content .timesent {
+  font-size: 10px;
+  float: right;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .message .content.left {
+  float: left;
+}
+
+.messaging-area-container .messaging-area .messages-area .messages .message .content.right {
+  float: right;
+}
+
+.messaging-area-container .messaging-area .messages-area .response {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 30px;
+  -webkit-transition: background-color linear .2s;
+  -o-transition: background-color linear .2s;
+  transition: background-color linear .2s;
+  text-align: center;
+  background-color: #f3f7f9;
+}
+
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation,
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .btn-container.view-all {
+  display: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.qnbutton,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn.btn-link.confirm {
+  height: 30px;
+  border: 1px solid #4f94cd;
+}
+
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn-link.confirm.qnbutton:hover,
+.messaging-area-container .messaging-area .messages-area .response .delete-confirmation .btn.btn-link.confirm:hover {
+  color: #fff;
+  background-color: #4f94cd;
+  text-shadow: none;
+}
+
+.messaging-area-container .messaging-area .messages-area .response .message-box .message-text-container textarea {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 8px;
+  resize: none;
+  vertical-align: middle;
+  border: 1px solid #e4eaec;
+  outline: 0;
+}
+
+.messaging-area-container .messaging-area .messages-area .response .message-box .send-button-container {
+  padding-top: 2px;
+}
+
+.messaging-area-container .messaging-area .messages-area .response.messaging {
+  -webkit-transition: background-color linear .2s;
+  -o-transition: background-color linear .2s;
+  transition: background-color linear .2s;
+  background-color: #f5f5f5;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .btn-container.delete-all,
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .delete-instructions {
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .actions .messages-delete,
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .name-container {
+  display: none;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages-header .actions .cancel-messages-delete,
+.preferences-container .preference-table .preference-row .hover-tooltip-container,
+.preferences-container .preference-table thead th.unconfigured .config-warning {
+  display: inline-block;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages .message {
+  cursor: pointer;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages .message[aria-checked=true] .content {
+  color: #fff;
+  border-color: #4f94cd;
+  background-color: #4f94cd;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages .message[aria-checked=false] .content:hover .timesent,
+.messaging-area-container .messaging-area .messages-area.editing .messages .message[aria-checked=true] .content .timesent {
+  color: #fff;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .messages .message[aria-checked=false] .content:hover {
+  color: #fff;
+  background-color: #79b5e6;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .response .delete-confirmation {
+  display: block;
+}
+
+.messaging-area-container .messaging-area .messages-area.editing .response .message-box,
+.preferences-container .preference-table .preference-row .preference-state .preference-state-status-container .loading-icon,
+.preferences-container .preference-table .preference-row .preference-state .preference-state-status-container .on-text,
+.preferences-container .preference-table .preference-row .preference-state.loading .preference-state-status-container .off-text,
+.preferences-container .preference-table .preference-row .preference-state.loading .preference-state-status-container .on-text,
+.preferences-container .preference-table thead th .config-warning {
+  display: none;
+}
+
+.preferences-container .container-fluid {
+  padding: 0;
+}
+
+.preferences-container .container-fluid .span6 {
+  min-height: 20px;
+}
+
+.preferences-container .align-bottom {
+  vertical-align: bottom;
+}
+
+.preferences-container .preference-table {
+  border: 1px solid #ddd;
+}
+
+.preferences-container .preference-table tr td:not(:first-child) {
+  width: 150px;
+  text-align: center;
+}
+
+.preferences-container .preference-table tr td:nth-child(even),
+.preferences-container .preference-table tr th:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.preferences-container .preference-table .preference-row .preference-name {
+  vertical-align: middle;
+}
+
+.preferences-container .preference-table .preference-row .disabled-message {
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.preferences-container .preference-table .preference-row .preference-state {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.preferences-container .preference-table .preference-row .preference-state input[type=checkbox]:checked+.preference-state-status-container {
+  background-color: #5cb85c;
+}
+
+.preferences-container .preference-table .preference-row .preference-state input[type=checkbox]:checked+.preference-state-status-container .on-text {
+  display: inline-block;
+}
+
+.preferences-container .preference-table .preference-row .preference-state input[type=checkbox]:checked+.preference-state-status-container .off-text,
+.preferences-container .preference-table .preference-row .preference-state.loading input[type=checkbox]:checked+.preference-state-status-container .off-text,
+.preferences-container .preference-table .preference-row .preference-state.loading input[type=checkbox]:checked+.preference-state-status-container .on-text {
+  display: none;
+}
+
+.preferences-container .preference-table .preference-row .preference-state .preference-state-status-container {
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #d9534f;
+}
+
+.general-settings-container .loading .loading-icon,
+.general-settings-container label,
+.preferences-container .preference-table .preference-row .preference-state .preference-state-status-container .off-text,
+.preferences-page-container .checkbox-container.loading .loading-icon {
+  display: inline-block;
+}
+
+.preferences-container .preference-table .preference-row .preference-state.loading .preference-state-status-container .loading-icon,
+.preferences-container .preference-table .preference-row.loading .preference-name .loading-icon {
+  display: block;
+}
+
+.general-settings-container .loading-icon {
+  display: none;
+}
+
+.processor-container {
+  position: relative;
+}
+
+.processor-container .loading-container {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.processor-container .loading-container .vertical-align {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.processor-container.loading .loading-container {
+  display: block;
+}
+
+.preferences-page-container .checkbox-container {
+  line-height: 20px;
+  margin: 30px 5px;
+}
+
+.preferences-page-container .checkbox-container input {
+  line-height: 20px;
+  margin: 0;
+}
+
+.preferences-page-container .checkbox-container .loading-icon {
+  display: none;
+}
+
+.notification-area,
+.notification-area .control-area {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.notification-area {
+  margin-bottom: 30px;
+  border: 1px solid #e4eaec;
+  border-radius: 4px;
+  height: 600px;
+}
+
+@media (max-height:670px) {
+  .notification-area {
+    height: 500px;
+  }
+}
+
+.notification-area .control-area {
+  display: inline-block;
+  overflow: auto;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid #e4eaec;
+  -webkit-overflow-scrolling: touch;
+}
+
+.notification-area .control-area .content {
+  position: relative;
+}
+
+.notification-area .control-area .content .content-item-container {
+  cursor: pointer;
+}
+
+.notification-area .control-area .content:empty+.empty-text {
+  display: block;
+}
+
+.notification-area .control-area .loading-icon {
+  display: none;
+}
+
+.notification-area .control-area .empty-text {
+  display: none;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.notification-area .control-area.loading .loading-icon {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+.notification-area .control-area.loading .content:empty+.empty-text {
+  display: none;
+}
+
+.notification-area .content-area,
+.notification-area .content-area .header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.notification-area .content-area {
+  display: inline-block;
+  float: right;
+  width: -webkit-calc(100% - 300px);
+  width: calc(100% - 300px);
+}
+
+.notification-area .content-area .toggle-mode {
+  display: none;
+}
+
+.notification-area .content-area .header {
+  height: 50px;
+  padding: 5px;
+  border-bottom: 1px solid #e4eaec;
+}
+
+.notification-area .content-area .header .image-container {
+  display: inline-block;
+  float: left;
+  width: 24px;
+  height: 25px;
+}
+
+.notification-area .content-area .header .subject-container {
+  display: inline-block;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: -webkit-calc(100% - 24px);
+  max-width: calc(100% - 24px);
+  height: 25px;
+  padding-left: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.notification-area .content-area .header .timestamp {
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0 0 0 30px;
+  color: #666;
+}
+
+.notification-area .content-area .footer:empty,
+.notification-area .content-area .header:empty,
+.notification-area .content-area>.content:empty {
+  display: none;
+}
+
+.notification-area .content-area>.content {
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 15px;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-height:670px) {
+  .notification-area .content-area>.content {
+    height: 400px;
+  }
+}
+
+.notification-area .content-area>.content:empty+.empty-text {
+  display: block;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.notification-area .content-area .empty-text {
+  display: none;
+}
+
+.notification-area .content-area .footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 50px;
+  text-align: center;
+}
+
+.notification-area .content-area .footer a {
+  line-height: 50px;
+}
+
+@media (max-width:979px) {
+  .messaging-area-container .messaging-area {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+  }
+}
+
+@media (max-width:979px) and (max-height:670px) {
+  .messaging-area-container .messaging-area {
+    height: 500px;
+  }
+}
+
+@media (max-width:979px) {
+  .messaging-area-container .messaging-area .messages-area .messages-header .btn-container.view-toggle,
+  .messaging-area-container .messaging-area .messages-area .profile-header {
+    display: block;
+  }
+
+  .messaging-area-container .messaging-area .messages-area .messages-header .btn-container.delete-all,
+  .messaging-area-container .messaging-area .messages-area.editing .messages-header .btn-container.view-toggle {
+    display: none;
+  }
+
+  .messaging-area-container .messaging-area .messages-area .profile {
+    height: 550px;
+  }
+
+  .messaging-area-container .messaging-area .messages-area.editing .messages-header .btn-container.delete-all {
+    display: block;
+  }
+
+  .messaging-area-container .messaging-area .contacts-area {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    border-right: none;
+  }
+
+  .messaging-area-container .messaging-area .messages-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+  }
+
+  .messaging-area-container .messaging-area.show-messages .contacts-area {
+    left: -100%;
+    visibility: hidden;
+    -webkit-transition: left .25s, opacity .25s, visibility .25s;
+    -o-transition: left .25s, opacity .25s, visibility .25s;
+    transition: left .25s, opacity .25s, visibility .25s;
+    opacity: 0;
+  }
+
+  .messaging-area-container .messaging-area.show-messages .messages-area {
+    right: 0;
+    visibility: visible;
+    -webkit-transition: right .25s, opacity .25s, visibility .25s;
+    -o-transition: right .25s, opacity .25s, visibility .25s;
+    transition: right .25s, opacity .25s, visibility .25s;
+    opacity: 1;
+  }
+
+  .messaging-area-container .messaging-area.hide-messages .contacts-area,
+  .notification-area .control-area {
+    left: 0;
+    visibility: visible;
+    -webkit-transition: left .25s, opacity .25s, visibility .25s;
+    -o-transition: left .25s, opacity .25s, visibility .25s;
+    transition: left .25s, opacity .25s, visibility .25s;
+    opacity: 1;
+  }
+
+  .notification-area .control-area {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: left .25s;
+    -o-transition: left .25s;
+    transition: left .25s;
+    border-right: none;
+  }
+
+  .messaging-area-container .messaging-area.hide-messages .contacts-area .contact.selected {
+    position: relative;
+    background-color: #e8f1f8;
+  }
+
+  .messaging-area-container .messaging-area.hide-messages .contacts-area .contact.selected:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    content: ' ';
+    background: #62a8ea;
+  }
+
+  .messaging-area-container .messaging-area.hide-messages .messages-area,
+  .notification-area .content-area {
+    right: -100%;
+    visibility: hidden;
+    -webkit-transition: right .25s, opacity .25s, visibility .25s;
+    -o-transition: right .25s, opacity .25s, visibility .25s;
+    transition: right .25s, opacity .25s, visibility .25s;
+    opacity: 0;
+  }
+
+  .notification-area {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .notification-area .content-area {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .notification-area .content-area .toggle-mode {
+    line-height: 50px;
+    display: inline-block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70px;
+    height: 50px;
+    border-right: 1px solid #e4eaec;
+    border-bottom: 1px solid #e4eaec;
+  }
+
+  .notification-area .content-area .header {
+    display: inline-block;
+    width: -webkit-calc(100% - 70px);
+    width: calc(100% - 70px);
+  }
+
+  .notification-area.show-content-area .control-area {
+    left: -100%;
+    visibility: hidden;
+    -webkit-transition: left .25s, opacity .25s, visibility .25s;
+    -o-transition: left .25s, opacity .25s, visibility .25s;
+    transition: left .25s, opacity .25s, visibility .25s;
+    opacity: 0;
+  }
+
+  .notification-area.show-content-area .content-area {
+    right: 0;
+    visibility: visible;
+    -webkit-transition: right .25s;
+    -o-transition: right .25s;
+    transition: right .25s;
+    opacity: 1;
+  }
+}
+
+@media (max-width:480px) {
+  .messaging-area-container .messaging-area .messages-area.editing .messages-header {
+    height: 80px;
+  }
+
+  .messaging-area-container .messaging-area .messages-area.editing .messages-header .actions,
+  .messaging-area-container .messaging-area .messages-area.editing .messages-header .delete-all {
+    top: 30px;
+  }
+
+  .messaging-area-container .messaging-area .messages-area.editing .messages {
+    height: 470px;
+  }
+}

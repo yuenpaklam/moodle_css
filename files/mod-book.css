@@ -1,0 +1,240 @@
+.book_toc_none ul.h4t>li.active a {
+  color: #fff;
+}
+
+#page-mod-book-view .panel {
+  max-width: 992px;
+  margin: auto;
+}
+
+.book_content>h3 {
+  display: inline-block;
+  background-color: #a0a0a0;
+  color: #fff;
+  padding: 6px 30px 6px 40px;
+  left: -30px;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 5px;
+}
+
+.book_content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px!important;
+  margin-bottom: 15px!important;
+}
+
+.book_content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px!important;
+  line-height: 1.4;
+}
+
+.book_content h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px!important;
+  margin-bottom: 8px!important;
+}
+
+.book_content ol,
+.book_content ul {
+  padding-bottom: 1px;
+}
+
+.book_content ol,
+.book_content ul {
+  margin: 0 0 .785714rem 1.2rem;
+  padding-left: 1rem;
+}
+
+.book_content li {
+  line-height: 1.4;
+  margin: 8px 0;
+}
+
+.book_content .img_container {
+  width: fit-content;
+  margin: .25rem auto 1.75rem;
+  position: relative;
+  box-shadow: 3px 3px 10px #999;
+}
+
+.book_content .img_container>img {
+  margin: .4em .5em;
+}
+
+.book_content .img_container>.img_title {
+  display: flex;
+}
+
+.book_content .img_container>.img_title>span {
+  flex-grow: 1;
+  width: 0;
+  margin: 0 12px 8px;
+  line-height: 1.45;
+  font-style: italic;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.book_content .table_container {
+  margin: .25rem auto 1.25rem;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.book_content table td,
+.book_content table th {
+  min-width: 35px;
+  padding: 4px 10px;
+  text-align: center;
+  color: #000;
+}
+
+.book_content table th {
+  background: #ffe2c5;
+}
+
+.book_content .row ol li ol li {
+  list-style-type: lower-alpha;
+}
+
+.book_content .row ol li ol li ol li {
+  list-style-type: lower-roman;
+}
+
+.book_content .row li>p {
+  margin-bottom: .33rem;
+}
+
+.book_content .row li>p:last-child {
+  margin-bottom: 1rem;
+}
+
+.book_content hr {
+  border: 0;
+  height: 1px;
+  width: 60%;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, .4), transparent);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.book_content .carousel ol.carousel-indicators.carousel-indicators-numbers {
+  border: unset;
+  background: unset;
+  position: relative;
+  padding: unset;
+  width: 60%;
+  align-content: center;
+  margin: 5px auto 0;
+  z-index: 15;
+  text-align: center;
+}
+
+.book_content .carousel ol.carousel-indicators-numbers:after {
+  content: unset;
+}
+
+.book_content .carousel ol.carousel-indicators-numbers>li {
+  display: inline-block;
+  line-height: 25px;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  margin: 0 3px;
+  border: unset;
+  cursor: pointer;
+}
+
+.book_content .row {
+  width: 100%;
+}
+
+#page-mod-book-view .container {
+  width: 1170px!important;
+  max-width: 100%!important;
+}
+
+@media (max-width:767px) {
+  #page-mod-book-view .panel-body,
+  #page-mod-book-view .panel-footer,
+  #page-mod-book-view .panel-title {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .book_content>h3 {
+    left: -20px;
+  }
+}
+
+@media (max-width:479px) {
+  #page-mod-book-view .panel-body,
+  #page-mod-book-view .panel-footer,
+  #page-mod-book-view .panel-title {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .book_content>h3 {
+    left: -10px;
+  }
+}
+
+.book_toc_none>ul>li {
+  line-height: 1.4;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.book_toc_none ul.h4t {
+  list-style-type: none;
+  background: #efefef;
+  padding: 1px 10px;
+  box-shadow: #b1b1b1 2px 2px 2px inset;
+  border-radius: 7px;
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.book_toc_none ul.h4t>li.active {
+  background-color: #33a5ca;
+  padding: 4px 8px;
+  margin: 4px 0 4px -5px;
+  box-shadow: #b8b8b8 1px 1px 1px;
+  border-radius: 6px;
+}
+
+.book_toc_none>ul>li>a {
+  color: #b7b7b7;
+}
+
+.book_toc_none ul.h4t>li a {
+  font-weight: 600;
+  color: gray;
+}
+
+.book_toc_none>ul>li>a:hover {
+  color: #76838f;
+}
+
+.book_toc_none ul.h4t>li {
+  padding: 4px 8px;
+  margin: 4px 0 4px -5px;
+  width: calc(100% + 10px);
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#page-mod-book-edit table.alt-col>tbody>tr>td:nth-child(even),
+#page-mod-book-edit table.alt-row>tbody>tr:nth-child(even),
+#page-mod-book-view table.alt-col>tbody>tr>td:nth-child(even),
+#page-mod-book-view table.alt-row>tbody>tr:nth-child(even) {
+  background: #fffddd;
+}

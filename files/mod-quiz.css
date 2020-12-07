@@ -1,0 +1,654 @@
+div.submitbtns input.mod_quiz-prev-nav {
+  color: #fff;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+div.submitbtns input.mod_quiz-prev-nav:hover {
+  color: #fff;
+  border-color: #2c8ae3;
+  background-color: #358fe4;
+}
+
+div.submitbtns input.focus.mod_quiz-prev-nav,
+div.submitbtns input.mod_quiz-prev-nav:focus {
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075), 0 0 0 2px rgba(98, 168, 234, .5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075), 0 0 0 2px rgba(98, 168, 234, .5);
+}
+
+div.submitbtns input.disabled.mod_quiz-prev-nav,
+div.submitbtns input.mod_quiz-prev-nav:disabled {
+  border-color: #62a8ea;
+  background-color: #62a8ea;
+}
+
+div.submitbtns input.active.mod_quiz-prev-nav,
+div.submitbtns input.mod_quiz-prev-nav:active {
+  color: #fff;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+div.submitbtns .show>input.dropdown-toggle.mod_quiz-prev-nav {
+  color: #fff;
+  border-color: #2c8ae3;
+  background-color: #358fe4;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+div.submitbtns input.btn-outline.mod_quiz-prev-nav {
+  color: #62a8ea;
+  background-color: transparent;
+}
+
+div.submitbtns .open>input.btn-outline.dropdown-toggle.mod_quiz-prev-nav,
+div.submitbtns input.btn-outline.active.mod_quiz-prev-nav,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:active,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:focus,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:hover {
+  color: #fff;
+  border-color: #62a8ea;
+  background-color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-outline.dropdown-toggle.mod_quiz-prev-nav .badge-pill,
+div.submitbtns input.btn-outline.active.mod_quiz-prev-nav .badge-pill,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:active .badge-pill,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:focus .badge-pill,
+div.submitbtns input.btn-outline.mod_quiz-prev-nav:hover .badge-pill {
+  color: #62a8ea;
+  background-color: #fff;
+}
+
+div.submitbtns input.btn-outline.btn-up.mod_quiz-prev-nav:before {
+  border-bottom-color: #62a8ea;
+}
+
+div.submitbtns input.btn-outline.btn-up.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-outline.btn-up.mod_quiz-prev-nav:hover:before {
+  border-bottom-color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-outline.btn-up.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-up.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-up.mod_quiz-prev-nav:active:before {
+  border-bottom-color: #4e97d9;
+}
+
+div.submitbtns input.btn-outline.btn-right.mod_quiz-prev-nav:before {
+  border-left-color: #62a8ea;
+}
+
+div.submitbtns input.btn-outline.btn-right.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-outline.btn-right.mod_quiz-prev-nav:hover:before {
+  border-left-color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-outline.btn-right.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-right.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-right.mod_quiz-prev-nav:active:before {
+  border-left-color: #4e97d9;
+}
+
+div.submitbtns input.btn-outline.btn-bottom.mod_quiz-prev-nav:before {
+  border-top-color: #62a8ea;
+}
+
+div.submitbtns input.btn-outline.btn-bottom.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-outline.btn-bottom.mod_quiz-prev-nav:hover:before {
+  border-top-color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-outline.btn-bottom.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-bottom.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-bottom.mod_quiz-prev-nav:active:before {
+  border-top-color: #4e97d9;
+}
+
+div.submitbtns input.btn-outline.btn-left.mod_quiz-prev-nav:before {
+  border-right-color: #62a8ea;
+}
+
+div.submitbtns input.btn-outline.btn-left.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-outline.btn-left.mod_quiz-prev-nav:hover:before {
+  border-right-color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-outline.btn-left.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-left.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-outline.btn-left.mod_quiz-prev-nav:active:before {
+  border-right-color: #4e97d9;
+}
+
+div.submitbtns input.mod_quiz-prev-nav {
+  border-color: #62a8ea;
+  background-color: #62a8ea;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+div.submitbtns input.focus.mod_quiz-prev-nav,
+div.submitbtns input.mod_quiz-prev-nav:focus,
+div.submitbtns input.mod_quiz-prev-nav:hover {
+  color: #fff;
+  border-color: #89bceb;
+  background-color: #89bceb;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+div.submitbtns .open>input.dropdown-toggle.mod_quiz-prev-nav,
+div.submitbtns input.active.mod_quiz-prev-nav,
+div.submitbtns input.mod_quiz-prev-nav:active {
+  border-color: #4e97d9;
+  background-color: #4e97d9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+div.submitbtns .open>input.dropdown-toggle.focus.mod_quiz-prev-nav,
+div.submitbtns .open>input.dropdown-toggle.mod_quiz-prev-nav:focus,
+div.submitbtns .open>input.dropdown-toggle.mod_quiz-prev-nav:hover,
+div.submitbtns input.active.focus.mod_quiz-prev-nav,
+div.submitbtns input.active.mod_quiz-prev-nav:focus,
+div.submitbtns input.active.mod_quiz-prev-nav:hover,
+div.submitbtns input.mod_quiz-prev-nav:active.focus,
+div.submitbtns input.mod_quiz-prev-nav:active:focus,
+div.submitbtns input.mod_quiz-prev-nav:active:hover {
+  border-color: #4e97d9;
+  background-color: #4e97d9;
+}
+
+div.submitbtns fieldset[disabled] input.active.mod_quiz-prev-nav,
+div.submitbtns fieldset[disabled] input.focus.mod_quiz-prev-nav,
+div.submitbtns fieldset[disabled] input.mod_quiz-prev-nav,
+div.submitbtns fieldset[disabled] input.mod_quiz-prev-nav:active,
+div.submitbtns fieldset[disabled] input.mod_quiz-prev-nav:focus,
+div.submitbtns fieldset[disabled] input.mod_quiz-prev-nav:hover,
+div.submitbtns input.disabled.active.mod_quiz-prev-nav,
+div.submitbtns input.disabled.focus.mod_quiz-prev-nav,
+div.submitbtns input.disabled.mod_quiz-prev-nav,
+div.submitbtns input.disabled.mod_quiz-prev-nav:active,
+div.submitbtns input.disabled.mod_quiz-prev-nav:focus,
+div.submitbtns input.disabled.mod_quiz-prev-nav:hover,
+div.submitbtns input[disabled].active.mod_quiz-prev-nav,
+div.submitbtns input[disabled].focus.mod_quiz-prev-nav,
+div.submitbtns input[disabled].mod_quiz-prev-nav,
+div.submitbtns input[disabled].mod_quiz-prev-nav:active,
+div.submitbtns input[disabled].mod_quiz-prev-nav:focus,
+div.submitbtns input[disabled].mod_quiz-prev-nav:hover,
+fieldset[disabled] div.submitbtns input.active.mod_quiz-prev-nav,
+fieldset[disabled] div.submitbtns input.focus.mod_quiz-prev-nav,
+fieldset[disabled] div.submitbtns input.mod_quiz-prev-nav,
+fieldset[disabled] div.submitbtns input.mod_quiz-prev-nav:active,
+fieldset[disabled] div.submitbtns input.mod_quiz-prev-nav:focus,
+fieldset[disabled] div.submitbtns input.mod_quiz-prev-nav:hover {
+  color: #fff;
+  border-color: #a2caee;
+  background-color: #a2caee;
+}
+
+div.submitbtns input.mod_quiz-prev-nav .badge-pill {
+  color: #62a8ea;
+  background-color: #fff;
+}
+
+div.submitbtns input.btn-up.mod_quiz-prev-nav:before {
+  border-bottom-color: #62a8ea;
+}
+
+div.submitbtns input.btn-up.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-up.mod_quiz-prev-nav:hover:before {
+  border-bottom-color: #89bceb;
+}
+
+div.submitbtns .open>input.btn-up.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-up.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-up.mod_quiz-prev-nav:active:before {
+  border-bottom-color: #4e97d9;
+}
+
+div.submitbtns input.btn-right.mod_quiz-prev-nav:before {
+  border-left-color: #62a8ea;
+}
+
+div.submitbtns input.btn-right.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-right.mod_quiz-prev-nav:hover:before {
+  border-left-color: #89bceb;
+}
+
+div.submitbtns .open>input.btn-right.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-right.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-right.mod_quiz-prev-nav:active:before {
+  border-left-color: #4e97d9;
+}
+
+div.submitbtns input.btn-bottom.mod_quiz-prev-nav:before {
+  border-top-color: #62a8ea;
+}
+
+div.submitbtns input.btn-bottom.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-bottom.mod_quiz-prev-nav:hover:before {
+  border-top-color: #89bceb;
+}
+
+div.submitbtns .open>input.btn-bottom.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-bottom.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-bottom.mod_quiz-prev-nav:active:before {
+  border-top-color: #4e97d9;
+}
+
+div.submitbtns input.btn-left.mod_quiz-prev-nav:before {
+  border-right-color: #62a8ea;
+}
+
+div.submitbtns input.btn-left.mod_quiz-prev-nav:focus:before,
+div.submitbtns input.btn-left.mod_quiz-prev-nav:hover:before {
+  border-right-color: #89bceb;
+}
+
+div.submitbtns .open>input.btn-left.dropdown-toggle.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-left.active.mod_quiz-prev-nav:before,
+div.submitbtns input.btn-left.mod_quiz-prev-nav:active:before {
+  border-right-color: #4e97d9;
+}
+
+div.submitbtns input.btn-pure.mod_quiz-prev-nav {
+  color: #62a8ea;
+}
+
+div.submitbtns .open>input.btn-pure.dropdown-toggle.focus.mod_quiz-prev-nav,
+div.submitbtns .open>input.btn-pure.dropdown-toggle.mod_quiz-prev-nav,
+div.submitbtns .open>input.btn-pure.dropdown-toggle.mod_quiz-prev-nav .badge-pill,
+div.submitbtns .open>input.btn-pure.dropdown-toggle.mod_quiz-prev-nav:focus,
+div.submitbtns .open>input.btn-pure.dropdown-toggle.mod_quiz-prev-nav:hover,
+div.submitbtns input.btn-pure.active.focus.mod_quiz-prev-nav,
+div.submitbtns input.btn-pure.active.mod_quiz-prev-nav,
+div.submitbtns input.btn-pure.active.mod_quiz-prev-nav .badge-pill,
+div.submitbtns input.btn-pure.active.mod_quiz-prev-nav:focus,
+div.submitbtns input.btn-pure.active.mod_quiz-prev-nav:hover,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:active,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:active .badge-pill,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:active.focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:active:focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:active:hover,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:focus .badge-pill,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:focus.focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:focus:focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:focus:hover,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:hover,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:hover .badge-pill,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:hover.focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:hover:focus,
+div.submitbtns input.btn-pure.mod_quiz-prev-nav:hover:hover {
+  color: #a2caee;
+}
+
+body#page-mod-quiz-edit div.mod-quiz-edit-content li.activity div.mod-indent-outer span.actions {
+  position: absolute;
+  right: 0;
+}
+
+body#page-mod-quiz-edit div.mod-quiz-edit-content li.activity {
+  margin-top: 15px!important;
+}
+
+#page-mod-quiz-edit #categoryquestions>thead {
+  background: #fff;
+}
+
+body#page-mod-quiz-edit div.mod-quiz-edit-content li.activity div.mod-indent-outer div.activityinstance span.instancename i {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer input {
+  margin-left: 0;
+}
+
+#page-mod-quiz-edit div.question div.content div.questioncontrols {
+  background-color: #fff;
+}
+
+body#page-mod-quiz-edit div.mod-quiz-edit-content li.activity div.mod-indent-outer div.activityinstance a img {
+  height: inherit;
+  margin-top: 5px;
+}
+
+#page-mod-quiz-edit .questionbank .choosecategory select {
+  width: 100%;
+}
+
+#page-mod-quiz-edit div.questionbankwindow.block {
+  padding: 0;
+}
+
+#page-mod-quiz-edit div.question div.content div.points label {
+  display: inline-block;
+}
+
+#page-mod-quiz-edit div.question div.content div.points br,
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer br,
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer hr {
+  display: none;
+}
+
+#page-mod-quiz-edit div.questionbank .categoryquestionscontainer {
+  background: 0 0;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer strong {
+  display: block;
+}
+
+#page-mod-quiz-edit div.questionbankwindow div.header {
+  margin: 0;
+}
+
+.path-mod-quiz input[size] {
+  width: auto;
+  max-width: 100%;
+}
+
+#page-mod-quiz-edit ul.slots .activityinstance>a {
+  display: inline;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+#page-mod-quiz-edit .box.generalbox.questionbank {
+  padding: .5em;
+}
+
+#page-mod-quiz-edit .questionbank .categorypagingbarcontainer,
+#page-mod-quiz-edit .questionbank .categoryquestionscontainer,
+#page-mod-quiz-edit .questionbank .choosecategory {
+  padding: 0;
+}
+
+#page-mod-quiz-edit #categoryquestions>tbody>tr:nth-of-type(even) {
+  background: #e4e4e4;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header {
+  margin: 0 -10px;
+  padding: 2px 10px;
+  color: #444;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: 0 0;
+  text-shadow: none;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header a:link,
+#page-mod-quiz-edit .questionbankwindow div.header a:visited {
+  color: #62a8eb;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header a:hover {
+  color: #89bceb;
+}
+
+#page-mod-quiz-edit .createnewquestion {
+  padding: .3em 0;
+}
+
+#page-mod-quiz-edit .createnewquestion div,
+#page-mod-quiz-edit .createnewquestion input {
+  margin: 0;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header .title {
+  color: #76838f;
+}
+
+#page-mod-quiz-edit div.container div.generalbox {
+  padding: 1.5em;
+  background-color: transparent;
+}
+
+#page-mod-quiz-edit .categoryinfo {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+#page-mod-quiz-edit .createnewquestion .singlebutton input {
+  margin-bottom: 0;
+}
+
+#page-mod-quiz-edit div.questionbank .categoryselectallcontainer,
+#page-mod-quiz-edit div.questionbank .categorysortopotionscontainer {
+  padding: 0 0 1.5em;
+}
+
+#page-mod-quiz-edit div.questionbank .categorypagingbarcontainer {
+  margin: 0;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: transparent;
+}
+
+#page-mod-quiz-edit div.questionbank .categorypagingbarcontainer .paging {
+  padding: 0 .3em;
+}
+
+#page-mod-quiz-edit div.question div.content div.points {
+  position: static;
+  float: right;
+  width: 12.1em;
+  margin-top: -.5em;
+  margin-right: 60px;
+  padding-bottom: 0;
+  border: 0;
+  background-color: #fff;
+}
+
+#page-mod-quiz-edit .quizpagedelete,
+#page-mod-quiz-edit .quizpagedelete img {
+  background-color: transparent;
+}
+
+#page-mod-quiz-edit div.editq div.question div.content,
+#page-mod-quiz-edit div.quizpage .pagecontent {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+#page-mod-quiz-edit div.questionbank .categoryinfo {
+  padding: .3em 0;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer {
+  padding: 0;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer strong {
+  margin-left: -.3em;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer strong label {
+  margin-left: .3em;
+}
+
+#page-mod-quiz-edit div.questionbank .modulespecificbuttonscontainer input+input {
+  margin-left: 5px;
+}
+
+#page-mod-quiz-edit div.editq div.question div.content,
+#page-mod-quiz-edit div.quizpage .pagecontent .pagestatus {
+  background-color: #fff;
+}
+
+.path-mod-quiz .statedetails {
+  font-size: .9em;
+  display: block;
+}
+
+#page-mod-quiz-comment .mform fieldset {
+  padding: .625rem 0;
+}
+
+#page-mod-quiz-attempt .submitbtns,
+#page-mod-quiz-review .submitbtns {
+  padding-top: 0;
+}
+
+#page-mod-quiz-attempt .submitbtns input,
+#page-mod-quiz-review .submitbtns input {
+  color: #fff;
+}
+
+#quiz-timer {
+  display: none;
+  margin: 15px 15px 0;
+  padding: 5px;
+  text-align: center;
+  border-radius: 2px;
+  background: #d2d6de;
+}
+
+@media (min-width:34rem) {
+  #quiz-timer {
+    display: none!important;
+  }
+}
+
+.quiztimer {
+  width: 230px;
+  height: 80px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+#page-mod-quiz-mod .form-group[data-groupname$="optionsgrp"]>.col-md-3,
+#page-mod-quiz-mod .form-group[data-groupname$="optionsgrp"]>.col-md-9 {
+  width: auto;
+}
+
+.path-mod-quiz .mod-quiz-edit-content {
+  margin-bottom: 10rem;
+}
+
+#page-mod-quiz-mod #id_feedback .form-group[data-groupname$="optionsgrp"] {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  min-height: 12rem;
+}
+
+@media (min-width:600px) {
+  #page-mod-quiz-mod #id_feedback .form-group[data-groupname$="optionsgrp"] {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  #page-mod-quiz-mod #id_feedback .form-group[data-groupname$="optionsgrp"] {
+    width: 33.33%;
+  }
+}
+
+@media (min-width:1200px) {
+  #page-mod-quiz-mod #id_feedback .form-group[data-groupname$="optionsgrp"] {
+    width: 25%;
+  }
+}
+
+#page-mod-quiz-mod [data-groupname$="optionsgrp"] .form-check {
+  height: 22px;
+  width: 90%;
+  justify-content: left;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  width: 30px;
+  height: 40px;
+  margin: 0 6px 6px 0;
+  text-decoration: none;
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  background-image: none;
+}
+
+.path-mod-quiz #mod_quiz_navblock span.qnbutton {
+  cursor: default;
+  color: #a3afb7;
+  background-color: #f3f7f9;
+}
+
+.path-mod-quiz #mod_quiz_navblock a.qnbutton:active,
+.path-mod-quiz #mod_quiz_navblock a.qnbutton:focus,
+.path-mod-quiz #mod_quiz_navblock a.qnbutton:hover {
+  text-decoration: underline;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton .thispageholder {
+  z-index: 1;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.thispage .thispageholder {
+  border-width: 3px;
+}
+
+.path-mod-quiz #mod_quiz_navblock .allquestionsononepage .qnbutton.thispage .thispageholder {
+  border-width: 1px;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.flagged .thispageholder {
+  background: url([[pix:theme|mod/quiz/flag-on]]) 15px 0 no-repeat;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton .trafficlight {
+  height: 20px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 0 0 3px 3px;
+  background: #fff center/10px no-repeat;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight {
+  background-color: #fff;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight {
+  background-image: url([[pix:theme|mod/quiz/warningtriangle]]);
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.correct .trafficlight {
+  background-color: #fff;
+  background-image: url([[pix:theme|mod/quiz/checkmark]]);
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.blocked .trafficlight {
+  background-color: #f3f7f9;
+  background-image: url([[pix:core|t/locked]]);
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.incorrect .trafficlight,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.notanswered .trafficlight {
+  background-color: #fff;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.partiallycorrect .trafficlight {
+  background-color: #fff;
+  background-image: url([[pix:theme|mod/quiz/whitecircle]]);
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.answersaved .trafficlight,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.complete .trafficlight,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.requiresgrading .trafficlight {
+  background-color: #ccd5db;
+}

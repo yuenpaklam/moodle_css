@@ -1,0 +1,12 @@
+.path-mod-feedback .feedback_form .col-form-label {
+  display: block!important;
+}
+
+.path-mod-feedback .itemactions {
+  float: right;
+}
+
+.path-mod-feedback .itemhandle {
+  position: absolute;
+  right: 1rem;
+}

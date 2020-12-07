@@ -1,0 +1,743 @@
+.fp-viewbar.disabled a {
+  opacity: .65;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fp-viewbar.disabled a {
+  pointer-events: none;
+}
+
+.fp-viewbar.disabled a {
+  border-color: #ccc;
+  background-color: #fff;
+}
+
+.fp-viewbar:not(.disabled) a.checked {
+  color: #292b2c;
+  border-color: #adadad;
+  background-color: #e6e6e6;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.fitem.disabled .fp-btn-choose {
+  color: #a3afb7!important;
+}
+
+.fitem.disabled a.fp-btn-choose:focus,
+.fitem.disabled a.fp-btn-choose:hover {
+  color: #8696a1!important;
+}
+
+.fp-viewbar.disabled a.icon {
+  color: #a3afb7;
+}
+
+.fp-content-center {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.fp-content-hidden {
+  visibility: hidden;
+}
+
+.fp-panel-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 3px 20px 2px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 3px .1px #999;
+  box-shadow: 2px 2px 3px .1px #999;
+}
+
+.file-picker .fp-repo-area {
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.file-picker .fp-navbar {
+  min-height: 40px;
+  padding: 4px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.file-picker .fp-content {
+  clear: none;
+  overflow: auto;
+  height: 452px;
+  border-top: 0;
+  background: #fff;
+}
+
+.filepicker.moodle-dialogue-fullscreen .file-picker .fp-content {
+  width: 100%;
+}
+
+.file-picker .fp-content-loading {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.file-picker .fp-content .fp-object-container {
+  width: 98%;
+  height: 98%;
+}
+
+.file-picker .fp-def-search {
+  margin-top: 0;
+}
+
+.file-picker .fp-list {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.file-picker .fp-list .fp-repo a {
+  display: block;
+  padding: .5em .7em;
+}
+
+.file-picker .fp-list .fp-repo.active {
+  background: #f2f2f2;
+}
+
+.file-picker .fp-list .fp-repo-icon {
+  width: 16px;
+  height: 16px;
+  padding: 0 7px 0 5px;
+}
+
+.fp-toolbar {
+  float: left;
+}
+
+.fp-toolbar .disabled,
+.fp-toolbar.empty {
+  display: none;
+}
+
+.fp-toolbar div {
+  display: block;
+  float: left;
+  margin-right: 4px;
+}
+
+.fp-toolbar img {
+  margin-right: 5px;
+  vertical-align: -15%;
+}
+
+.file-picker .fp-clear-left {
+  clear: left;
+}
+
+.fp-pathbar.empty {
+  display: none;
+}
+
+.fp-pathbar .fp-path-folder {
+  height: 12px;
+  margin-left: 4px;
+  background: url([[pix:theme|fp/path_folder]]) 8px 3px no-repeat;
+  -webkit-background-size: 12px 12px;
+  background-size: 12px 12px;
+}
+
+.fp-pathbar .fp-path-folder-name {
+  margin-left: 32px;
+}
+
+.fp-iconview .fp-file {
+  position: relative;
+  float: left;
+  margin: 10px 10px 35px;
+  text-align: center;
+}
+
+.fp-iconview .fp-thumbnail {
+  line-height: 110px;
+  display: block;
+  min-width: 110px;
+  min-height: 110px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.fp-iconview .fp-thumbnail img {
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 1px 1px 2px 0 #ccc;
+  box-shadow: 1px 1px 2px 0 #ccc;
+}
+
+.fp-iconview .fp-thumbnail:hover {
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 10px0 #ccc;
+  box-shadow: inset 0 0 10px0 #ccc;
+}
+
+.fp-iconview .fp-filename-field {
+  position: absolute;
+  overflow: hidden;
+  height: 33px;
+  word-wrap: break-word;
+}
+
+.fp-iconview .fp-filename-field:hover {
+  z-index: 1000;
+  overflow: visible;
+}
+
+.fp-iconview .fp-filename-field .fp-filename {
+  min-width: 112px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  background: #fff;
+}
+
+.file-picker .yui3-datatable table {
+  width: 100%;
+  border: 0 solid #bbb;
+}
+
+.file-picker .ygtvtn,
+.filemanager .ygtvtn {
+  width: 19px;
+  height: 32px;
+  background: url([[pix:moodle|y/tn]]) 0 0 no-repeat;
+}
+
+.file-picker .ygtvtm,
+.file-picker .ygtvtmh,
+.filemanager .ygtvtm,
+.filemanager .ygtvtmh {
+  width: 13px;
+  height: 12px;
+  cursor: pointer;
+  background: url([[pix:moodle|y/tm]]) 0 10px no-repeat;
+}
+
+.file-picker .ygtvtp {
+  height: 12px;
+}
+
+.file-picker .ygtvtp,
+.file-picker .ygtvtph {
+  width: 13px;
+  cursor: pointer;
+  background: url([[pix:moodle|y/tp]]) 0 10px no-repeat;
+}
+
+.filemanager .ygtvtp {
+  height: 12px;
+}
+
+.filemanager .ygtvtp,
+.filemanager .ygtvtph {
+  width: 13px;
+  cursor: pointer;
+  background: url([[pix:moodle|y/tp]]) 0 10px no-repeat;
+}
+
+.file-picker .ygtvtph,
+.filemanager .ygtvtph {
+  height: 22px;
+}
+
+.file-picker .ygtvln,
+.filemanager .ygtvln {
+  width: 19px;
+  height: 32px;
+  background: url([[pix:moodle|y/ln]]) 0 0 no-repeat;
+}
+
+.file-picker .ygtvlm,
+.file-picker .ygtvlmh,
+.filemanager .ygtvlm,
+.filemanager .ygtvlmh {
+  width: 13px;
+  height: 12px;
+  cursor: pointer;
+  background: url([[pix:moodle|y/lm]]) 0 10px no-repeat;
+}
+
+.file-picker .ygtvlp,
+.file-picker .ygtvlph,
+.filemanager .ygtvlp,
+.filemanager .ygtvlph {
+  width: 13px;
+  height: 12px;
+  cursor: pointer;
+  background: url([[pix:moodle|y/lp]]) 0 10px no-repeat;
+}
+
+.file-picker .ygtvloading,
+.filemanager .ygtvloading {
+  width: 16px;
+  height: 22px;
+  background: url([[pix:moodle|y/loading]]) 0 0 no-repeat;
+}
+
+.file-picker .ygtvdepthcell,
+.filemanager .ygtvdepthcell {
+  width: 17px;
+  height: 32px;
+  background: url([[pix:moodle|y/vline]]) 0 0 no-repeat;
+}
+
+.file-picker .ygtvblankdepthcell,
+.filemanager .ygtvblankdepthcell {
+  width: 17px;
+  height: 22px;
+}
+
+.file-picker .ygtvfocus,
+.filemanager .ygtvfocus {
+  background-color: #eee;
+}
+
+.fp-filename-icon {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+}
+
+.fp-icon {
+  line-height: 24px;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-top: -7px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.fp-icon img {
+  max-width: 24px;
+  max-height: 24px;
+  vertical-align: middle;
+}
+
+.fp-filename {
+  padding-right: 10px;
+}
+
+.file-picker .fp-login-form,
+.file-picker .fp-upload-form {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.file-picker .fp-upload-form table {
+  margin: 0 auto;
+}
+
+.file-picker.fp-dlg,
+.file-picker.fp-msg {
+  text-align: center;
+}
+
+.file-picker.fp-dlg .fp-dlg-buttons {
+  margin: 0 20px;
+}
+
+.file-picker .fp-content-error {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.file-picker .fp-nextpage {
+  clear: both;
+}
+
+.file-picker .fp-nextpage .fp-nextpage-loading,
+.file-picker .fp-nextpage.loading .fp-nextpage-link {
+  display: none;
+}
+
+.file-picker .fp-nextpage.loading .fp-nextpage-loading {
+  display: block;
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fp-select .fp-select-loading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fp-select table {
+  padding: 0 0 10px;
+}
+
+.fp-select table .mdl-right {
+  min-width: 84px;
+}
+
+.fp-select .fp-reflist .mdl-right {
+  vertical-align: top;
+}
+
+.fp-select .fp-select-buttons {
+  float: right;
+}
+
+.fp-select .fp-info {
+  font-size: .715rem;
+}
+
+.fp-select .fp-thumbnail {
+  line-height: 110px;
+  float: left;
+  min-width: 110px;
+  min-height: 110px;
+  margin: 10px 20px 0 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 10px 0 #ccc;
+  box-shadow: inset 0 0 10px 0 #ccc;
+}
+
+.fp-select .fp-thumbnail img {
+  margin: 10px;
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.fp-select .fp-fileinfo {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.file-picker.fp-select .fp-fileinfo {
+  max-width: 240px;
+}
+
+.fp-select .fp-fileinfo div {
+  padding-bottom: 5px;
+}
+
+.file-picker.fp-select.loading .fp-select-loading {
+  display: block;
+}
+
+.jsenabled .filemanager-loading {
+  display: block;
+  margin-top: 100px;
+}
+
+.file-picker.fp-select .fp-select-loading,
+.file-picker.fp-select .uneditable,
+.file-picker.fp-select.loading form,
+.filemanager .fm-empty-container,
+.filemanager-loading,
+.filemanager.fm-loaded .filemanager-loading,
+.filemanager.fm-loading .filemanager-container,
+.filemanager.fm-loading .filemanager-toolbar,
+.filemanager.fm-loading .fp-pathbar,
+.filemanager.fm-maxfiles .fp-btn-add,
+.filemanager.fm-noitems .filemanager-container .fp-content,
+.filemanager.fm-noitems .fp-btn-download,
+.fp-select .fp-dimensions.fp-unknown,
+.fp-select .fp-size.fp-unknown {
+  display: none;
+}
+
+.filemanager .fp-img-downloading {
+  display: none;
+  padding-top: 7px;
+}
+
+.filemanager .filemanager-updating {
+  display: none;
+  text-align: center;
+}
+
+.filemanager.fm-updating .filemanager-updating {
+  display: block;
+  margin-top: 37px;
+}
+
+.filemanager .fp-iconview .fp-file.fp-originalmissing .fp-thumbnail img,
+.filemanager .fp-pathbar.empty,
+.filemanager.fm-nomkdir .fp-btn-mkdir,
+.filemanager.fm-updating .fm-content-wrapper,
+.fitem.disabled .filemanager .filemanager-toolbar,
+.fitem.disabled .filemanager .fm-content-wrapper,
+.fitem.disabled .filemanager .fp-pathbar,
+.fitem.disabled .filemanager .fp-restrictions {
+  display: none;
+}
+
+.filemanager {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.filemanager .fp-restrictions {
+  text-align: right;
+}
+
+.filemanager-toolbar {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.filemanager .fp-content {
+  overflow: auto;
+  min-height: 157px;
+  max-height: 472px;
+}
+
+.filemanager-container {
+  overflow: hidden;
+  min-height: 150px;
+  border: 2px solid #f5f5f5;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.file-picker .yui3-datatable-header {
+  background: initial;
+}
+
+.fitem.disabled .filemanager-container {
+  background-color: #ebebe4;
+}
+
+.fp-iconview .fp-reficons1,
+.fp-iconview .fp-reficons2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fp-iconview .fp-file.fp-hasreferences .fp-reficons1 {
+  background: url([[pix:theme|fp/link]]) no-repeat;
+  background-position: bottom right;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+}
+
+.fp-iconview .fp-file.fp-isreference .fp-reficons2 {
+  background: url([[pix:theme|fp/alias]]) no-repeat;
+  background-position: bottom left;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+}
+
+.filemanager .fp-iconview .fp-file.fp-originalmissing .fp-thumbnail {
+  background: url([[pix:s/dead]]) no-repeat;
+  background-position: center center;
+}
+
+.filemanager .yui3-datatable table {
+  width: 100%;
+  border: 0 solid #bbb;
+}
+
+.filemanager .yui3-datatable-header {
+  color: #555!important;
+  border-bottom: 1px solid #ccc!important;
+  border-left: 0 solid #fff!important;
+  background: #fff!important;
+}
+
+.filemanager .yui3-datatable-odd .yui3-datatable-cell {
+  border-left: 0 solid #f6f6f6;
+  background-color: #f6f6f6!important;
+}
+
+.filemanager .yui3-datatable-even .yui3-datatable-cell {
+  border-left: 0 solid #fff;
+  background-color: #fff!important;
+}
+
+.filemanager .fp-filename-icon.fp-hasreferences .fp-reficons1 {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  width: 100%;
+  height: 100%;
+  background: url([[pix:theme|fp/link_sm]]) no-repeat 0 0;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+}
+
+.filemanager .fp-filename-icon.fp-isreference .fp-reficons2 {
+  position: absolute;
+  top: 9px;
+  left: -6px;
+  width: 100%;
+  height: 100%;
+  background: url([[pix:theme|fp/alias_sm]]) no-repeat 0 0;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+}
+
+.filemanager .fp-contextmenu {
+  display: none;
+}
+
+.filemanager .fp-iconview .fp-folder.fp-hascontextmenu .fp-contextmenu {
+  position: absolute;
+  right: 7px;
+  bottom: 5px;
+  display: block;
+}
+
+.filemanager .fp-tableview .fp-folder.fp-hascontextmenu .fp-contextmenu,
+.filemanager .fp-treeview .fp-folder.fp-hascontextmenu .fp-contextmenu {
+  position: absolute;
+  top: 6px;
+  left: 14px;
+  display: inline;
+  margin-right: -20px;
+}
+
+.filemanager.fm-noitems .fm-empty-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  display: block;
+  padding-top: 85px;
+  text-align: center;
+  border: 2px dashed #bbb;
+}
+
+.filemanager.fp-select .fp-original.fp-loading .fp-originloading,
+.filemanager.fp-select .fp-reflist.fp-loading .fp-reflistloading {
+  display: inline;
+}
+
+.filemanager.fp-select .fp-file-setmain,
+.filemanager.fp-select .fp-file-setmain-help,
+.filemanager.fp-select .fp-select-loading,
+.filemanager.fp-select.loading form {
+  display: none;
+}
+
+.filemanager.fp-select.loading .fp-select-loading {
+  display: block;
+}
+
+.filemanager.fp-select.fp-file .fp-file-unzip,
+.filemanager.fp-select.fp-file .fp-file-zip,
+.filemanager.fp-select.fp-folder .fp-author,
+.filemanager.fp-select.fp-folder .fp-file-unzip,
+.filemanager.fp-select.fp-folder .fp-license,
+.filemanager.fp-select.fp-zip .fp-file-zip {
+  display: none;
+}
+
+.filemanager.fp-select.fp-cansetmain .fp-file-setmain,
+.filemanager.fp-select.fp-cansetmain .fp-file-setmain-help {
+  display: inline-block;
+}
+
+.filemanager .fp-mainfile .fp-filename {
+  font-weight: 700;
+}
+
+.filemanager.fp-select .fp-original .fp-originloading,
+.filemanager.fp-select .fp-original.fp-unknown,
+.filemanager.fp-select .fp-reflist .fp-reflistloading,
+.filemanager.fp-select .fp-reflist.fp-unknown,
+.filemanager.fp-select.fp-folder .fp-file-download {
+  display: none;
+}
+
+.filemanager.fp-select .fp-reflist .fp-value {
+  overflow: auto;
+  max-height: 75px;
+  margin: 0;
+  padding: 8px 7px;
+  border: 1px solid #bbb;
+  background: #f9f9f9;
+}
+
+.filemanager.fp-select .fp-reflist .fp-value li {
+  padding-bottom: 7px;
+}
+
+.filemanager.fp-dlg,
+.filemanager.fp-mkdir-dlg {
+  text-align: center;
+}
+
+.filemanager.fp-mkdir-dlg .fp-mkdir-dlg-text {
+  margin: 20px;
+  text-align: left;
+}
+
+.file-picker div.bd {
+  text-align: left;
+}
+
+.fp-formset {
+  padding: 10px;
+}
+
+.fp-formset input[type=file] {
+  line-height: inherit;
+}
+
+.fp-forminset {
+  padding: 0 10px;
+}
+
+.fp-fileinfo .fp-value {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.fp-content-center form+div {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 0;
+  vertical-align: middle;
+}
+
+.file-picker td.label {
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  padding: 8px;
+  white-space: normal;
+  color: inherit;
+  border: inherit;
+  background: inherit;
+  text-shadow: none;
+}
+
+.file-picker td.label {
+  display: table-cell;
+  text-align: right;
+}

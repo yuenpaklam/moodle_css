@@ -1,0 +1,1476 @@
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  background-color: #fff;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  border-radius: .215rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  padding: 1.429rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme>.list-group:first-child .list-group-item:first-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom>.list-group:first-child .list-group-item:first-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right>.list-group:first-child .list-group-item:first-child {
+  border-top-left-radius: .215rem;
+  border-top-right-radius: .215rem;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme>.list-group:last-child .list-group-item:last-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom>.list-group:last-child .list-group-item:last-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right>.list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: .215rem;
+  border-bottom-left-radius: .215rem;
+}
+
+@media (min-width:480px) {
+  .card-deck .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+  .card-deck .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+  .card-deck .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-deck .chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-deck .yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-deck .yui-layout-unit-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-right: .715rem;
+    margin-left: .715rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+  }
+
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+  #page-enrol-users .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+#filterform,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+#filterform,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+#filterform,
+  .card-group #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+  .card-group #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+  .card-group #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+  .card-group .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .history+.chat-message.course-theme,
+  .card-group .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .history+.yui-layout-unit-bottom,
+  .card-group .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .history+.yui-layout-unit-right,
+  .card-group .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+  .card-group .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+  .card-group .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.groupinfobox,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .chat-message.course-theme+.history,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .yui-layout-unit-bottom+.history,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .yui-layout-unit-right+.history,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.groupinfobox,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.groupinfobox,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.history,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .history+.chat-message.course-theme,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .history+.yui-layout-unit-bottom,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .history+.yui-layout-unit-right,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.history,
+  .que .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.history,
+  .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.history,
+  .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.history,
+  .que .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.history,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+  .userprofile .profile_tree .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+  .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+section,
+  .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+section,
+  .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+section,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .card-group #filterform+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group #page-enrol-users #filterform+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group #page-enrol-users .chat-message.course-theme+#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .card+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.card,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.groupinfobox,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .groupinfobox+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .que .chat-message.course-theme+.history,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .que .history+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .userprofile .profile_tree .chat-message.course-theme+section,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .userprofile .profile_tree section+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .well+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .yui-layout-unit-bottom+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .yui-layout-unit-right+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .card-group .history+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .card-group section+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .card-group #filterform+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .card-group #filterform+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #page-enrol-users #filterform+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #page-enrol-users #filterform+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #page-enrol-users .yui-layout-unit-bottom+#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group #page-enrol-users .yui-layout-unit-right+#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .card+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .card+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .groupinfobox+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .groupinfobox+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .que .history+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .que .history+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .que .yui-layout-unit-bottom+.history,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .que .yui-layout-unit-right+.history,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .userprofile .profile_tree .yui-layout-unit-bottom+section,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .userprofile .profile_tree .yui-layout-unit-right+section,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .userprofile .profile_tree section+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .userprofile .profile_tree section+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .well+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .well+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.card,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.groupinfobox,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.card,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.groupinfobox,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .card-group .history+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .card-group .history+.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .card-group section+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .card-group section+.yui-layout-unit-right {
+    margin-left: 0;
+    border-left: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:first-child,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:first-child,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:first-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:first-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:first-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:first-child .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:first-child .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:first-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:first-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:first-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:first-child .card-img-top {
+    border-top-right-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:first-child .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:first-child .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:first-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:first-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:first-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:first-child .card-img-bottom {
+    border-bottom-right-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:last-child,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:last-child,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:last-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:last-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:last-child,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:last-child .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:last-child .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:last-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:last-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:last-child .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:last-child .card-img-top {
+    border-top-left-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:last-child .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:last-child .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:last-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:last-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:last-child .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:last-child .card-img-bottom {
+    border-bottom-left-radius: 0;
+  }
+
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:not(:first-child):not(:last-child),
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:not(:first-child):not(:last-child) .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme:not(:first-child):not(:last-child) .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:not(:first-child):not(:last-child),
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:not(:first-child):not(:last-child) .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom:not(:first-child):not(:last-child) .card-img-top,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:not(:first-child):not(:last-child),
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:not(:first-child):not(:last-child) .card-img-bottom,
+  .card-group .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right:not(:first-child):not(:last-child) .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:not(:first-child):not(:last-child),
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:not(:first-child):not(:last-child) .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-group .chat-message.course-theme:not(:first-child):not(:last-child) .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:not(:first-child):not(:last-child),
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:not(:first-child):not(:last-child) .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-bottom:not(:first-child):not(:last-child) .card-img-top,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:not(:first-child):not(:last-child),
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:not(:first-child):not(:last-child) .card-img-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-group .yui-layout-unit-right:not(:first-child):not(:last-child) .card-img-top {
+    border-radius: 0;
+  }
+
+  .card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+  .card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+  .card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-columns .chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-columns .yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-columns .yui-layout-unit-right {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  margin-bottom: 2.143rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme {
+  margin-bottom: 2.143rem;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .cover,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .cover,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .cover {
+  width: 100%;
+  padding: 0;
+  border-bottom: none;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages [class*=blocks-]>li>.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax [class*=blocks-]>li>.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax [class*=blocks-]>li>.yui-layout-unit-right {
+  margin-bottom: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  position: relative;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-img-left~.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-img-left~.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-img-left~.yui-layout-unit-right {
+  width: 60%;
+  margin-left: 40%;
+}
+
+@media (max-width:767px) {
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-img-left~.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-img-left~.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-img-left~.yui-layout-unit-right {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.card-columns .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-columns .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-columns .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-columns .yui-layout-unit-right {
+  margin-bottom: 2.143rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.card-sm .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.card-sm .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.card-sm .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-sm .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-sm .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-sm .yui-layout-unit-right {
+  padding: 1.072rem;
+}
+
+.card-md .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.card-md .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.card-md .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-md .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-md .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-md .yui-layout-unit-right {
+  padding: 1.786rem;
+}
+
+.card-lg .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.card-lg .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.card-lg .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-lg .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-lg .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-lg .yui-layout-unit-right {
+  padding: 2.143rem;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme>.list-group:not(:first-child)>.list-group-item:first-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom>.list-group:not(:first-child)>.list-group-item:first-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right>.list-group:not(:first-child)>.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme>.list-group:not(:last-child)>.list-group-item:last-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom>.list-group:not(:last-child)>.list-group-item:last-child,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right>.list-group:not(:last-child)>.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-enrol-users #filterform .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+#page-enrol-users #filterform .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+#page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+#filterform,
+#page-enrol-users .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+#filterform,
+#page-enrol-users .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+#filterform,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+.card-block,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+.chat-message.course-theme,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+.well,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+.yui-layout-unit-right,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree #filterform+section,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom #filterform+.chat-message.course-theme,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right #filterform+.chat-message.course-theme,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+.card-block,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+.well,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+.yui-layout-unit-right,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree #filterform+section,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages #filterform+.chat-message.course-theme,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+.card-block,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+.well,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+.yui-layout-unit-bottom,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+.yui-layout-unit-right,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree #filterform+section,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+#filterform,
+#page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+#filterform,
+.card #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+.card #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+.card #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+.card .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.card .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.card .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+.groupinfobox #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+.groupinfobox #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+.groupinfobox #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+.groupinfobox .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.groupinfobox .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.groupinfobox .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+.que .history #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+.que .history #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+.que .history #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+.que .history .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.que .history .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.que .history .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+.que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree #page-enrol-users #filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.userprofile .profile_tree #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #filterform+section,
+.userprofile .profile_tree #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #filterform+section,
+.userprofile .profile_tree #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #filterform+section,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .que .history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users section+#filterform,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+.card-block,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+.chat-message.course-theme,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+.well,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+.yui-layout-unit-right,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme section+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom section+.chat-message.course-theme,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right section+.chat-message.course-theme,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users section+#filterform,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+.card-block,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+.well,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+.yui-layout-unit-right,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom section+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users section+#filterform,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+section,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+.card-block,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+.well,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+.yui-layout-unit-bottom,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+.yui-layout-unit-right,
+.userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right section+section,
+.userprofile .profile_tree section #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+.userprofile .profile_tree section #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+.userprofile .profile_tree section #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+section,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+section,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+section,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.userprofile .profile_tree section .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.well #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #filterform+.chat-message.course-theme,
+.well #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-bottom,
+.well #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #filterform+.yui-layout-unit-right,
+.well .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages section+.chat-message.course-theme,
+.well .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-bottom,
+.well .userprofile .profile_tree .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax section+.yui-layout-unit-right,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card-block+.chat-message.course-theme,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.card-block,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.well,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well+.chat-message.course-theme,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .yui-layout-unit-right+#filterform,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-bottom,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card-block+.yui-layout-unit-right,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .yui-layout-unit-right+section,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-bottom,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well+.yui-layout-unit-right,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.card-block,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.well,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom+.yui-layout-unit-right,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.card-block,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.well,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-bottom,
+.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users #filterform .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .card #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .groupinfobox #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .que .history #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .userprofile .profile_tree section #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .well #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .card .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .card-block+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .userprofile .profile_tree #filterform+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .well+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree #page-enrol-users section+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree .card-block+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree .well+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .userprofile .profile_tree section+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .groupinfobox .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .history .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree #page-enrol-users #filterform section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .card section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .groupinfobox section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .que .history section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree .well section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .userprofile .profile_tree section section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .well .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-bottom .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right #page-enrol-users #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .userprofile .profile_tree section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .yui-layout-unit-right .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users #filterform .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .card #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .card #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .groupinfobox #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .groupinfobox #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .que .history #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .que .history #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .userprofile .profile_tree section #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .userprofile .profile_tree section #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .well #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .well #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .card .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .groupinfobox .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .history .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree #page-enrol-users #filterform section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree #page-enrol-users #filterform section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .card section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .card section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .groupinfobox section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .groupinfobox section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .que .history section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .que .history section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .well section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree .well section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .userprofile .profile_tree section section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .well .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #chat-messages #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users .card-block+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users .userprofile .profile_tree #filterform+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users .well+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree #chat-messages section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree #page-enrol-users section+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree .card-block+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree .well+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .userprofile .profile_tree section+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .yui-layout-unit-right+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages #page-enrol-users .chat-message.course-theme+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .card-block+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .chat-message.course-theme+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .userprofile .profile_tree .chat-message.course-theme+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .well+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .yui-layout-unit-bottom+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #chat-messages .yui-layout-unit-right+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #chat-messages #filterform+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users #filterform+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users .card-block+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users .userprofile .profile_tree #filterform+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users .well+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users .yui-layout-unit-bottom+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right #page-enrol-users .yui-layout-unit-right+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-block+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree #chat-messages section+.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree #page-enrol-users section+#filterform,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree .card-block+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree .well+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree .yui-layout-unit-bottom+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree .yui-layout-unit-right+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .userprofile .profile_tree section+section,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .well+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-bottom+.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+.card-block,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+.well,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .yui-layout-unit-right+.yui-layout-unit-right {
+  padding-top: 0;
+}
+
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .page-profile .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-profile .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-profile .yui-layout-unit-right {
+  padding: 40px 15px;
+  background-color: #fff;
+}
+
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .avatar,
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .avatar,
+.page-profile .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .avatar,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .page-profile .chat-message.course-theme .avatar,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-profile .yui-layout-unit-bottom .avatar,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-profile .yui-layout-unit-right .avatar {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .page-gallery-grid .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-gallery-grid .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-gallery-grid .yui-layout-unit-right {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme,
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.page-gallery-grid .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .page-gallery-grid .chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-gallery-grid .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .page-gallery-grid .yui-layout-unit-right {
+  height: 100%;
+  border-radius: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #region-main>.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-right {
+  overflow-x: auto;
+  overflow-y: visible;
+  min-height: 45rem;
+}
+
+#page-message-edit .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #region-main>.chat-message.course-theme,
+#page-message-edit .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-bottom,
+#page-message-edit .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-right,
+#page-message-notificationpreferences .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #region-main>.chat-message.course-theme,
+#page-message-notificationpreferences .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-bottom,
+#page-message-notificationpreferences .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-message-edit #region-main>.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-message-notificationpreferences #region-main>.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-message-edit #region-main>.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-message-edit #region-main>.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-message-notificationpreferences #region-main>.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-message-notificationpreferences #region-main>.yui-layout-unit-right {
+  overflow-x: visible;
+}
+
+@media only screen and (max-device-width:768px) {
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #welcome-section>h5+.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #welcome-section>h5+.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #welcome-section>h5+.yui-layout-unit-right {
+    padding: 20px 20px 0!important;
+  }
+}
+
+.path-course-view.editing .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #region-main>.chat-message.course-theme,
+.path-course-view.editing .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-bottom,
+.path-course-view.editing .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #region-main>.yui-layout-unit-right,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .path-course-view.editing #region-main>.chat-message.course-theme,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .path-course-view.editing #region-main>.yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .path-course-view.editing #region-main>.yui-layout-unit-right {
+  padding-bottom: 13rem;
+}
+
+@media (min-width:760px) {
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right {
+    flex-direction: row!important;
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: row!important;
+    -ms-flex-direction: row!important;
+  }
+
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme>a,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom>a,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right>a,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme>a,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom>a,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right>a {
+    width: 30%!important;
+  }
+
+  #page-enrol-users .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div#filterform,
+  #page-enrol-users .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom div#filterform,
+  #page-enrol-users .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right div#filterform,
+  #page-enrol-users .listview div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  #page-enrol-users .listview div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  #page-enrol-users .listview div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div#filterform,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom div#filterform,
+  #page-enrol-users .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right div#filterform,
+  .listview #page-enrol-users div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview #page-enrol-users div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview #page-enrol-users div#filterform .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .listview .que div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview .que div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview .que div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme #page-enrol-users div#filterform,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div.card-block,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div.well,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div.yui-layout-unit-bottom,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme div.yui-layout-unit-right,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.yui-layout-unit-bottom div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.yui-layout-unit-right div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom #chat-messages div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom #page-enrol-users div#filterform,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom div.card-block,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom div.well,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom div.yui-layout-unit-bottom,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom div.yui-layout-unit-right,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right #chat-messages div.chat-message.course-theme,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right #page-enrol-users div#filterform,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right div.card-block,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right div.well,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right div.yui-layout-unit-bottom,
+  .listview .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right div.yui-layout-unit-right,
+  .listview div.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview div.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview div.card .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .listview div.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview div.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview div.groupinfobox .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .listview div.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .listview div.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .listview div.well .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .que .listview div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages div.chat-message.course-theme,
+  .que .listview div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-bottom,
+  .que .listview div.history .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages #page-enrol-users .listview div#filterform div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview #page-enrol-users div#filterform div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview .que div.history div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.card div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme #page-enrol-users div#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div.card-block,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.chat-message.course-theme div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.groupinfobox div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.well div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.yui-layout-unit-bottom div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .listview div.yui-layout-unit-right div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .que .listview div.history div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .listview div#filterform div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #page-enrol-users .listview div#filterform div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview #page-enrol-users div#filterform div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview #page-enrol-users div#filterform div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview .que div.history div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview .que div.history div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.card div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.card div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.groupinfobox div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.groupinfobox div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.well div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.well div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom #chat-messages div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom #page-enrol-users div#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom div.card-block,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom div.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-bottom div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right #chat-messages div.chat-message.course-theme,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right #page-enrol-users div#filterform,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right div.card-block,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right div.well,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .listview div.yui-layout-unit-right div.yui-layout-unit-right,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .listview div.history div.yui-layout-unit-bottom,
+  .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .que .listview div.history div.yui-layout-unit-right {
+    width: 70%!important;
+  }
+}
+
+#page-mod-chat-gui_basic input#message {
+  max-width: 100%;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .mdl-chat-my-entry .chat-message.course-theme .user {
+  font-weight: 700;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax {
+  background-color: #fff;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit div.yui-layout-bd,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit div.yui-layout-bd-noft,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit div.yui-layout-bd-nohd,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  border: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right {
+  border-radius: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit div.yui-layout-bd {
+  background-color: transparent;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-input-area table.generaltable,
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-input-area table.generaltable td.cell {
+  padding: 3px 15px;
+  white-space: nowrap;
+  border: 0;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-userlist {
+  padding: 10px 5px;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-userlist #users-list {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-userlist #users-list li {
+  padding: 5px 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-userlist #users-list img {
+  max-width: none;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages {
+  margin: 20px 25px;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-event.course-theme {
+  font-size: .858rem;
+  margin: 10px 0;
+  text-align: center;
+  color: #777;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme {
+  background-color: #fff!important;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .time {
+  font-size: 11px;
+  float: right;
+  color: #777;
+}
+
+.yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .mdl-chat-my-entry .chat-message.course-theme {
+  background-color: #f6f6f6;
+}

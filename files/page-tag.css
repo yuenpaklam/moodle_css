@@ -1,0 +1,101 @@
+.path-tag .tag-index-items .tagarea {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.path-tag .tag-index-items .tagarea h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 20px;
+  display: block;
+  margin: 0 0 10px;
+  padding: 3px 0 10px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  color: #999;
+  border-bottom: solid 1px #e3e3e3;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.path-tag .tagarea .controls::after,
+.path-tag .tagarea .taggeditems::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.path-tag .tag-backtoallitems,
+.path-tag .tagarea .controls {
+  text-align: center;
+}
+
+.path-tag .tagarea .controls .gotopage.nextpage {
+  float: right;
+}
+
+.path-tag .tagarea .controls .gotopage.prevpage {
+  float: left;
+}
+
+.path-tag .tagarea .controls .exclusivemode {
+  display: inline-block;
+}
+
+.path-tag .tagarea .controls.controls-bottom {
+  margin-top: 5px;
+}
+
+.path-tag .tagarea .controls .gotopage.nextpage::after {
+  padding-right: 5px;
+  padding-left: 5px;
+  content: '»';
+}
+
+.path-tag .tagarea .controls .gotopage.prevpage::before {
+  padding-right: 5px;
+  padding-left: 5px;
+  content: '«';
+}
+
+.path-tag .tag-relatedtags {
+  padding-top: 10px;
+}
+
+.path-tag .tag-management-box {
+  text-align: right;
+}
+
+.path-tag .tag-index-toc {
+  padding: 10px;
+  text-align: center;
+}
+
+.path-tag .tag-index-toc li,
+.path-tag .tag-management-box li {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.path-tag .tag-management-box li a.edittag {
+  background-image: url([[pix:moodle|i/settings]]);
+}
+
+.path-tag .tag-management-box li a.flagasinappropriate {
+  background-image: url([[pix:moodle|i/flagged]]);
+}
+
+.path-tag .tag-management-box li a.removefrommyinterests {
+  background-image: url([[pix:moodle|t/delete]]);
+}
+
+.path-tag .tag-management-box li a.addtomyinterests {
+  background-image: url([[pix:moodle|t/add]]);
+}
+
+.path-tag .tag-management-box li a {
+  padding-left: 17px;
+  background-repeat: no-repeat;
+  background-position: left;
+}

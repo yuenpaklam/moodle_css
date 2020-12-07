@@ -1,0 +1,9 @@
+.path-mod-wiki .midpad,
+.path-mod-wiki .wiki_headingtime,
+.path-mod-wiki .wiki_headingtitle {
+  text-align: inherit;
+}
+
+.path-mod-wiki .wiki_contentbox {
+  width: 100%;
+}

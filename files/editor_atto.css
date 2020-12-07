@@ -1,0 +1,133 @@
+div.editor_atto_toolbar {
+  padding: 5px;
+  border-color: #f5f5f5;
+  background: rgba(187, 187, 187, .2);
+}
+
+.editor_atto_content {
+  padding: 1em 2%;
+  resize: none;
+}
+
+.editor_atto_content_wrap {
+  border-color: #f5f5f5;
+}
+
+.editor_atto_content .img-responsive {
+  display: inline;
+}
+
+.editor_atto_toolbar button.highlight,
+.editor_atto_toolbar button:active,
+.editor_atto_toolbar button:hover {
+  background-color: #eee;
+  background-image: none;
+}
+
+div.editor_atto_toolbar button+button {
+  border-color: #fff;
+}
+
+div.editor_atto_toolbar div.atto_group {
+  margin: .2em .3em .2em 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.atto_charmap_selector button {
+  width: 40px;
+  margin: 0;
+  padding: 3px;
+}
+
+.atto_equation_groups.yui3-tabview-panel {
+  border: 0;
+  background: #fff;
+}
+
+.open.atto_backcolor_button.atto_menu,
+.open.atto_fontcolor_button.atto_menu {
+  min-width: 180px!important;
+  padding-left: 10px;
+}
+
+.open.atto_backcolor_button.atto_menu ul,
+.open.atto_fontcolor_button.atto_menu ul {
+  padding-left: 10px;
+}
+
+.open.atto_backcolor_button.atto_menu .atto_menuentry,
+.open.atto_fontcolor_button.atto_menu .atto_menuentry {
+  float: left;
+  clear: none!important;
+}
+
+.editor_atto_content.form-control {
+  width: 100%;
+}
+
+.has-danger .editor_atto_content.form-control,
+.has-danger .editor_atto_content.form-control-danger,
+.has-danger .editor_atto_content.maintenancewarning.error {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23f96868\' viewBox=\'-2 -2 7 7\'%3E%3Cpath stroke=\'%23d9534f\' d=\'M0 0l3 3m0-3L0 3\'/%3E%3Ccircle r=\'.5\'/%3E%3Ccircle cx=\'3\' r=\'.5\'/%3E%3Ccircle cy=\'3\' r=\'.5\'/%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'.5\'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right .64325rem;
+  -webkit-background-size: 1.2865rem 1.2865rem;
+  background-size: 1.2865rem 1.2865rem;
+}
+
+.has-danger .editor_atto_content.form-control .col-form-label,
+.has-danger .editor_atto_content.form-control .custom-control,
+.has-danger .editor_atto_content.form-control .form-check-label,
+.has-danger .editor_atto_content.form-control .form-control-feedback,
+.has-danger .editor_atto_content.form-control .form-control-label,
+.has-danger .editor_atto_content.form-control-danger .col-form-label,
+.has-danger .editor_atto_content.form-control-danger .custom-control,
+.has-danger .editor_atto_content.form-control-danger .form-check-label,
+.has-danger .editor_atto_content.form-control-danger .form-control-feedback,
+.has-danger .editor_atto_content.form-control-danger .form-control-label,
+.has-danger .editor_atto_content.maintenancewarning.error .col-form-label,
+.has-danger .editor_atto_content.maintenancewarning.error .custom-control,
+.has-danger .editor_atto_content.maintenancewarning.error .form-check-label,
+.has-danger .editor_atto_content.maintenancewarning.error .form-control-feedback,
+.has-danger .editor_atto_content.maintenancewarning.error .form-control-label {
+  color: #f96868;
+}
+
+.has-danger .editor_atto_content.form-control .custom-file-control,
+.has-danger .editor_atto_content.form-control .custom-select,
+.has-danger .editor_atto_content.form-control .form-control,
+.has-danger .editor_atto_content.form-control-danger .custom-file-control,
+.has-danger .editor_atto_content.form-control-danger .custom-select,
+.has-danger .editor_atto_content.form-control-danger .form-control,
+.has-danger .editor_atto_content.maintenancewarning.error .custom-file-control,
+.has-danger .editor_atto_content.maintenancewarning.error .custom-select,
+.has-danger .editor_atto_content.maintenancewarning.error .form-control {
+  border-color: #f96868;
+}
+
+.has-danger .editor_atto_content.form-control .custom-file-control:focus,
+.has-danger .editor_atto_content.form-control .custom-select:focus,
+.has-danger .editor_atto_content.form-control .form-control:focus,
+.has-danger .editor_atto_content.form-control-danger .custom-file-control:focus,
+.has-danger .editor_atto_content.form-control-danger .custom-select:focus,
+.has-danger .editor_atto_content.form-control-danger .form-control:focus,
+.has-danger .editor_atto_content.maintenancewarning.error .custom-file-control:focus,
+.has-danger .editor_atto_content.maintenancewarning.error .custom-select:focus,
+.has-danger .editor_atto_content.maintenancewarning.error .form-control:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fdcaca;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fdcaca;
+}
+
+.has-danger .editor_atto_content.form-control .input-group-addon,
+.has-danger .editor_atto_content.form-control-danger .input-group-addon,
+.has-danger .editor_atto_content.maintenancewarning.error .input-group-addon {
+  color: #f96868;
+  border-color: #f96868;
+  background-color: #fff;
+}
+
+.editor_atto_content.form-control {
+  width: 100%;
+  min-height: 150px!important;
+}

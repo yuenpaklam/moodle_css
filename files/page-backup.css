@@ -1,0 +1,208 @@
+.path-backup .backup_progress .backup_stage {
+  color: #a3afb7!important;
+}
+
+.path-backup .backup_progress a.backup_stage:focus,
+.path-backup .backup_progress a.backup_stage:hover {
+  color: #8696a1!important;
+}
+
+#page-backup-restore .filealiasesfailures .aliaseslist {
+  background-color: #fff;
+}
+
+.path-backup .mform .grouped_settings {
+  clear: both;
+  overflow: hidden;
+}
+
+.path-backup .mform .include_setting,
+.path-backup .mform .normal_setting {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding: .358rem;
+}
+
+.path-backup .proceedbutton {
+  float: right;
+}
+
+.path-backup .mform .grouped_settings:nth-of-type(odd),
+.path-backup .mform .root_setting:nth-of-type(odd) {
+  background-color: rgba(243, 247, 249, .3);
+}
+
+.path-backup .mform .grouped_settings:nth-of-type(even),
+.path-backup .mform .root_setting:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.path-backup .mform .grouped_settings .form-group .col-md-3.checkbox,
+.path-backup .mform .root_setting .form-group .col-md-3.checkbox {
+  width: 0;
+}
+
+.path-backup .mform .grouped_settings .form-group .col-md-9.checkbox,
+.path-backup .mform .root_setting .form-group .col-md-9.checkbox {
+  left: 0;
+  width: 100%;
+}
+
+.path-backup .mform .grouped_settings .form-group .col-md-3,
+.path-backup .mform .root_setting .form-group .col-md-3 {
+  width: 50%;
+}
+
+.path-backup .mform .grouped_settings .form-group .col-md-9,
+.path-backup .mform .root_setting .form-group .col-md-9 {
+  left: 0;
+  width: 50%;
+}
+
+.path-backup .mform .grouped_settings .form-group .icon:first-of-type,
+.path-backup .mform .root_setting .form-group .icon:first-of-type {
+  margin-left: 1rem;
+}
+
+.path-backup .detail-pair .detail-pair-label {
+  float: left;
+  clear: left;
+  width: 25%;
+}
+
+.path-backup .detail-pair .detail-pair-value {
+  float: left;
+  width: 75%;
+}
+
+.path-backup .backup-restore .singlebutton {
+  float: right;
+}
+
+.path-backup .backup-section {
+  margin-bottom: 1.429rem;
+  padding: 1.429rem;
+  border: 1px solid #e4eaec;
+  border-radius: .215rem;
+  background-color: #fff;
+}
+
+.path-backup .backup-section .backup-sub-section,
+.path-backup .backup-section .header,
+.path-backup .backup-section .singlebutton,
+.path-backup .backup-section .sub-header {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.path-backup .backup-section th.header {
+  float: none;
+  width: auto;
+}
+
+.path-backup .backup-section ::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.path-backup .backup-section::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.path-backup .notification.dependencies_enforced {
+  font-weight: 700;
+  color: #fff;
+}
+
+.path-backup .backup_progress {
+  margin-top: 1.143rem;
+  margin-bottom: 1.143rem;
+}
+
+.path-backup .backup_progress .backup_stage.backup_stage_current {
+  font-weight: 700;
+  color: inherit;
+}
+
+.path-backup .backup_progress span.backup_stage.backup_stage_complete {
+  color: inherit;
+}
+
+#page-backup-restore .filealiasesfailures {
+  background-color: #f96868;
+}
+
+.path-backup .wibbler {
+  position: relative;
+  width: 500px;
+  min-height: 4px;
+  margin: 0 auto 10px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.path-backup .wibbler .wibble {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+}
+
+.path-backup .wibbler .state0 {
+  background: #eee;
+}
+
+.path-backup .wibbler .state1 {
+  background: #ddd;
+}
+
+.path-backup .wibbler .state2 {
+  background: #ccc;
+}
+
+.path-backup .wibbler .state3 {
+  background: #bbb;
+}
+
+.path-backup .wibbler .state4 {
+  background: #aaa;
+}
+
+.path-backup .wibbler .state5 {
+  background: #999;
+}
+
+.path-backup .wibbler .state6 {
+  background: #888;
+}
+
+.path-backup .wibbler .state7 {
+  background: #777;
+}
+
+.path-backup .wibbler .state8 {
+  background: #666;
+}
+
+.path-backup .wibbler .state9 {
+  background: #555;
+}
+
+.path-backup .wibbler .state10 {
+  background: #444;
+}
+
+.path-backup .wibbler .state11 {
+  background: #333;
+}
+
+.path-backup .wibbler .state12 {
+  background: #222;
+}

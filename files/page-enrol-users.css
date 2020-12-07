@@ -1,0 +1,412 @@
+#page-enrol-users #filterform {
+  background-color: #fff;
+}
+
+#page-enrol-users #filterform {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  border-radius: .215rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+#page-enrol-users #filterform {
+  padding: 1.429rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+#page-enrol-users #filterform>.list-group:first-child .list-group-item:first-child {
+  border-top-left-radius: .215rem;
+  border-top-right-radius: .215rem;
+}
+
+#page-enrol-users #filterform>.list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: .215rem;
+  border-bottom-left-radius: .215rem;
+}
+
+@media (min-width:480px) {
+  #page-enrol-users .card-deck #filterform,
+  .card-deck #page-enrol-users #filterform {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-right: .715rem;
+    margin-left: .715rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  #page-enrol-users .card-group #filterform,
+  .card-group #page-enrol-users #filterform {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+  }
+
+  #page-enrol-users .card-group #filterform+#filterform,
+  #page-enrol-users .card-group #filterform+.card,
+  #page-enrol-users .card-group #filterform+.groupinfobox,
+  #page-enrol-users .card-group #filterform+.well,
+  #page-enrol-users .card-group .card+#filterform,
+  #page-enrol-users .card-group .groupinfobox+#filterform,
+  #page-enrol-users .card-group .que #filterform+.history,
+  #page-enrol-users .card-group .que .history+#filterform,
+  #page-enrol-users .card-group .userprofile .profile_tree #filterform+section,
+  #page-enrol-users .card-group .userprofile .profile_tree section+#filterform,
+  #page-enrol-users .card-group .well+#filterform,
+  #page-enrol-users .que .card-group .history+#filterform,
+  #page-enrol-users .userprofile .profile_tree .card-group section+#filterform,
+  .card-group #page-enrol-users #filterform+#filterform,
+  .card-group #page-enrol-users #filterform+.card,
+  .card-group #page-enrol-users #filterform+.groupinfobox,
+  .card-group #page-enrol-users #filterform+.well,
+  .card-group #page-enrol-users .card+#filterform,
+  .card-group #page-enrol-users .groupinfobox+#filterform,
+  .card-group #page-enrol-users .que #filterform+.history,
+  .card-group #page-enrol-users .userprofile .profile_tree #filterform+section,
+  .card-group #page-enrol-users .well+#filterform,
+  .card-group .que #page-enrol-users .history+#filterform,
+  .card-group .userprofile .profile_tree #page-enrol-users section+#filterform,
+  .que #page-enrol-users .card-group #filterform+.history,
+  .que .card-group #page-enrol-users #filterform+.history,
+  .que .card-group #page-enrol-users .history+#filterform,
+  .userprofile .profile_tree #page-enrol-users .card-group #filterform+section,
+  .userprofile .profile_tree .card-group #page-enrol-users #filterform+section,
+  .userprofile .profile_tree .card-group #page-enrol-users section+#filterform {
+    margin-left: 0;
+    border-left: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:first-child,
+  .card-group #page-enrol-users #filterform:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:first-child .card-img-top,
+  .card-group #page-enrol-users #filterform:first-child .card-img-top {
+    border-top-right-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:first-child .card-img-bottom,
+  .card-group #page-enrol-users #filterform:first-child .card-img-bottom {
+    border-bottom-right-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:last-child,
+  .card-group #page-enrol-users #filterform:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:last-child .card-img-top,
+  .card-group #page-enrol-users #filterform:last-child .card-img-top {
+    border-top-left-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:last-child .card-img-bottom,
+  .card-group #page-enrol-users #filterform:last-child .card-img-bottom {
+    border-bottom-left-radius: 0;
+  }
+
+  #page-enrol-users .card-group #filterform:not(:first-child):not(:last-child),
+  #page-enrol-users .card-group #filterform:not(:first-child):not(:last-child) .card-img-bottom,
+  #page-enrol-users .card-group #filterform:not(:first-child):not(:last-child) .card-img-top,
+  .card-group #page-enrol-users #filterform:not(:first-child):not(:last-child),
+  .card-group #page-enrol-users #filterform:not(:first-child):not(:last-child) .card-img-bottom,
+  .card-group #page-enrol-users #filterform:not(:first-child):not(:last-child) .card-img-top {
+    border-radius: 0;
+  }
+
+  #page-enrol-users .card-columns #filterform,
+  .card-columns #page-enrol-users #filterform {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+#page-enrol-users #filterform {
+  margin-bottom: 2.143rem;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#page-enrol-users #filterform .cover {
+  width: 100%;
+  padding: 0;
+  border-bottom: none;
+}
+
+#page-enrol-users [class*=blocks-]>li>#filterform {
+  margin-bottom: 0;
+}
+
+#page-enrol-users #filterform {
+  position: relative;
+}
+
+#page-enrol-users .card-img-left~#filterform {
+  width: 60%;
+  margin-left: 40%;
+}
+
+@media (max-width:767px) {
+  #page-enrol-users .card-img-left~#filterform {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+#page-enrol-users .card-columns #filterform,
+.card-columns #page-enrol-users #filterform {
+  margin-bottom: 2.143rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+#page-enrol-users .card-sm #filterform,
+.card-sm #page-enrol-users #filterform {
+  padding: 1.072rem;
+}
+
+#page-enrol-users .card-md #filterform,
+.card-md #page-enrol-users #filterform {
+  padding: 1.786rem;
+}
+
+#page-enrol-users .card-lg #filterform,
+.card-lg #page-enrol-users #filterform {
+  padding: 2.143rem;
+}
+
+#page-enrol-users #filterform>.list-group:not(:first-child)>.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#page-enrol-users #filterform>.list-group:not(:last-child)>.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#page-enrol-users #filterform #filterform+#filterform,
+#page-enrol-users #filterform #filterform+.card-block,
+#page-enrol-users #filterform #filterform+.well,
+#page-enrol-users #filterform .card-block+#filterform,
+#page-enrol-users #filterform .card-block+.card-block,
+#page-enrol-users #filterform .card-block+.well,
+#page-enrol-users #filterform .userprofile .profile_tree #filterform+section,
+#page-enrol-users #filterform .userprofile .profile_tree .card-block+section,
+#page-enrol-users #filterform .userprofile .profile_tree .well+section,
+#page-enrol-users #filterform .userprofile .profile_tree section+#filterform,
+#page-enrol-users #filterform .userprofile .profile_tree section+.card-block,
+#page-enrol-users #filterform .userprofile .profile_tree section+.well,
+#page-enrol-users #filterform .userprofile .profile_tree section+section,
+#page-enrol-users #filterform .well+#filterform,
+#page-enrol-users #filterform .well+.card-block,
+#page-enrol-users #filterform .well+.well,
+#page-enrol-users .card #filterform+#filterform,
+#page-enrol-users .card #filterform+.card-block,
+#page-enrol-users .card #filterform+.well,
+#page-enrol-users .card .card-block+#filterform,
+#page-enrol-users .card .userprofile .profile_tree #filterform+section,
+#page-enrol-users .card .userprofile .profile_tree section+#filterform,
+#page-enrol-users .card .well+#filterform,
+#page-enrol-users .groupinfobox #filterform+#filterform,
+#page-enrol-users .groupinfobox #filterform+.card-block,
+#page-enrol-users .groupinfobox #filterform+.well,
+#page-enrol-users .groupinfobox .card-block+#filterform,
+#page-enrol-users .groupinfobox .userprofile .profile_tree #filterform+section,
+#page-enrol-users .groupinfobox .userprofile .profile_tree section+#filterform,
+#page-enrol-users .groupinfobox .well+#filterform,
+#page-enrol-users .que .history #filterform+#filterform,
+#page-enrol-users .que .history #filterform+.card-block,
+#page-enrol-users .que .history #filterform+.well,
+#page-enrol-users .que .history .card-block+#filterform,
+#page-enrol-users .que .history .userprofile .profile_tree #filterform+section,
+#page-enrol-users .que .history .userprofile .profile_tree section+#filterform,
+#page-enrol-users .que .history .well+#filterform,
+#page-enrol-users .userprofile .profile_tree .card section+#filterform,
+#page-enrol-users .userprofile .profile_tree .groupinfobox section+#filterform,
+#page-enrol-users .userprofile .profile_tree .que .history section+#filterform,
+#page-enrol-users .userprofile .profile_tree .well section+#filterform,
+#page-enrol-users .userprofile .profile_tree section #filterform+#filterform,
+#page-enrol-users .userprofile .profile_tree section #filterform+.card-block,
+#page-enrol-users .userprofile .profile_tree section #filterform+.well,
+#page-enrol-users .userprofile .profile_tree section #filterform+section,
+#page-enrol-users .userprofile .profile_tree section .card-block+#filterform,
+#page-enrol-users .userprofile .profile_tree section .well+#filterform,
+#page-enrol-users .userprofile .profile_tree section section+#filterform,
+#page-enrol-users .well #filterform+#filterform,
+#page-enrol-users .well #filterform+.card-block,
+#page-enrol-users .well #filterform+.well,
+#page-enrol-users .well .card-block+#filterform,
+#page-enrol-users .well .userprofile .profile_tree #filterform+section,
+#page-enrol-users .well .userprofile .profile_tree section+#filterform,
+#page-enrol-users .well .well+#filterform,
+.card #page-enrol-users #filterform+#filterform,
+.card #page-enrol-users #filterform+.card-block,
+.card #page-enrol-users #filterform+.well,
+.card #page-enrol-users .card-block+#filterform,
+.card #page-enrol-users .userprofile .profile_tree #filterform+section,
+.card #page-enrol-users .well+#filterform,
+.card .userprofile .profile_tree #page-enrol-users section+#filterform,
+.groupinfobox #page-enrol-users #filterform+#filterform,
+.groupinfobox #page-enrol-users #filterform+.card-block,
+.groupinfobox #page-enrol-users #filterform+.well,
+.groupinfobox #page-enrol-users .card-block+#filterform,
+.groupinfobox #page-enrol-users .userprofile .profile_tree #filterform+section,
+.groupinfobox #page-enrol-users .well+#filterform,
+.groupinfobox .userprofile .profile_tree #page-enrol-users section+#filterform,
+.que .history #page-enrol-users #filterform+#filterform,
+.que .history #page-enrol-users #filterform+.card-block,
+.que .history #page-enrol-users #filterform+.well,
+.que .history #page-enrol-users .card-block+#filterform,
+.que .history #page-enrol-users .userprofile .profile_tree #filterform+section,
+.que .history #page-enrol-users .well+#filterform,
+.que .history .userprofile .profile_tree #page-enrol-users section+#filterform,
+.userprofile .profile_tree #page-enrol-users #filterform #filterform+section,
+.userprofile .profile_tree #page-enrol-users #filterform .card-block+section,
+.userprofile .profile_tree #page-enrol-users #filterform .well+section,
+.userprofile .profile_tree #page-enrol-users #filterform section+#filterform,
+.userprofile .profile_tree #page-enrol-users #filterform section+.card-block,
+.userprofile .profile_tree #page-enrol-users #filterform section+.well,
+.userprofile .profile_tree #page-enrol-users #filterform section+section,
+.userprofile .profile_tree #page-enrol-users .card #filterform+section,
+.userprofile .profile_tree #page-enrol-users .groupinfobox #filterform+section,
+.userprofile .profile_tree #page-enrol-users .que .history #filterform+section,
+.userprofile .profile_tree #page-enrol-users .well #filterform+section,
+.userprofile .profile_tree .card #page-enrol-users #filterform+section,
+.userprofile .profile_tree .card #page-enrol-users section+#filterform,
+.userprofile .profile_tree .groupinfobox #page-enrol-users #filterform+section,
+.userprofile .profile_tree .groupinfobox #page-enrol-users section+#filterform,
+.userprofile .profile_tree .que .history #page-enrol-users #filterform+section,
+.userprofile .profile_tree .que .history #page-enrol-users section+#filterform,
+.userprofile .profile_tree .well #page-enrol-users #filterform+section,
+.userprofile .profile_tree .well #page-enrol-users section+#filterform,
+.userprofile .profile_tree section #page-enrol-users #filterform+#filterform,
+.userprofile .profile_tree section #page-enrol-users #filterform+.card-block,
+.userprofile .profile_tree section #page-enrol-users #filterform+.well,
+.userprofile .profile_tree section #page-enrol-users #filterform+section,
+.userprofile .profile_tree section #page-enrol-users .card-block+#filterform,
+.userprofile .profile_tree section #page-enrol-users .well+#filterform,
+.userprofile .profile_tree section #page-enrol-users section+#filterform,
+.well #page-enrol-users #filterform+#filterform,
+.well #page-enrol-users #filterform+.card-block,
+.well #page-enrol-users #filterform+.well,
+.well #page-enrol-users .card-block+#filterform,
+.well #page-enrol-users .userprofile .profile_tree #filterform+section,
+.well #page-enrol-users .well+#filterform,
+.well .userprofile .profile_tree #page-enrol-users section+#filterform {
+  padding-top: 0;
+}
+
+#page-enrol-users .enrol-users-page-action input {
+  margin-left: 0;
+}
+
+#page-enrol-users .page-profile #filterform,
+.page-profile #page-enrol-users #filterform {
+  padding: 40px 15px;
+  background-color: #fff;
+}
+
+#page-enrol-users .page-profile #filterform .avatar,
+.page-profile #page-enrol-users #filterform .avatar {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+#page-enrol-users .page-gallery-grid #filterform,
+.page-gallery-grid #page-enrol-users #filterform {
+  margin-bottom: 0;
+  border: 0;
+}
+
+#page-enrol-users .page-gallery-grid #filterform,
+.page-gallery-grid #page-enrol-users #filterform {
+  height: 100%;
+  border-radius: 0;
+}
+
+#page-enrol-users #region-main>#filterform {
+  overflow-x: auto;
+  overflow-y: visible;
+  min-height: 45rem;
+}
+
+#page-enrol-users #page-message-edit #region-main>#filterform,
+#page-enrol-users #page-message-notificationpreferences #region-main>#filterform,
+#page-message-edit #page-enrol-users #region-main>#filterform,
+#page-message-notificationpreferences #page-enrol-users #region-main>#filterform {
+  overflow-x: visible;
+}
+
+#page-enrol-users .enrol_user_buttons {
+  text-align: right;
+}
+
+@media only screen and (max-device-width:768px) {
+  #page-enrol-users #welcome-section>h5+#filterform {
+    padding: 20px 20px 0!important;
+  }
+}
+
+@media (min-width:760px) {
+  #page-enrol-users .listview div#filterform,
+  .listview #page-enrol-users div#filterform {
+    flex-direction: row!important;
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: row!important;
+    -ms-flex-direction: row!important;
+  }
+
+  #page-enrol-users .listview div#filterform>a,
+  .listview #page-enrol-users div#filterform>a {
+    width: 30%!important;
+  }
+
+  #page-enrol-users .listview .que div.history div#filterform,
+  #page-enrol-users .listview div#filterform div#filterform,
+  #page-enrol-users .listview div#filterform div.card-block,
+  #page-enrol-users .listview div#filterform div.well,
+  #page-enrol-users .listview div.card div#filterform,
+  #page-enrol-users .listview div.groupinfobox div#filterform,
+  #page-enrol-users .listview div.well div#filterform,
+  #page-enrol-users .que .listview div.history div#filterform,
+  .listview #page-enrol-users div#filterform div#filterform,
+  .listview #page-enrol-users div#filterform div.card-block,
+  .listview #page-enrol-users div#filterform div.well,
+  .listview .que div.history #page-enrol-users div#filterform,
+  .listview div.card #page-enrol-users div#filterform,
+  .listview div.groupinfobox #page-enrol-users div#filterform,
+  .listview div.well #page-enrol-users div#filterform,
+  .que .listview div.history #page-enrol-users div#filterform {
+    width: 70%!important;
+  }
+}
+
+#page-enrol-users .popover {
+  max-width: none;
+}

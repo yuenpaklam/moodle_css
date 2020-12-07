@@ -1,0 +1,1719 @@
+#page-admin-report-log-index .generaltable td,
+#page-admin-report-log-index .generaltable th,
+#page-admin-user table td,
+#page-admin-user table th,
+.environmenttable td,
+.environmenttable th {
+  padding: .358rem;
+}
+
+#page-admin-course-index .editcourse tbody tr:nth-of-type(odd) {
+  background-color: rgba(243, 247, 249, .3);
+}
+
+#page-admin-course-index .table-inverse.editcourse tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, .05);
+}
+
+#adminsettings .form-overridden {
+  margin-top: .286rem;
+}
+
+#page-admin-mnet-peers .mform .deletedhostinfo {
+  padding-right: 3rem;
+  background-repeat: no-repeat;
+  background-position: center right .64325rem;
+  -webkit-background-size: 1.2865rem 1.2865rem;
+  background-size: 1.2865rem 1.2865rem;
+}
+
+#page-admin-mnet-peers .mform .has-danger .deletedhostinfo,
+.has-danger #page-admin-mnet-peers .mform .deletedhostinfo {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23f96868\' viewBox=\'-2 -2 7 7\'%3E%3Cpath stroke=\'%23d9534f\' d=\'M0 0l3 3m0-3L0 3\'/%3E%3Ccircle r=\'.5\'/%3E%3Ccircle cx=\'3\' r=\'.5\'/%3E%3Ccircle cy=\'3\' r=\'.5\'/%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'.5\'/%3E%3C/svg%3E");
+}
+
+@media (min-width:480px) {
+  #adminsettings .form-inline .has-feedback .form-overridden,
+  .form-inline .has-feedback #adminsettings .form-overridden {
+    top: 0;
+  }
+}
+
+#page-admin-report-backups-index .backup-notyetrun,
+#page-admin-report-backups-index .backup-ok,
+#page-admin-report-backups-index .backup-skipped {
+  background-color: #46be8a;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity200 .info.release {
+  background-color: #57c7d4;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity100 .info.release,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity150 .info.release,
+#page-admin-index .updateplugin .updatepluginconfirmexternal,
+#page-admin-report-backups-index .backup-warning {
+  background-color: #f2a654;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity50 .info.release,
+#page-admin-report-backups-index .backup-error,
+#page-admin-report-backups-index .backup-unfinished {
+  background-color: #f96868;
+}
+
+#page-admin-index .adminerror,
+#page-admin-index .adminwarning,
+#page-admin-index .releasenoteslink {
+  margin-bottom: 1.143rem;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: .215rem;
+}
+
+#adminsettings .form-overridden,
+#page-admin-index .releasenoteslink {
+  color: #57c7d4;
+  border-color: #ecf9fa;
+  background-color: rgba(236, 249, 250, .8);
+}
+
+#adminsettings .form-overridden .close,
+#adminsettings .form-overridden .moodle-dialogue-base .closebutton,
+#page-admin-index .releasenoteslink .close,
+#page-admin-index .releasenoteslink .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #adminsettings .form-overridden .closebutton,
+.moodle-dialogue-base #page-admin-index .releasenoteslink .closebutton {
+  color: #57c7d4;
+}
+
+#adminsettings .form-overridden .close:focus,
+#adminsettings .form-overridden .close:hover,
+#adminsettings .form-overridden .moodle-dialogue-base .closebutton:focus,
+#adminsettings .form-overridden .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .releasenoteslink .close:focus,
+#page-admin-index .releasenoteslink .close:hover,
+#page-admin-index .releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .releasenoteslink .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #adminsettings .form-overridden .closebutton:focus,
+.moodle-dialogue-base #adminsettings .form-overridden .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .releasenoteslink .closebutton:hover {
+  color: #57c7d4;
+}
+
+#page-admin-index .adminwarning {
+  color: #f2a654;
+  border-color: #fff3e6;
+  background-color: rgba(255, 243, 230, .8);
+}
+
+#page-admin-index .adminwarning .close,
+#page-admin-index .adminwarning .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .adminwarning .closebutton {
+  color: #f2a654;
+}
+
+#page-admin-index .adminwarning .close:focus,
+#page-admin-index .adminwarning .close:hover,
+#page-admin-index .adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .adminwarning .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .adminwarning .closebutton:hover {
+  color: #f2a654;
+}
+
+#page-admin-index .adminerror {
+  color: #f96868;
+  border-color: #ffeaea;
+  background-color: rgba(255, 234, 234, .8);
+}
+
+#page-admin-index .adminerror .close,
+#page-admin-index .adminerror .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .adminerror .closebutton {
+  color: #f96868;
+}
+
+#page-admin-index .adminerror .close:focus,
+#page-admin-index .adminerror .close:hover,
+#page-admin-index .adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .adminerror .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .adminerror .closebutton:hover {
+  color: #f96868;
+}
+
+#page-admin-plugins #plugins-control-panel .notes .requiredby,
+#page-admin-plugins #plugins-control-panel .pluginname .componentname,
+#page-admin-plugins #plugins-control-panel .version .versionnumber,
+#page-admin-qbehaviours .disabled,
+#page-admin-qtypes .disabled,
+#plugins-check-page #plugins-check .displayname .plugindir,
+#plugins-check-page #plugins-check .requires-ok,
+#plugins-check-page #plugins-check-available-dependencies .displayname .component,
+#plugins-check-page .page-description {
+  color: #a3afb7!important;
+}
+
+#page-admin-plugins #plugins-control-panel .notes a.requiredby:focus,
+#page-admin-plugins #plugins-control-panel .notes a.requiredby:hover,
+#page-admin-plugins #plugins-control-panel .pluginname a.componentname:focus,
+#page-admin-plugins #plugins-control-panel .pluginname a.componentname:hover,
+#page-admin-plugins #plugins-control-panel .version a.versionnumber:focus,
+#page-admin-plugins #plugins-control-panel .version a.versionnumber:hover,
+#page-admin-qbehaviours a.disabled:focus,
+#page-admin-qbehaviours a.disabled:hover,
+#page-admin-qtypes a.disabled:focus,
+#page-admin-qtypes a.disabled:hover,
+#plugins-check-page #plugins-check .displayname a.plugindir:focus,
+#plugins-check-page #plugins-check .displayname a.plugindir:hover,
+#plugins-check-page #plugins-check a.requires-ok:focus,
+#plugins-check-page #plugins-check a.requires-ok:hover,
+#plugins-check-page #plugins-check-available-dependencies .displayname a.component:focus,
+#plugins-check-page #plugins-check-available-dependencies .displayname a.component:hover,
+#plugins-check-page a.page-description:focus,
+#plugins-check-page a.page-description:hover {
+  color: #8696a1!important;
+}
+
+#adminsettings .has-success .form-overridden,
+.has-success #adminsettings .form-overridden {
+  color: #46be8a;
+}
+
+#adminsettings .has-warning .form-overridden,
+.has-warning #adminsettings .form-overridden {
+  color: #f2a654;
+}
+
+#adminsettings .has-danger .form-overridden,
+.has-danger #adminsettings .form-overridden {
+  color: #f96868;
+}
+
+#adminsettings .form-group.has-feedback.no-label .form-overridden,
+.form-group.has-feedback.no-label #adminsettings .form-overridden {
+  top: 0;
+}
+
+#adminsettings .form-group.has-feedback.left-feedback .form-overridden,
+.form-group.has-feedback.left-feedback #adminsettings .form-overridden {
+  right: auto;
+  left: 0;
+}
+
+#page-admin-report-backups-index [href].backup-notyetrun:focus,
+#page-admin-report-backups-index [href].backup-notyetrun:hover,
+#page-admin-report-backups-index [href].backup-ok:focus,
+#page-admin-report-backups-index [href].backup-ok:hover,
+#page-admin-report-backups-index [href].backup-skipped:focus,
+#page-admin-report-backups-index [href].backup-skipped:hover {
+  background-color: #5cd29d;
+}
+
+#page-admin-report-backups-index .badge-outline.backup-notyetrun,
+#page-admin-report-backups-index .badge-outline.backup-ok,
+#page-admin-report-backups-index .badge-outline.backup-skipped {
+  color: #46be8a;
+  border-color: #46be8a;
+  background-color: transparent;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity200 [href].info.release:focus,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity200 [href].info.release:hover {
+  background-color: #77d6e1;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity200 .badge-outline.info.release {
+  color: #57c7d4;
+  border-color: #57c7d4;
+  background-color: transparent;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity100 [href].info.release:focus,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity100 [href].info.release:hover,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity150 [href].info.release:focus,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity150 [href].info.release:hover,
+#page-admin-index .updateplugin [href].updatepluginconfirmexternal:focus,
+#page-admin-index .updateplugin [href].updatepluginconfirmexternal:hover,
+#page-admin-report-backups-index [href].backup-warning:focus,
+#page-admin-report-backups-index [href].backup-warning:hover {
+  background-color: #f4b066;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity100 .badge-outline.info.release,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity150 .badge-outline.info.release,
+#page-admin-index .updateplugin .badge-outline.updatepluginconfirmexternal,
+#page-admin-report-backups-index .badge-outline.backup-warning {
+  color: #f2a654;
+  border-color: #f2a654;
+  background-color: transparent;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity50 [href].info.release:focus,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity50 [href].info.release:hover,
+#page-admin-report-backups-index [href].backup-error:focus,
+#page-admin-report-backups-index [href].backup-error:hover,
+#page-admin-report-backups-index [href].backup-unfinished:focus,
+#page-admin-report-backups-index [href].backup-unfinished:hover {
+  background-color: #fa7a7a;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo.maturity50 .badge-outline.info.release,
+#page-admin-report-backups-index .badge-outline.backup-error,
+#page-admin-report-backups-index .badge-outline.backup-unfinished {
+  color: #f96868;
+  border-color: #f96868;
+  background-color: transparent;
+}
+
+#page-admin-index .adminerror,
+#page-admin-index .adminwarning,
+#page-admin-index .releasenoteslink {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#page-admin-index .adminerror ul,
+#page-admin-index .adminwarning ul,
+#page-admin-index .releasenoteslink ul {
+  padding-left: 13px;
+}
+
+#page-admin-index .adminerror ul li,
+#page-admin-index .adminwarning ul li,
+#page-admin-index .releasenoteslink ul li {
+  padding-left: 7px;
+}
+
+#page-admin-index .panel>.adminerror,
+#page-admin-index .panel>.adminwarning,
+#page-admin-index .panel>.releasenoteslink {
+  margin: 0;
+}
+
+#page-admin-index .adminerror h4,
+#page-admin-index .adminwarning h4,
+#page-admin-index .releasenoteslink h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+#page-admin-index .adminerror>:last-child,
+#page-admin-index .adminwarning>:last-child,
+#page-admin-index .releasenoteslink>:last-child {
+  margin-bottom: 0;
+}
+
+#page-admin-index .page-alert .alert-wrap .adminerror,
+#page-admin-index .page-alert .alert-wrap .adminwarning,
+#page-admin-index .page-alert .alert-wrap .releasenoteslink,
+.page-alert .alert-wrap #page-admin-index .adminerror,
+.page-alert .alert-wrap #page-admin-index .adminwarning,
+.page-alert .alert-wrap #page-admin-index .releasenoteslink {
+  margin: 0;
+  text-align: left;
+  border-radius: 0;
+}
+
+#adminsettings .form-overridden .alert-link,
+#page-admin-index .releasenoteslink .alert-link {
+  color: #47b8c6;
+}
+
+#adminsettings .alert-alt.form-overridden,
+#page-admin-index .alert-alt.releasenoteslink {
+  border-color: #57c7d4;
+}
+
+#adminsettings .alert-alt.form-overridden .alert-link,
+#adminsettings .alert-alt.form-overridden a,
+#page-admin-index .alert-alt.releasenoteslink .alert-link,
+#page-admin-index .alert-alt.releasenoteslink a {
+  color: #57c7d4;
+}
+
+#page-admin-index .adminwarning .alert-link {
+  color: #ec9940;
+}
+
+#page-admin-index .alert-alt.adminwarning {
+  border-color: #f2a654;
+}
+
+#page-admin-index .alert-alt.adminwarning .alert-link,
+#page-admin-index .alert-alt.adminwarning a {
+  color: #f2a654;
+}
+
+#page-admin-index .adminerror .alert-link {
+  color: #e9595b;
+}
+
+#page-admin-index .alert-alt.adminerror {
+  border-color: #f96868;
+}
+
+#page-admin-index .alert-alt.adminerror .alert-link,
+#page-admin-index .alert-alt.adminerror a {
+  color: #f96868;
+}
+
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .close,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .close,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .close,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .closebutton {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .close:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .close:hover,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .close:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .close:hover,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .close:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .close:hover,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-dismissible.alert-alt.releasenoteslink .closebutton:hover {
+  color: #fff;
+}
+
+#page-admin-index .dark.adminerror .alert-link,
+#page-admin-index .dark.adminwarning .alert-link,
+#page-admin-index .dark.releasenoteslink .alert-link {
+  font-weight: 700;
+  color: #fff!important;
+}
+
+#page-admin-index .dark.adminerror .alert-left-border,
+#page-admin-index .dark.adminwarning .alert-left-border,
+#page-admin-index .dark.releasenoteslink .alert-left-border {
+  border: 0;
+  border-left: 3px solid transparent;
+}
+
+#page-admin-index .dark.alert-primary.adminerror,
+#page-admin-index .dark.alert-primary.adminwarning,
+#page-admin-index .dark.alert-primary.releasenoteslink {
+  color: #fff;
+  border-color: #62a8ea;
+  background-color: #62a8ea;
+}
+
+#page-admin-index .dark.alert-primary.adminerror .close,
+#page-admin-index .dark.alert-primary.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-primary.adminwarning .close,
+#page-admin-index .dark.alert-primary.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-primary.releasenoteslink .close,
+#page-admin-index .dark.alert-primary.releasenoteslink .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.releasenoteslink .closebutton {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-primary.adminerror .close:focus,
+#page-admin-index .dark.alert-primary.adminerror .close:hover,
+#page-admin-index .dark.alert-primary.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-primary.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-primary.adminwarning .close:focus,
+#page-admin-index .dark.alert-primary.adminwarning .close:hover,
+#page-admin-index .dark.alert-primary.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-primary.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-primary.releasenoteslink .close:focus,
+#page-admin-index .dark.alert-primary.releasenoteslink .close:hover,
+#page-admin-index .dark.alert-primary.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-primary.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-primary.releasenoteslink .closebutton:hover {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-primary.alert-alt.adminerror,
+#page-admin-index .dark.alert-primary.alert-alt.adminwarning,
+#page-admin-index .dark.alert-primary.alert-alt.releasenoteslink {
+  border-color: #2771b4;
+}
+
+#page-admin-index .dark.alert-success.adminerror,
+#page-admin-index .dark.alert-success.adminwarning,
+#page-admin-index .dark.alert-success.releasenoteslink,
+#page-admin-index .que .dark.adminwarning.comment,
+.que #page-admin-index .dark.adminwarning.comment {
+  color: #fff;
+  border-color: #46be8a;
+  background-color: #46be8a;
+}
+
+#page-admin-index .dark.alert-primary.alert-alt.adminerror .alert-link,
+#page-admin-index .dark.alert-primary.alert-alt.adminerror a,
+#page-admin-index .dark.alert-primary.alert-alt.adminwarning .alert-link,
+#page-admin-index .dark.alert-primary.alert-alt.adminwarning a,
+#page-admin-index .dark.alert-primary.alert-alt.releasenoteslink .alert-link,
+#page-admin-index .dark.alert-primary.alert-alt.releasenoteslink a,
+#page-admin-index .dark.alert-success.adminerror .close,
+#page-admin-index .dark.alert-success.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-success.adminwarning .close,
+#page-admin-index .dark.alert-success.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-success.releasenoteslink .close,
+#page-admin-index .dark.alert-success.releasenoteslink .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.adminwarning.comment .close,
+#page-admin-index .que .dark.adminwarning.comment .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.releasenoteslink .closebutton,
+.moodle-dialogue-base #page-admin-index .que .dark.adminwarning.comment .closebutton,
+.moodle-dialogue-base .que #page-admin-index .dark.adminwarning.comment .closebutton,
+.que #page-admin-index .dark.adminwarning.comment .close,
+.que #page-admin-index .dark.adminwarning.comment .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-success.adminerror .close:focus,
+#page-admin-index .dark.alert-success.adminerror .close:hover,
+#page-admin-index .dark.alert-success.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-success.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-success.adminwarning .close:focus,
+#page-admin-index .dark.alert-success.adminwarning .close:hover,
+#page-admin-index .dark.alert-success.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-success.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-success.releasenoteslink .close:focus,
+#page-admin-index .dark.alert-success.releasenoteslink .close:hover,
+#page-admin-index .dark.alert-success.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-success.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .que .dark.adminwarning.comment .close:focus,
+#page-admin-index .que .dark.adminwarning.comment .close:hover,
+#page-admin-index .que .dark.adminwarning.comment .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .que .dark.adminwarning.comment .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-success.releasenoteslink .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .que .dark.adminwarning.comment .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .que .dark.adminwarning.comment .closebutton:hover,
+.moodle-dialogue-base .que #page-admin-index .dark.adminwarning.comment .closebutton:focus,
+.moodle-dialogue-base .que #page-admin-index .dark.adminwarning.comment .closebutton:hover,
+.que #page-admin-index .dark.adminwarning.comment .close:focus,
+.que #page-admin-index .dark.adminwarning.comment .close:hover,
+.que #page-admin-index .dark.adminwarning.comment .moodle-dialogue-base .closebutton:focus,
+.que #page-admin-index .dark.adminwarning.comment .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-success.alert-alt.adminerror,
+#page-admin-index .dark.alert-success.alert-alt.adminwarning,
+#page-admin-index .dark.alert-success.alert-alt.releasenoteslink,
+#page-admin-index .que .dark.alert-alt.adminwarning.comment,
+.que #page-admin-index .dark.alert-alt.adminwarning.comment {
+  border-color: #247151;
+}
+
+#adminsettings #page-admin-index .dark.adminerror.form-overridden,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden,
+#adminsettings .alert.dark.form-overridden,
+#adminsettings .que .dark.form-overridden.comment,
+#adminsettings .que .dark.form-overridden.outcome,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden,
+#page-admin-index .dark.alert-info.adminerror,
+#page-admin-index .dark.alert-info.adminwarning,
+#page-admin-index .dark.releasenoteslink,
+.que #adminsettings .dark.form-overridden.comment,
+.que #adminsettings .dark.form-overridden.outcome {
+  color: #fff;
+  border-color: #57c7d4;
+  background-color: #57c7d4;
+}
+
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .close,
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .close,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton,
+#adminsettings .alert.dark.form-overridden .close,
+#adminsettings .alert.dark.form-overridden .moodle-dialogue-base .closebutton,
+#adminsettings .que .dark.form-overridden.comment .close,
+#adminsettings .que .dark.form-overridden.comment .moodle-dialogue-base .closebutton,
+#adminsettings .que .dark.form-overridden.outcome .close,
+#adminsettings .que .dark.form-overridden.outcome .moodle-dialogue-base .closebutton,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .close,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .close,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-info.adminerror .close,
+#page-admin-index .dark.alert-info.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-info.adminwarning .close,
+#page-admin-index .dark.alert-info.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-success.alert-alt.adminerror .alert-link,
+#page-admin-index .dark.alert-success.alert-alt.adminerror a,
+#page-admin-index .dark.alert-success.alert-alt.adminwarning .alert-link,
+#page-admin-index .dark.alert-success.alert-alt.adminwarning a,
+#page-admin-index .dark.alert-success.alert-alt.releasenoteslink .alert-link,
+#page-admin-index .dark.alert-success.alert-alt.releasenoteslink a,
+#page-admin-index .dark.releasenoteslink .close,
+#page-admin-index .dark.releasenoteslink .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.alert-alt.adminwarning.comment .alert-link,
+#page-admin-index .que .dark.alert-alt.adminwarning.comment a,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminerror.form-overridden .closebutton,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminwarning.form-overridden .closebutton,
+.moodle-dialogue-base #adminsettings .alert.dark.form-overridden .closebutton,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.comment .closebutton,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.outcome .closebutton,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminerror.form-overridden .closebutton,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminwarning.form-overridden .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink .closebutton,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.comment .closebutton,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.outcome .closebutton,
+.que #adminsettings .dark.form-overridden.comment .close,
+.que #adminsettings .dark.form-overridden.comment .moodle-dialogue-base .closebutton,
+.que #adminsettings .dark.form-overridden.outcome .close,
+.que #adminsettings .dark.form-overridden.outcome .moodle-dialogue-base .closebutton,
+.que #page-admin-index .dark.alert-alt.adminwarning.comment .alert-link,
+.que #page-admin-index .dark.alert-alt.adminwarning.comment a {
+  color: #fff;
+}
+
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .close:focus,
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .close:hover,
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton:focus,
+#adminsettings #page-admin-index .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton:hover,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .close:focus,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .close:hover,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton:focus,
+#adminsettings #page-admin-index .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton:hover,
+#adminsettings .alert.dark.form-overridden .close:focus,
+#adminsettings .alert.dark.form-overridden .close:hover,
+#adminsettings .alert.dark.form-overridden .moodle-dialogue-base .closebutton:focus,
+#adminsettings .alert.dark.form-overridden .moodle-dialogue-base .closebutton:hover,
+#adminsettings .que .dark.form-overridden.comment .close:focus,
+#adminsettings .que .dark.form-overridden.comment .close:hover,
+#adminsettings .que .dark.form-overridden.comment .moodle-dialogue-base .closebutton:focus,
+#adminsettings .que .dark.form-overridden.comment .moodle-dialogue-base .closebutton:hover,
+#adminsettings .que .dark.form-overridden.outcome .close:focus,
+#adminsettings .que .dark.form-overridden.outcome .close:hover,
+#adminsettings .que .dark.form-overridden.outcome .moodle-dialogue-base .closebutton:focus,
+#adminsettings .que .dark.form-overridden.outcome .moodle-dialogue-base .closebutton:hover,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .close:focus,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .close:hover,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton:focus,
+#page-admin-index #adminsettings .dark.adminerror.form-overridden .moodle-dialogue-base .closebutton:hover,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .close:focus,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .close:hover,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton:focus,
+#page-admin-index #adminsettings .dark.adminwarning.form-overridden .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-info.adminerror .close:focus,
+#page-admin-index .dark.alert-info.adminerror .close:hover,
+#page-admin-index .dark.alert-info.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-info.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-info.adminwarning .close:focus,
+#page-admin-index .dark.alert-info.adminwarning .close:hover,
+#page-admin-index .dark.alert-info.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-info.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.releasenoteslink .close:focus,
+#page-admin-index .dark.releasenoteslink .close:hover,
+#page-admin-index .dark.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminerror.form-overridden .closebutton:focus,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminerror.form-overridden .closebutton:hover,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminwarning.form-overridden .closebutton:focus,
+.moodle-dialogue-base #adminsettings #page-admin-index .dark.adminwarning.form-overridden .closebutton:hover,
+.moodle-dialogue-base #adminsettings .alert.dark.form-overridden .closebutton:focus,
+.moodle-dialogue-base #adminsettings .alert.dark.form-overridden .closebutton:hover,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.comment .closebutton:focus,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.comment .closebutton:hover,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.outcome .closebutton:focus,
+.moodle-dialogue-base #adminsettings .que .dark.form-overridden.outcome .closebutton:hover,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminerror.form-overridden .closebutton:focus,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminerror.form-overridden .closebutton:hover,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminwarning.form-overridden .closebutton:focus,
+.moodle-dialogue-base #page-admin-index #adminsettings .dark.adminwarning.form-overridden .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-info.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink .closebutton:hover,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.comment .closebutton:focus,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.comment .closebutton:hover,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.outcome .closebutton:focus,
+.moodle-dialogue-base .que #adminsettings .dark.form-overridden.outcome .closebutton:hover,
+.que #adminsettings .dark.form-overridden.comment .close:focus,
+.que #adminsettings .dark.form-overridden.comment .close:hover,
+.que #adminsettings .dark.form-overridden.comment .moodle-dialogue-base .closebutton:focus,
+.que #adminsettings .dark.form-overridden.comment .moodle-dialogue-base .closebutton:hover,
+.que #adminsettings .dark.form-overridden.outcome .close:focus,
+.que #adminsettings .dark.form-overridden.outcome .close:hover,
+.que #adminsettings .dark.form-overridden.outcome .moodle-dialogue-base .closebutton:focus,
+.que #adminsettings .dark.form-overridden.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+#adminsettings #page-admin-index .dark.alert-alt.adminerror.form-overridden,
+#adminsettings #page-admin-index .dark.alert-alt.adminwarning.form-overridden,
+#adminsettings .alert.dark.alert-alt.form-overridden,
+#adminsettings .que .dark.alert-alt.form-overridden.comment,
+#adminsettings .que .dark.alert-alt.form-overridden.outcome,
+#page-admin-index #adminsettings .dark.alert-alt.adminerror.form-overridden,
+#page-admin-index #adminsettings .dark.alert-alt.adminwarning.form-overridden,
+#page-admin-index .dark.alert-alt.releasenoteslink,
+#page-admin-index .dark.alert-info.alert-alt.adminerror,
+#page-admin-index .dark.alert-info.alert-alt.adminwarning,
+.que #adminsettings .dark.alert-alt.form-overridden.comment,
+.que #adminsettings .dark.alert-alt.form-overridden.outcome {
+  border-color: #2e8893;
+}
+
+#adminsettings #page-admin-index .dark.alert-alt.adminerror.form-overridden .alert-link,
+#adminsettings #page-admin-index .dark.alert-alt.adminerror.form-overridden a,
+#adminsettings #page-admin-index .dark.alert-alt.adminwarning.form-overridden .alert-link,
+#adminsettings #page-admin-index .dark.alert-alt.adminwarning.form-overridden a,
+#adminsettings .alert.dark.alert-alt.form-overridden .alert-link,
+#adminsettings .alert.dark.alert-alt.form-overridden a,
+#adminsettings .que .dark.alert-alt.form-overridden.comment .alert-link,
+#adminsettings .que .dark.alert-alt.form-overridden.comment a,
+#adminsettings .que .dark.alert-alt.form-overridden.outcome .alert-link,
+#adminsettings .que .dark.alert-alt.form-overridden.outcome a,
+#page-admin-index #adminsettings .dark.alert-alt.adminerror.form-overridden .alert-link,
+#page-admin-index #adminsettings .dark.alert-alt.adminerror.form-overridden a,
+#page-admin-index #adminsettings .dark.alert-alt.adminwarning.form-overridden .alert-link,
+#page-admin-index #adminsettings .dark.alert-alt.adminwarning.form-overridden a,
+#page-admin-index .dark.alert-alt.releasenoteslink .alert-link,
+#page-admin-index .dark.alert-alt.releasenoteslink a,
+#page-admin-index .dark.alert-info.alert-alt.adminerror .alert-link,
+#page-admin-index .dark.alert-info.alert-alt.adminerror a,
+#page-admin-index .dark.alert-info.alert-alt.adminwarning .alert-link,
+#page-admin-index .dark.alert-info.alert-alt.adminwarning a,
+.que #adminsettings .dark.alert-alt.form-overridden.comment .alert-link,
+.que #adminsettings .dark.alert-alt.form-overridden.comment a,
+.que #adminsettings .dark.alert-alt.form-overridden.outcome .alert-link,
+.que #adminsettings .dark.alert-alt.form-overridden.outcome a {
+  color: #fff;
+}
+
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal,
+#page-admin-index .dark.adminwarning,
+#page-admin-index .dark.alert-warning.adminerror,
+#page-admin-index .dark.alert-warning.releasenoteslink,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal,
+#page-admin-index .que .dark.adminerror.comment,
+#page-admin-index .que .dark.adminerror.outcome,
+#page-admin-index .que .dark.releasenoteslink.comment,
+#page-admin-index .que .dark.releasenoteslink.outcome,
+.que #page-admin-index .dark.adminerror.comment,
+.que #page-admin-index .dark.adminerror.outcome,
+.que #page-admin-index .dark.releasenoteslink.comment,
+.que #page-admin-index .dark.releasenoteslink.outcome {
+  color: #fff;
+  border-color: #f2a654;
+  background-color: #f2a654;
+}
+
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .close,
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.adminwarning .close,
+#page-admin-index .dark.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-warning.adminerror .close,
+#page-admin-index .dark.alert-warning.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-warning.releasenoteslink .close,
+#page-admin-index .dark.alert-warning.releasenoteslink .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .close,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.adminerror.comment .close,
+#page-admin-index .que .dark.adminerror.comment .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.adminerror.outcome .close,
+#page-admin-index .que .dark.adminerror.outcome .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.releasenoteslink.comment .close,
+#page-admin-index .que .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton,
+#page-admin-index .que .dark.releasenoteslink.outcome .close,
+#page-admin-index .que .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.releasenoteslink .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .closebutton,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.comment .closebutton,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.outcome .closebutton,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.comment .closebutton,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.outcome .closebutton,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.comment .closebutton,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.outcome .closebutton,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.comment .closebutton,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.outcome .closebutton,
+.que #page-admin-index .dark.adminerror.comment .close,
+.que #page-admin-index .dark.adminerror.comment .moodle-dialogue-base .closebutton,
+.que #page-admin-index .dark.adminerror.outcome .close,
+.que #page-admin-index .dark.adminerror.outcome .moodle-dialogue-base .closebutton,
+.que #page-admin-index .dark.releasenoteslink.comment .close,
+.que #page-admin-index .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton,
+.que #page-admin-index .dark.releasenoteslink.outcome .close,
+.que #page-admin-index .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton {
+  color: #fff;
+}
+
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .close:focus,
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .close:hover,
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.adminwarning .close:focus,
+#page-admin-index .dark.adminwarning .close:hover,
+#page-admin-index .dark.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-warning.adminerror .close:focus,
+#page-admin-index .dark.alert-warning.adminerror .close:hover,
+#page-admin-index .dark.alert-warning.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-warning.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-warning.releasenoteslink .close:focus,
+#page-admin-index .dark.alert-warning.releasenoteslink .close:hover,
+#page-admin-index .dark.alert-warning.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-warning.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .close:focus,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .close:hover,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .que .dark.adminerror.comment .close:focus,
+#page-admin-index .que .dark.adminerror.comment .close:hover,
+#page-admin-index .que .dark.adminerror.comment .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .que .dark.adminerror.comment .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .que .dark.adminerror.outcome .close:focus,
+#page-admin-index .que .dark.adminerror.outcome .close:hover,
+#page-admin-index .que .dark.adminerror.outcome .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .que .dark.adminerror.outcome .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .que .dark.releasenoteslink.comment .close:focus,
+#page-admin-index .que .dark.releasenoteslink.comment .close:hover,
+#page-admin-index .que .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .que .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .que .dark.releasenoteslink.outcome .close:focus,
+#page-admin-index .que .dark.releasenoteslink.outcome .close:hover,
+#page-admin-index .que .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .que .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.adminerror.uninstalldeleteconfirmexternal .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-warning.releasenoteslink .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.releasenoteslink.uninstalldeleteconfirmexternal .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.comment .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.comment .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.outcome .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .que .dark.adminerror.outcome .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.comment .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.comment .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.outcome .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .que .dark.releasenoteslink.outcome .closebutton:hover,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.comment .closebutton:focus,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.comment .closebutton:hover,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.outcome .closebutton:focus,
+.moodle-dialogue-base .que #page-admin-index .dark.adminerror.outcome .closebutton:hover,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.comment .closebutton:focus,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.comment .closebutton:hover,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.outcome .closebutton:focus,
+.moodle-dialogue-base .que #page-admin-index .dark.releasenoteslink.outcome .closebutton:hover,
+.que #page-admin-index .dark.adminerror.comment .close:focus,
+.que #page-admin-index .dark.adminerror.comment .close:hover,
+.que #page-admin-index .dark.adminerror.comment .moodle-dialogue-base .closebutton:focus,
+.que #page-admin-index .dark.adminerror.comment .moodle-dialogue-base .closebutton:hover,
+.que #page-admin-index .dark.adminerror.outcome .close:focus,
+.que #page-admin-index .dark.adminerror.outcome .close:hover,
+.que #page-admin-index .dark.adminerror.outcome .moodle-dialogue-base .closebutton:focus,
+.que #page-admin-index .dark.adminerror.outcome .moodle-dialogue-base .closebutton:hover,
+.que #page-admin-index .dark.releasenoteslink.comment .close:focus,
+.que #page-admin-index .dark.releasenoteslink.comment .close:hover,
+.que #page-admin-index .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton:focus,
+.que #page-admin-index .dark.releasenoteslink.comment .moodle-dialogue-base .closebutton:hover,
+.que #page-admin-index .dark.releasenoteslink.outcome .close:focus,
+.que #page-admin-index .dark.releasenoteslink.outcome .close:hover,
+.que #page-admin-index .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton:focus,
+.que #page-admin-index .dark.releasenoteslink.outcome .moodle-dialogue-base .closebutton:hover {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-alt.adminerror.uninstalldeleteconfirmexternal,
+#page-admin-index .dark.alert-alt.adminwarning,
+#page-admin-index .dark.alert-alt.releasenoteslink.uninstalldeleteconfirmexternal,
+#page-admin-index .dark.alert-warning.alert-alt.adminerror,
+#page-admin-index .dark.alert-warning.alert-alt.releasenoteslink,
+#page-admin-index .que .dark.alert-alt.adminerror.comment,
+#page-admin-index .que .dark.alert-alt.adminerror.outcome,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.comment,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.outcome,
+.que #page-admin-index .dark.alert-alt.adminerror.comment,
+.que #page-admin-index .dark.alert-alt.adminerror.outcome,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.comment,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.outcome {
+  border-color: #cb7314;
+}
+
+#page-admin-index .dark.adminerror,
+#page-admin-index .dark.alert-danger.adminwarning,
+#page-admin-index .dark.alert-danger.releasenoteslink {
+  color: #fff;
+  border-color: #f96868;
+  background-color: #f96868;
+}
+
+#page-admin-index .dark.adminerror .close,
+#page-admin-index .dark.adminerror .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-alt.adminerror.uninstalldeleteconfirmexternal .alert-link,
+#page-admin-index .dark.alert-alt.adminerror.uninstalldeleteconfirmexternal a,
+#page-admin-index .dark.alert-alt.adminwarning .alert-link,
+#page-admin-index .dark.alert-alt.adminwarning a,
+#page-admin-index .dark.alert-alt.releasenoteslink.uninstalldeleteconfirmexternal .alert-link,
+#page-admin-index .dark.alert-alt.releasenoteslink.uninstalldeleteconfirmexternal a,
+#page-admin-index .dark.alert-danger.adminwarning .close,
+#page-admin-index .dark.alert-danger.adminwarning .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-danger.releasenoteslink .close,
+#page-admin-index .dark.alert-danger.releasenoteslink .moodle-dialogue-base .closebutton,
+#page-admin-index .dark.alert-warning.alert-alt.adminerror .alert-link,
+#page-admin-index .dark.alert-warning.alert-alt.adminerror a,
+#page-admin-index .dark.alert-warning.alert-alt.releasenoteslink .alert-link,
+#page-admin-index .dark.alert-warning.alert-alt.releasenoteslink a,
+#page-admin-index .que .dark.alert-alt.adminerror.comment .alert-link,
+#page-admin-index .que .dark.alert-alt.adminerror.comment a,
+#page-admin-index .que .dark.alert-alt.adminerror.outcome .alert-link,
+#page-admin-index .que .dark.alert-alt.adminerror.outcome a,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.comment .alert-link,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.comment a,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.outcome .alert-link,
+#page-admin-index .que .dark.alert-alt.releasenoteslink.outcome a,
+.moodle-dialogue-base #page-admin-index .dark.adminerror .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.adminwarning .closebutton,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.releasenoteslink .closebutton,
+.que #page-admin-index .dark.alert-alt.adminerror.comment .alert-link,
+.que #page-admin-index .dark.alert-alt.adminerror.comment a,
+.que #page-admin-index .dark.alert-alt.adminerror.outcome .alert-link,
+.que #page-admin-index .dark.alert-alt.adminerror.outcome a,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.comment .alert-link,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.comment a,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.outcome .alert-link,
+.que #page-admin-index .dark.alert-alt.releasenoteslink.outcome a {
+  color: #fff;
+}
+
+#page-admin-index .dark.adminerror .close:focus,
+#page-admin-index .dark.adminerror .close:hover,
+#page-admin-index .dark.adminerror .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.adminerror .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-danger.adminwarning .close:focus,
+#page-admin-index .dark.alert-danger.adminwarning .close:hover,
+#page-admin-index .dark.alert-danger.adminwarning .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-danger.adminwarning .moodle-dialogue-base .closebutton:hover,
+#page-admin-index .dark.alert-danger.releasenoteslink .close:focus,
+#page-admin-index .dark.alert-danger.releasenoteslink .close:hover,
+#page-admin-index .dark.alert-danger.releasenoteslink .moodle-dialogue-base .closebutton:focus,
+#page-admin-index .dark.alert-danger.releasenoteslink .moodle-dialogue-base .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.adminerror .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.adminerror .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.adminwarning .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.adminwarning .closebutton:hover,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.releasenoteslink .closebutton:focus,
+.moodle-dialogue-base #page-admin-index .dark.alert-danger.releasenoteslink .closebutton:hover {
+  color: #fff;
+}
+
+#page-admin-index .dark.alert-alt.adminerror,
+#page-admin-index .dark.alert-danger.alert-alt.adminwarning,
+#page-admin-index .dark.alert-danger.alert-alt.releasenoteslink {
+  border-color: #d91d1f;
+}
+
+#page-admin-index .dark.alert-alt.adminerror .alert-link,
+#page-admin-index .dark.alert-alt.adminerror a,
+#page-admin-index .dark.alert-danger.alert-alt.adminwarning .alert-link,
+#page-admin-index .dark.alert-danger.alert-alt.adminwarning a,
+#page-admin-index .dark.alert-danger.alert-alt.releasenoteslink .alert-link,
+#page-admin-index .dark.alert-danger.alert-alt.releasenoteslink a {
+  color: #fff;
+}
+
+#page-admin-index .panel-heading+.adminerror,
+#page-admin-index .panel-heading+.adminwarning,
+#page-admin-index .panel-heading+.releasenoteslink {
+  border-radius: 0;
+}
+
+#page-admin-index .panel>.adminerror,
+#page-admin-index .panel>.adminwarning,
+#page-admin-index .panel>.releasenoteslink {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media (max-width:479px) {
+  #page-admin-index .panel>.adminerror,
+  #page-admin-index .panel>.adminwarning,
+  #page-admin-index .panel>.releasenoteslink {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#page-admin-plugins #plugins-control-panel .uninstall a {
+  color: #f96868;
+}
+
+#mnetconfig table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.path-admin-tag .addstandardtags {
+  float: right;
+}
+
+.path-admin-tag .addstandardtags img {
+  margin: 0 5px;
+}
+
+#page-admin-course-index .editcourse td,
+#page-admin-course-index .editcourse th {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#page-admin-index .updateplugin div {
+  margin-bottom: .5em;
+}
+
+#adminsettings fieldset.error legend,
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo span {
+  display: block;
+}
+
+#page-admin-qbehaviours #qbehaviours div,
+#page-admin-qbehaviours #qbehaviours form,
+#page-admin-qtypes #qtypes div,
+#page-admin-qtypes #qtypes form {
+  display: inline;
+}
+
+#page-admin-roles-usersroles p {
+  margin: 0;
+}
+
+.path-admin #assignrole {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.path-admin .admintable .leftalign {
+  text-align: left;
+}
+
+.environmenttable .warn {
+  color: #fff;
+  background-color: #f2a654;
+}
+
+.environmenttable .error {
+  color: #fff;
+  background-color: #f96868;
+}
+
+.environmenttable .ok {
+  color: #fff;
+  background-color: #46be8a;
+}
+
+.path-admin #assignrole .admintable .role,
+.path-admin #assignrole .admintable .roleholder,
+.path-admin #assignrole .admintable .userrole,
+.path-admin .admintable.environmenttable .info,
+.path-admin .admintable.environmenttable .name {
+  white-space: nowrap;
+}
+
+.path-admin .incompatibleblockstable td.c0 {
+  font-weight: 700;
+}
+
+#page-admin-course-category .addcategory {
+  padding: 10px;
+}
+
+#page-admin-course-index .editcourse {
+  margin: 20px auto;
+}
+
+#adminsettings legend,
+.path-admin .rolecap .hiddenrow,
+.timewarninghidden {
+  display: none;
+}
+
+#page-admin-report-capability-index #capabilitysearch {
+  width: 30em;
+}
+
+#page-admin-qbehaviours #qbehaviours img.spacer,
+#page-admin-qtypes #qtypes img.spacer {
+  width: 16px;
+}
+
+#page-admin-qbehaviours .cell.c3,
+#page-admin-qtypes .cell.c3,
+.path-admin .roleassigntable #buttonscell #assignoptions {
+  font-size: .858rem;
+}
+
+#page-admin-course-category .addcategory,
+#page-admin-course-category .buttons,
+#page-admin-course-index .addcategory,
+#page-admin-course-index .buttons,
+#page-admin-course-index .singlebutton,
+#page-admin-index #layout-table .singlebutton,
+#page-admin-index .adminerror .singlebutton,
+#page-admin-index .adminwarning .singlebutton,
+#page-admin-index .copyright,
+#page-admin-index .copyrightnotice,
+#page-admin-lang .generalbox,
+#page-admin-maintenance .buttons,
+#page-admin-stickyblocks .generalbox {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.path-admin-roles .capabilitysearchui {
+  margin-top: 1.143rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+#page-admin-roles-define .topfields {
+  margin: 1em 0 2em;
+}
+
+#page-admin-roles-define .capdefault {
+  background-color: #f3f7f9;
+}
+
+.path-admin-roles .backlink {
+  margin-top: 1em;
+}
+
+#page-admin-roles-explain #chooseuser h3,
+#page-admin-roles-usersroles .contextname {
+  margin-top: 0;
+}
+
+#page-admin-roles-explain #chooseusersubmit {
+  margin-top: 0;
+  text-align: center;
+}
+
+#page-admin-roles-assign .cell.c1,
+#page-admin-roles-assign .cell.c3,
+#page-admin-roles-override .cell.c1 {
+  padding-top: .75em;
+}
+
+#page-admin-roles-define .definenotice,
+#page-admin-roles-override .overridenotice {
+  margin: 1em 10% 2em;
+  text-align: left;
+}
+
+#page-admin-user-user_bulk #users .fgroup {
+  white-space: nowrap;
+}
+
+#page-admin-report-courseoverview-index .graph,
+#page-admin-report-stats-index .graph {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#page-admin-lang .translator {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.path-admin .roleassigntable {
+  width: 100%;
+}
+
+.path-admin .roleassigntable td {
+  padding: .2em .3em;
+  vertical-align: top;
+}
+
+.path-admin .roleassigntable p {
+  margin: .2em 0;
+  text-align: left;
+}
+
+.path-admin .roleassigntable #existingcell,
+.path-admin .roleassigntable #potentialcell {
+  width: 42%;
+}
+
+.path-admin .roleassigntable #existingcell p>label:first-child,
+.path-admin .roleassigntable #potentialcell p>label:first-child {
+  font-weight: 700;
+}
+
+.path-admin .roleassigntable #buttonscell {
+  width: 16%;
+}
+
+#core-cache-plugin-summaries table,
+#core-cache-store-summaries table,
+.path-admin .roleassigntable #addselect_wrapper,
+.path-admin .roleassigntable #removeselect_wrapper,
+.plugincheckwrapper {
+  width: 100%;
+}
+
+.path-admin table.rolecap tr.rolecap th {
+  font-weight: 400;
+  text-align: left;
+}
+
+.path-admin #defineroletable .rolecap .allow,
+.path-admin #defineroletable .rolecap .inherit,
+.path-admin #defineroletable .rolecap .prevent,
+.path-admin #defineroletable .rolecap .prohibit {
+  min-width: 3.5em;
+  padding: 0;
+  text-align: center;
+}
+
+.path-admin .rolecap .cap-name,
+.path-admin .rolecap .note {
+  font-size: .858rem;
+  font-weight: 400;
+  display: block;
+  white-space: nowrap;
+}
+
+.path-admin .rolecap label {
+  display: block;
+  margin: 0;
+  padding: .5em;
+  text-align: center;
+}
+
+.environmentbox {
+  margin-top: 1em;
+}
+
+.environmenttable .cell {
+  padding: .15em .5em;
+}
+
+#trustedhosts .generaltable {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#trustedhosts .standard {
+  width: auto;
+}
+
+#adminsettings fieldset.error {
+  margin: .2em 0 .5em;
+}
+
+#page-admin-setting-editorsettingstinymce .form-textarea textarea {
+  text-align: left;
+  direction: ltr;
+}
+
+.adminsettingsflags {
+  float: right;
+}
+
+.adminsettingsflags label {
+  margin-right: 7px;
+}
+
+.form-item .form-setting .defaultsnext,
+.form-item .form-setting .form-htmlarea,
+.jsenabled .admin_colourpicker_preview {
+  display: inline;
+}
+
+.form-item .form-setting .form-htmlarea .htmlarea {
+  display: block;
+  width: 640px;
+}
+
+.form-item .form-setting .form-multicheckbox ul {
+  margin: 7px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-item .form-setting .locked-checkbox {
+  display: inline;
+  margin-right: .2em;
+  margin-left: .5em;
+}
+
+.form-item .form-setting .form-defaultinfo,
+.form-item .form-setting .form-password .unmask {
+  display: inline-block;
+}
+
+.form-item .form-setting .form-defaultinfo {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+#admin-emoticons td input {
+  width: 8em;
+}
+
+#admin-emoticons td.c0 input {
+  width: 4em;
+}
+
+#adminthemeselector .selectedtheme td.c0 {
+  border: 1px solid #3bcdc4;
+  border-right-width: 0;
+}
+
+#adminthemeselector .selectedtheme td.c1 {
+  border: 1px solid #3bcdc4;
+  border-left-width: 0;
+}
+
+.admin_colourpicker,
+.admin_colourpicker_preview {
+  display: none;
+}
+
+.jsenabled .admin_colourpicker {
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 410px;
+  height: 102px;
+  margin-bottom: 10px;
+}
+
+.admin_colourpicker .loadingicon {
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.admin_colourpicker .colourdialogue {
+  float: left;
+  border: 1px solid #3bcdc4;
+}
+
+.admin_colourpicker .currentcolour,
+.admin_colourpicker .previewcolour {
+  margin-left: 301px;
+  border: 1px solid #3bcdc4;
+}
+
+.admin_colourpicker .currentcolour {
+  border-top-width: 0;
+}
+
+#page-admin-index #notice .checkforupdates {
+  text-align: center;
+}
+
+#page-admin-plugins #plugins-overview-panel .info,
+#plugins-check-page #plugins-check-info .actions>div {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+#page-admin-plugins .checkforupdates {
+  margin: 10px 0;
+}
+
+#page-admin-plugins .checkforupdates .singlebutton,
+#page-admin-plugins .updateavailableinstallall,
+#plugins-check-page .checkforupdates .singlebutton {
+  margin: 5px 0;
+  padding: 0;
+}
+
+#page-admin-plugins .checkforupdates .singlebutton div,
+#page-admin-plugins .checkforupdates .singlebutton input,
+#plugins-check-page #plugins-check-info .actions .singlebutton div,
+#plugins-check-page #plugins-check-info .actions .singlebutton input,
+#plugins-check-page .checkforupdates .singlebutton div,
+#plugins-check-page .checkforupdates .singlebutton input,
+#plugins-check-page .plugins-check-dependencies-actions .singlebutton div,
+#plugins-check-page .plugins-check-dependencies-actions .singlebutton input,
+#plugins-check-page .pluginupdateinfo .singlebutton div,
+#plugins-check-page .pluginupdateinfo .singlebutton input,
+#plugins-control-panel .pluginupdateinfo .singlebutton div,
+#plugins-control-panel .pluginupdateinfo .singlebutton input {
+  margin: 0 3px 0 0;
+}
+
+#page-admin-plugins .updateavailableinstallall div,
+#page-admin-plugins .updateavailableinstallall input {
+  margin: 0 3px 5px 0;
+}
+
+#page-admin-plugins #plugins-control-panel .status-missing td {
+  color: #555;
+  background-color: #f9eec1;
+}
+
+#page-admin-plugins #plugins-control-panel .pluginname .componentname {
+  font-size: .858rem;
+  margin-left: 22px;
+}
+
+#page-admin-plugins #plugins-control-panel .version .versionnumber {
+  font-size: .858rem;
+}
+
+#page-admin-plugins #plugins-control-panel .notes .label {
+  margin-right: 3px;
+}
+
+#page-admin-plugins #plugins-control-panel .notes .requiredby {
+  font-size: .858rem;
+}
+
+#plugins-check-page #plugins-check-info .actions .singlebutton {
+  margin: 5px 0;
+  padding: 0;
+}
+
+#plugins-check-page #plugins-check .status {
+  display: table-cell;
+  width: inherit;
+  height: inherit;
+  border: inherit;
+  border-radius: 0;
+}
+
+#plugins-check-page #plugins-check .status-downgrade td,
+#plugins-check-page #plugins-check .status-missing td {
+  color: #f96868;
+}
+
+#plugins-check-page #plugins-check .displayname .plugindir {
+  font-size: .858rem;
+}
+
+#plugins-check-page #plugins-check .requires ul {
+  margin-left: 13px;
+}
+
+#plugins-check-page #plugins-check .status .actionbutton,
+#plugins-check-page .plugins-check-dependencies-actions .singlebutton {
+  margin: 5px 0;
+  padding: 0;
+}
+
+#plugins-check-page #plugins-check .status .actionbutton input,
+#plugins-check-page #plugins-check-available-dependencies .info .actions .dependencyinstall input,
+.plugins-management-confirm-buttons .continue div,
+.plugins-management-confirm-buttons .continue input {
+  margin: 0;
+}
+
+#plugins-check-page #plugins-check-available-dependencies .info .actions>div,
+#plugins-check-page .plugins-check-dependencies-actions>div {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+#plugins-check-page #plugins-check-available-dependencies .displayname .component {
+  font-size: .858rem;
+}
+
+#plugins-check-page #plugins-check-available-dependencies .info .actions .dependencyinstall {
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+}
+
+#plugins-check-page .pluginupdateinfo,
+#plugins-control-panel .pluginupdateinfo {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #57c7d4;
+}
+
+#plugins-check-page .pluginupdateinfo.maturity50,
+#plugins-control-panel .pluginupdateinfo.maturity50 {
+  background-color: #f96868;
+}
+
+#plugins-check-page .pluginupdateinfo.maturity100,
+#plugins-check-page .pluginupdateinfo.maturity150,
+#plugins-control-panel .pluginupdateinfo.maturity100,
+#plugins-control-panel .pluginupdateinfo.maturity150 {
+  background-color: #f2a654;
+}
+
+#plugins-check-page .pluginupdateinfo .info,
+#plugins-control-panel .pluginupdateinfo .info {
+  display: inline-block;
+}
+
+#page-admin-index .adminwarning.availableupdatesinfo .moodleupdateinfo .separator:after,
+#plugins-check-page .pluginupdateinfo .separator:after,
+#plugins-control-panel .pluginupdateinfo .separator:after {
+  content: ' | ';
+}
+
+#plugins-check-page .pluginupdateinfo .singlebutton,
+#plugins-control-panel .pluginupdateinfo .singlebutton {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.plugins-management-confirm-buttons>div {
+  display: inline-block;
+  margin: 1em 1em 1em 0;
+}
+
+.plugins-management-confirm-buttons .continue {
+  padding: 0;
+}
+
+#page-admin-index .upgradepluginsinfo {
+  text-align: center;
+}
+
+#page-admin-mnet-peers .box.deletedhosts {
+  font-size: .858rem;
+  margin-bottom: 1em;
+}
+
+#page-admin-mnet-peers .mform .deletedhostinfo {
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+#core-cache-definition-summaries table,
+#core-cache-lock-summary table,
+#core-cache-mode-mappings table {
+  margin: 0 auto;
+}
+
+#core-cache-store-summaries .default-store td {
+  font-style: italic;
+}
+
+#core-cache-lock-summary .new-instance,
+#core-cache-mode-mappings .edit-link,
+#core-cache-rescan-definitions {
+  margin-top: .5em;
+  text-align: center;
+}
+
+#page-admin-course-manage #movecourses td img {
+  margin: 0 .22em;
+  vertical-align: text-bottom;
+}
+
+#course-category-listings .select-a-category #page-admin-index .adminerror,
+#course-category-listings .select-a-category #page-admin-index .adminwarning,
+#course-category-listings .select-a-category #page-admin-index .releasenoteslink,
+#page-admin-index #course-category-listings .select-a-category .adminerror,
+#page-admin-index #course-category-listings .select-a-category .adminwarning,
+#page-admin-index #course-category-listings .select-a-category .releasenoteslink {
+  margin: 1em;
+}
+
+.form-item .form-setting .defaultsnext>input {
+  display: inline-block;
+}
+
+#adminsettings span.error {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px;
+  border: 1px solid #f85974;
+  border-radius: 4px;
+  background-color: #f96868;
+}
+
+#adminsettings .form-control[size] {
+  width: auto;
+}
+
+#adminsettings .error,
+#page-admin-course-index .editcourse thead .header .action-icon i,
+#page-admin-course-index .editcourse thead .header a {
+  color: #fff;
+}
+
+.form-item .form-inline {
+  display: inline;
+}
+
+.path-admin .buttons {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 0;
+  vertical-align: middle;
+}
+
+.form-item .form-setting .form-checkbox.defaultsnext {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#adminsettings h3 {
+  font-size: 1.286rem;
+  line-height: 3.142857;
+  display: block;
+  width: 100%;
+  margin-bottom: 1.571429;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#page-admin-grade-edit-scale-edit .error input#id_name {
+  margin-right: 170px;
+}
+
+.form-item .form-label label {
+  margin-bottom: 0;
+}
+
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23f96868\' viewBox=\'-2 -2 7 7\'%3E%3Cpath stroke=\'%23d9534f\' d=\'M0 0l3 3m0-3L0 3\'/%3E%3Ccircle r=\'.5\'/%3E%3Ccircle cx=\'3\' r=\'.5\'/%3E%3Ccircle cy=\'3\' r=\'.5\'/%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'.5\'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right .64325rem;
+  -webkit-background-size: 1.2865rem 1.2865rem;
+  background-size: 1.2865rem 1.2865rem;
+}
+
+#adminsettings #page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-overridden,
+#adminsettings .has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-overridden,
+#adminsettings .has-danger .editor_atto_content.form-control .form-overridden,
+#adminsettings .has-danger .editor_atto_content.form-control-danger .form-overridden,
+#adminsettings .has-danger .editor_atto_content.maintenancewarning.error .form-overridden,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo #adminsettings .form-overridden,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .col-form-label,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-control,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-check-label,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control-feedback,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control-label,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo #adminsettings .form-overridden,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .col-form-label,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-control,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-check-label,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control-feedback,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control-label,
+.has-danger .editor_atto_content.form-control #adminsettings .form-overridden,
+.has-danger .editor_atto_content.form-control-danger #adminsettings .form-overridden,
+.has-danger .editor_atto_content.maintenancewarning.error #adminsettings .form-overridden {
+  color: #f96868;
+}
+
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-file-control,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-select,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-file-control,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-select,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control {
+  border-color: #f96868;
+}
+
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-file-control:focus,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-select:focus,
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control:focus,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-file-control:focus,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-select:focus,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fdcaca;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fdcaca;
+}
+
+#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .input-group-addon,
+.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .input-group-addon {
+  color: #f96868;
+  border-color: #f96868;
+  background-color: #fff;
+}
+
+#page-admin-course-index .editcourse td {
+  border-bottom: 1px solid #f1f4f5;
+}
+
+#page-admin-course-index .editcourse tbody td a {
+  color: #76838f;
+}
+
+.path-admin-mod-lti #tool-list-loader-container .loader img,
+.path-admin-mod-lti .btn .loader img,
+.path-admin-mod-lti .qnbutton .loader img,
+.path-admin-mod-lti .section-modchooser-link a .loader img,
+.section-modchooser-link .path-admin-mod-lti a .loader img {
+  height: auto;
+}
+
+#page-admin-course-index .editcourse tr:last-child td {
+  border-bottom: none!important;
+}
+
+#page-admin-course-index .editcourse a {
+  text-decoration: none;
+}
+
+#page-admin-course-index .editcourse thead .header {
+  height: 50px!important;
+  padding-right: 1em!important;
+  padding-left: 1em!important;
+  vertical-align: middle!important;
+  color: #fff!important;
+  background: #62a8ea;
+}
+
+#page-admin-course-index .editcourse thead .header:first-child {
+  border-radius: 2px 0 0 0;
+}
+
+#page-admin-course-index .editcourse thead .header:last-child {
+  border-radius: 0 2px 0 0;
+}
+
+#page-admin-course-index .editcourse tbody td {
+  height: 60px!important;
+  padding-right: 1em!important;
+  padding-left: 1em!important;
+  vertical-align: middle!important;
+}
+
+#page-admin-course-index .editcourse tr:hover td a {
+  color: #62a8eb!important;
+}

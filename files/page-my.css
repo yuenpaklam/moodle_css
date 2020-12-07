@@ -1,0 +1,16 @@
+body#page-my-index div.block-myoverview img.icon {
+  width: 50px;
+}
+
+body#page-my-index div.block-myoverview div.course-info-container div.no-progress img.icon {
+  width: 50px;
+  max-width: inherit;
+}
+
+body#page-my-index div.page-content section.block_myoverview {
+  padding-bottom: 10px;
+}
+
+body#page-my-index div.page-content section.block_myoverview div.block-myoverview div.panel-heading a.panel-title {
+  border-top: 1px #eee solid;
+}

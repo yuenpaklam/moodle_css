@@ -1,0 +1,164 @@
+.path-mod-forum .discussion-nav {
+  margin: 1em 0;
+}
+
+.path-mod-forum .forumsearch .helptooltip,
+.path-mod-forum .forumsearch input {
+  margin: 0 3px;
+}
+
+.path-mod-forum .forumheaderlist td {
+  border-bottom: 1px solid #f1f4f5;
+}
+
+.path-mod-forum .indent {
+  margin-left: 4%;
+}
+
+.path-mod-forum .forumheaderlist {
+  border: 0;
+}
+
+.path-mod-forum .forumheaderlist thead .header {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.path-mod-forum .forumheaderlist tbody .discussion td {
+  padding-right: 1em;
+  padding-left: 1em;
+  white-space: normal;
+  border: 0;
+  border-bottom: 1px solid #f1f4f5;
+}
+
+.path-mod-forum .forumheaderlist .discussion .author,
+.path-mod-forum .forumheaderlist .discussion .lastpost,
+.path-mod-forum .forumheaderlist .discussion .replies,
+.path-mod-forum .forumheaderlist thead .header {
+  white-space: normal;
+}
+
+.path-mod-forum .forumheaderlist .discussion .discussionsubscription,
+.path-mod-forum .forumheaderlist .discussion .replies,
+.path-mod-forum .forumheaderlist thead .header.replies {
+  text-align: center;
+}
+
+.path-mod-forum .forumheaderlist thead .header.lastpost {
+  text-align: right;
+}
+
+.path-mod-forum .forumheaderlist tbody .discussion td.discussionsubscription,
+.path-mod-forum .forumheaderlist thead .header th.discussionsubscription {
+  width: 16px;
+  padding-right: .5em;
+  padding-left: .5em;
+}
+
+.path-mod-forum .discussion-nav ul {
+  display: initial;
+}
+
+.path-mod-forum .discussion-nav .next-discussion:after,
+.path-mod-forum .discussion-nav .prev-discussion:before {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #62a8ea;
+}
+
+.path-mod-forum .subscriptionmode {
+  color: #76838f;
+}
+
+.path-mod-forum .activesetting {
+  font-weight: 700;
+  color: #76838f;
+}
+
+.forumpost {
+  padding: 6px;
+  border: 0;
+}
+
+.forumpost .header#course-category-listings,
+.forumpost .maincontent#course-category-listings,
+.forumpost .row.header,
+.forumpost .row.maincontent,
+.forumpost .row.side,
+.forumpost .side#course-category-listings {
+  display: block;
+}
+
+.forumpost .header {
+  margin-bottom: 3px;
+}
+
+.forumpost .picture img {
+  margin: 3px;
+}
+
+.forumpost .content {
+  margin-top: 15px;
+  padding: 25px;
+  border-radius: 6px;
+  background: #f1f4f9;
+}
+
+.forumpost .content .tag_list {
+  padding-top: 15px;
+}
+
+.forumpost #course-category-listings .content-mask,
+.forumpost #course-category-listings .options,
+.forumpost #course-category-listings .topic,
+.forumpost .row .content-mask,
+.forumpost .row .options,
+.forumpost .row .topic {
+  margin-left: 55px;
+}
+
+.forumpost .row.side,
+.forumpost .side#course-category-listings {
+  clear: both;
+}
+
+.forumpost #course-category-listings .left,
+.forumpost .row .left {
+  width: 55px;
+}
+
+.forumpost .options .commands {
+  margin-left: 0;
+  color: #fff;
+}
+
+.forumpost .options .commands a {
+  font-size: 12px;
+  color: #999;
+}
+
+.forumpost .subject {
+  font-weight: 700;
+}
+
+#page-mod-forum-discuss .discussioncontrols {
+  width: auto;
+  margin: 0;
+}
+
+#page-mod-forum-discuss .discussioncontrols .form-inline input {
+  margin-top: -1px;
+}
+
+.forumpost #course-category-listings,
+.forumpost .row {
+  margin-left: 0!important;
+}
+
+.forumpost #course-category-listings:after,
+.forumpost #course-category-listings:before,
+.forumpost .row:after,
+.forumpost .row:before {
+  content: none;
+}

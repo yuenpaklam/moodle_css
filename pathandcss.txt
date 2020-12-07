@@ -1,0 +1,124 @@
+/canalopy.canadev.a2hosted.com/course/format/weeks/styles.css
+/canalopy.canadev.a2hosted.com/course/format/topics/styles.css
+/canalopy.canadev.a2hosted.com/course/format/singleactivity/styles.css
+/canalopy.canadev.a2hosted.com/course/format/grid/styles.css path-course;page-course;.course-content;.gridshadebox;.gridcursor;#gridshadebox;.gridicons
+/canalopy.canadev.a2hosted.com/mod/chat/styles.css .path-mod-chat;page-mod-chat
+/canalopy.canadev.a2hosted.com/mod/folder/styles.css 
+/canalopy.canadev.a2hosted.com/mod/feedback/styles.css mod-feedback
+/canalopy.canadev.a2hosted.com/mod/bootstrapelements/styles.css 
+/canalopy.canadev.a2hosted.com/mod/imscp/styles.css
+/canalopy.canadev.a2hosted.com/mod/url/styles.css
+/canalopy.canadev.a2hosted.com/mod/quiz/styles.css mod-quiz;#quiznojswarning;mod_quiz;#quiz-timer;.quiztimer
+/canalopy.canadev.a2hosted.com/mod/quiz/report/grading/styles.css
+/canalopy.canadev.a2hosted.com/mod/workshop/styles.css
+/canalopy.canadev.a2hosted.com/mod/workshop/allocation/manual/styles.css
+/canalopy.canadev.a2hosted.com/mod/workshop/allocation/random/styles.css
+/canalopy.canadev.a2hosted.com/mod/workshop/form/rubric/styles.css
+/canalopy.canadev.a2hosted.com/mod/resource/styles.css
+/canalopy.canadev.a2hosted.com/mod/book/styles.css .path-mod-book;.book_toc_none;#page-mod-book;book_content
+/canalopy.canadev.a2hosted.com/mod/forum/styles.css mod-forum;.forumpost
+/canalopy.canadev.a2hosted.com/mod/wiki/styles.css mod-wiki;wiki_
+/canalopy.canadev.a2hosted.com/mod/flashcard/styles.css
+/canalopy.canadev.a2hosted.com/mod/lti/styles.css
+/canalopy.canadev.a2hosted.com/mod/glossary/styles.css
+/canalopy.canadev.a2hosted.com/mod/data/styles.css mod-data
+/canalopy.canadev.a2hosted.com/mod/survey/styles.css mod-survey
+/canalopy.canadev.a2hosted.com/mod/scorm/styles.css
+/canalopy.canadev.a2hosted.com/mod/assign/styles.css mod-assign
+/canalopy.canadev.a2hosted.com/mod/assign/feedback/editpdf/styles.css .assignfeedback_editpdf
+/canalopy.canadev.a2hosted.com/report/progress/styles.css
+/canalopy.canadev.a2hosted.com/report/participation/styles.css
+/canalopy.canadev.a2hosted.com/report/loglive/styles.css
+/canalopy.canadev.a2hosted.com/report/completion/styles.css
+/canalopy.canadev.a2hosted.com/report/stats/styles.css
+/canalopy.canadev.a2hosted.com/report/eventlist/styles.css
+/canalopy.canadev.a2hosted.com/report/log/styles.css
+/canalopy.canadev.a2hosted.com/report/outline/styles.css
+/canalopy.canadev.a2hosted.com/filter/mathjaxloader/styles.css
+/canalopy.canadev.a2hosted.com/filter/glossary/styles.css
+/canalopy.canadev.a2hosted.com/filter/generico/styles.css
+/canalopy.canadev.a2hosted.com/filter/mediaplugin/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/tinymce/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/tinymce/plugins/managefiles/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/collapse/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/charmap/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/image/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/snippet/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/fontcolor/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/htmlplus/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/accessibilitychecker/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/managefiles/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/morefontcolors/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/backcolor/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/fullscreen/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/emoticon/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/media/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/equation/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/generico/styles.css
+/canalopy.canadev.a2hosted.com/lib/editor/atto/plugins/table/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/customlang/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/assignmentupgrade/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/usertours/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/health/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/messageinbound/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/installaddon/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/templatelibrary/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/schools/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/task/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/langimport/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/lp/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/filetypes/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/capability/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/profiling/styles.css
+/canalopy.canadev.a2hosted.com/admin/tool/behat/styles.css
+/canalopy.canadev.a2hosted.com/grade/grading/form/rubric/styles.css
+/canalopy.canadev.a2hosted.com/grade/grading/form/guide/styles.css
+/canalopy.canadev.a2hosted.com/grade/report/history/styles.css
+/canalopy.canadev.a2hosted.com/grade/report/singleview/styles.css
+/canalopy.canadev.a2hosted.com/grade/report/user/styles.css
+/canalopy.canadev.a2hosted.com/grade/report/grader/styles.css
+/canalopy.canadev.a2hosted.com/grade/import/direct/styles.css
+/canalopy.canadev.a2hosted.com/blocks/tag_youtube/styles.css
+/canalopy.canadev.a2hosted.com/blocks/social_activities/styles.css
+/canalopy.canadev.a2hosted.com/blocks/myprofile/styles.css
+/canalopy.canadev.a2hosted.com/blocks/activity_results/styles.css
+/canalopy.canadev.a2hosted.com/blocks/private_files/styles.css
+/canalopy.canadev.a2hosted.com/blocks/blog_tags/styles.css
+/canalopy.canadev.a2hosted.com/blocks/rss_client/styles.css
+/canalopy.canadev.a2hosted.com/blocks/course_summary/styles.css
+/canalopy.canadev.a2hosted.com/blocks/navigation/styles.css
+/canalopy.canadev.a2hosted.com/blocks/site_main_menu/styles.css
+/canalopy.canadev.a2hosted.com/blocks/lp/styles.css
+/canalopy.canadev.a2hosted.com/blocks/course_list/styles.css
+/canalopy.canadev.a2hosted.com/blocks/search_forums/styles.css
+/canalopy.canadev.a2hosted.com/blocks/recent_activity/styles.css
+/canalopy.canadev.a2hosted.com/blocks/community/styles.css
+/canalopy.canadev.a2hosted.com/blocks/globalsearch/styles.css
+/canalopy.canadev.a2hosted.com/blocks/settings/styles.css
+/canalopy.canadev.a2hosted.com/blocks/tag_flickr/styles.css
+/canalopy.canadev.a2hosted.com/blocks/online_users/styles.css
+/canalopy.canadev.a2hosted.com/media/player/videojs/styles.css
+/canalopy.canadev.a2hosted.com/question/behaviour/deferredcbm/styles.css
+/canalopy.canadev.a2hosted.com/question/type/truefalse/styles.css
+/canalopy.canadev.a2hosted.com/question/type/calculatedsimple/styles.css
+/canalopy.canadev.a2hosted.com/question/type/numerical/styles.css
+/canalopy.canadev.a2hosted.com/question/type/calculated/styles.css
+/canalopy.canadev.a2hosted.com/question/type/match/styles.css
+/canalopy.canadev.a2hosted.com/question/type/ddmatch/styles.css
+/canalopy.canadev.a2hosted.com/question/type/shortanswer/styles.css
+/canalopy.canadev.a2hosted.com/question/type/multichoice/styles.css
+/canalopy.canadev.a2hosted.com/question/type/calculatedmulti/styles.css
+/canalopy.canadev.a2hosted.com/question/type/ddimageortext/styles.css
+/canalopy.canadev.a2hosted.com/question/type/ddmarker/styles.css
+/canalopy.canadev.a2hosted.com/question/type/essay/styles.css
+/canalopy.canadev.a2hosted.com/question/type/ddwtos/styles.css
+/canalopy.canadev.a2hosted.com/question/type/multianswer/styles.css
+/canalopy.canadev.a2hosted.com/question/type/gapselect/styles.css
+/canalopy.canadev.a2hosted.com/local/faq/styles.css
+/canalopy.canadev.a2hosted.com/mnet/service/enrol/styles.css
+page-grade;path-grade;.gradingform_rubric
+page-admin;path-admin;#adminsettings;.admin_
+path-course;page-course;.course-content;.gridshadebox;.gridcursor;#gridshadebox;.gridicons
+enrol-users
+.fa-

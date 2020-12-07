@@ -1,0 +1,11 @@
+.path-mod-survey .surveytable .rblock label {
+  text-align: center;
+}
+
+.path-mod-survey .surveytable>tbody>tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.path-mod-survey .surveytable>tbody>tr:nth-of-type(even) {
+  background-color: rgba(243, 247, 249, .3);
+}
