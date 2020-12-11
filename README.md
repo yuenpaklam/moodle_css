@@ -1,6 +1,8 @@
 
 ## Important Notes
 
+Tried to clone files from github and upload to testing server again, the content: "box" problem does not exist. And also I cant find any files that are using Dashicons.  
+
 - [css output](https://github.com/yuenpaklam/moodle_css/tree/master/files) For the css files started with mod, those code inside the files should be put at the line 1 in the mod/xxx/style.css files.
 For other files,they should be put in the theme/remui/style folder
 
